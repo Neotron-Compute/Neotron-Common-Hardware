@@ -1,9 +1,37 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Double-mini-DIN-6
-D 6-pin DIN connector
+D Dual 6-pin DIN connector for PS/2 Keyboard and Mouse
 K circular DIN connector
-F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+F http://www.kycon.com/Pub_Eng_Draw/KMDGX-6S-6S-S4N.pdf
+$ENDCMP
+#
+$CMP MIC2005A-2YM5
+D Microchip 500mA Fixed Current Limit Single High Side Switch
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579487
+$ENDCMP
+#
+$CMP SY6280
+D Low Loss Power Distribution Switch
+K power switch
+F https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY6280AAC_C55136.pdf
+$ENDCMP
+#
+$CMP THS7316
+D 3-Channel HDTV Video Amplifier with 5th Order Filters and 6dB Gain
+K Video Filter
+F https://www.ti.com/lit/ds/symlink/ths7316.pdf
+$ENDCMP
+#
+$CMP TPF133A
+D Low Power, 3-channel Video Filter for HD Video
+K Video Filter
+F https://datasheet.lcsc.com/szlcsc/1810181731_3PEAK-TPF133A-SR_C155446.pdf
+$ENDCMP
+#
+$CMP XR22404CG28
+D USB Hub 4-port High Speed STT
+F https://www.mouser.co.uk/datasheet/2/146/xr22404-1856004.pdf
 $ENDCMP
 #
 #End Doc Library
