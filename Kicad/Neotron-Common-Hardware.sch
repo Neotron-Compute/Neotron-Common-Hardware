@@ -91,19 +91,19 @@ F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 6000 5750 50  0001
 	1    0    0    -1  
 $EndComp
 Text Notes 6400 2700 0    50   ~ 0
-The USB Type-A port allows you to plug\nUSB keyboards, mice and other devices\ninto your Neotron.\n\nThe VBUS line is either connected to the main 5V\nline, or connected via a 500mA resettable fuse/switch\nso you can power-off misbehaving devices.
+The USB Type-A port allows you to plug\nUSB keyboards, mice and other devices\ninto your Neotron.\n\nThe VBUS line is either connected to the main 5V\nline, or connected via a 500mA resettable fuse/switch\nso you can power-off misbehaving devices. See\nMIC2005.
 Text Notes 6400 1300 0    50   ~ 0
 The USB Type-B port is used as a 5V input for the system.\nYou could use a 2.51mm (inner, 5.5mm outer diameter) barrel\njack instead.
 Text Notes 6400 3400 0    50   ~ 0
 Stereo line-level audio. May not be suitable for headphones.\nIf your design has an amplified output, out that on a second\n3.5mm connector.
 Text Notes 7000 4200 0    50   ~ 0
-The VGA port. RGB is 0.7V p-p into 75 ohms. HSync and VSync is TTL.\nRecommend a 20MHz RGB video buffer to avoid overloading GPIO pins.
+The VGA port. RGB is 0.7V p-p into 75 ohms. HSync and VSync is TTL.\nRecommend a 20MHz RGB video buffer to avoid overloading GPIO pins.\nSee TPF133A or THS7316.
 Text Notes 6700 5200 0    50   ~ 0
 Dual mini-DIN 6 connectors for PS/2 Keyboard and PS/2 Mouse.\nSignalling is 5V open-collector, with pull-up required.
 Text Notes 2400 2200 0    50   ~ 0
-RS-232 9-pin Serial. Must have at least RX, TX, RTS and CTS\nconnected. Can optionally connect DTR, DSR, RI and CD.\n\nYou can also use an IDC 10-way box header along with\nan IDC 9-way plug on a ribbon.
+RS-232 9-pin Serial. Must have at least RX, TX, RTS and CTS\nconnected. Can optionally connect DTR, DSR, RI and CD.\n\nYou can also use an IDC 10-way box header along with\nan IDC 9-way plug on a ribbon. If so, Pin 10 is N/C.
 Text Notes 2500 4300 0    50   ~ 0
-Ethernet Jack with integrated magnetics.
+Ethernet Jack with integrated magnetics.\nGreen LED is Activity.\nYellow LED is 100base-T mode active.
 $Comp
 L Connector:DB9_Female_MountingHoles J?
 U 1 1 5FD5B463
@@ -116,5 +116,5 @@ F 3 " ~" H 1500 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 2400 6200 0    50   ~ 0
-Atari/Commodore digital joystick interface.\nCan support SEGA MegaDrive/Genesis pads if\nyou put 5V on Pin 5, and a Select signal on pin 7.\n\nYou can also use an IDC 10-way box header along with\nan IDC 9-way socket on a ribbon.
+Atari/Commodore digital joystick interface.\nCan support SEGA MegaDrive/Genesis pads if\nyou put 5V on Pin 5, and a Select signal on pin 7.\n\nYou can also use an IDC 10-way box header along with\nan IDC 9-way socket on a ribbon. If so, Pin 10 is N/C.
 $EndSCHEMATC

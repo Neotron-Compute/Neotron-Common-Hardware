@@ -351,8 +351,9 @@ ENDDEF
 DEF Neotron-Common-Hardware_Double-mini-DIN-6 J 0 40 Y Y 1 F N
 F0 "J" -200 500 50 H V C CNN
 F1 "Neotron-Common-Hardware_Double-mini-DIN-6" -400 -600 50 H V L CNN
-F2 "" 0 250 50 H I C CNN
+F2 "Neotron-Common-Hardware:Double_mini-DIN_6" 0 600 50 H I C CNN
 F3 "" 0 250 50 H I C CNN
+F4 "2092-KMDGX-6S/6S-S4N-ND" -50 -700 50 H I C CNN "Digikey"
 $FPLIST
  DIN*
 $ENDFPLIST
