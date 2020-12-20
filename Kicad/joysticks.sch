@@ -25,5 +25,5 @@ F 3 " ~" H 3100 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 3850 3150 0    50   ~ 0
-FOO Atari/Commodore digital joystick interface.\nCan support SEGA MegaDrive/Genesis pads if\nyou put 5V on Pin 5, and a Select signal on pin 7.\n\nYou can also use an IDC 10-way box header along with\nan IDC 9-way socket on a ribbon. If so, Pin 10 is N/C.
+Atari/Commodore digital joystick interface.\nCan support SEGA MegaDrive/Genesis pads if\nyou put 5V on Pin 5, and a Select signal on pin 7.\n\nYou can also use an IDC 10-way box header along with\nan IDC 9-way socket on a ribbon. If so, Pin 10 is N/C.
 $EndSCHEMATC
