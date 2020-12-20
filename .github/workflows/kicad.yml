@@ -19,8 +19,8 @@ jobs:
       with:
         config: 'Kicad/docs.yml'
         dir: docs
-        schema: 'Kicad/*.sch'
-        board: 'Kicad/*.kicad_pcb'
+        schema: 'Kicad/Neotron-Common-Hardware.sch'
+        board: 'Kicad/Neotron-Common-Hardware.kicad_pcb'
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
