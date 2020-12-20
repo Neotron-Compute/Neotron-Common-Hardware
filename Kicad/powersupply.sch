@@ -26,4 +26,9 @@ F 3 " ~" H 1850 1750 50  0001 C CNN
 $EndComp
 Text Notes 2200 1800 0    50   ~ 0
 The USB Type-B port is used as a 5V input for the system.\nYou could use a 2.51mm (inner, 5.5mm outer diameter) barrel\njack instead.
+NoConn ~ 2000 1600
+NoConn ~ 2000 1800
+NoConn ~ 2000 1900
+NoConn ~ 1600 2200
+NoConn ~ 1700 2200
 $EndSCHEMATC

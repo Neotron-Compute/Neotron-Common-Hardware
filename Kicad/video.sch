@@ -26,4 +26,20 @@ F 3 " ~" H 3500 3700 50  0001 C CNN
 $EndComp
 Text Notes 5450 3400 0    50   ~ 0
 The VGA port. RGB is 0.7V p-p into 75 ohms. HSync and VSync is TTL.\nRecommend a 20MHz RGB video buffer to avoid overloading GPIO pins.\nSee TPF133A or THS7316.
+NoConn ~ 3950 3600
+NoConn ~ 4050 3600
+NoConn ~ 4150 3600
+NoConn ~ 4250 3600
+NoConn ~ 4350 3600
+NoConn ~ 4450 3600
+NoConn ~ 4550 3600
+NoConn ~ 4650 3600
+NoConn ~ 4750 3600
+NoConn ~ 4850 3600
+NoConn ~ 5150 3300
+NoConn ~ 4850 3000
+NoConn ~ 4650 3000
+NoConn ~ 4450 3000
+NoConn ~ 4250 3000
+NoConn ~ 4050 3000
 $EndSCHEMATC

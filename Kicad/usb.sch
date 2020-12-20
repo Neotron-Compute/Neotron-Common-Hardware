@@ -28,4 +28,9 @@ F 3 " ~" H 1850 1750 50  0001 C CNN
 $EndComp
 Text Notes 2200 2150 0    50   ~ 0
 The USB Type-A port allows you to plug\nUSB keyboards, mice and other devices\ninto your Neotron.\n\nThe VBUS line is either connected to the main 5V\nline, or connected via a 500mA resettable fuse/switch\nso you can power-off misbehaving devices. See\nMIC2005.
+NoConn ~ 2000 1600
+NoConn ~ 2000 1800
+NoConn ~ 2000 1900
+NoConn ~ 1600 2200
+NoConn ~ 1700 2200
 $EndSCHEMATC

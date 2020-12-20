@@ -26,4 +26,16 @@ F 3 "https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PD
 $EndComp
 Text Notes 3550 2400 0    50   ~ 0
 Ethernet Jack with integrated magnetics.\nGreen LED is Activity.\nYellow LED is 100base-T mode active.
+NoConn ~ 2150 3300
+NoConn ~ 2250 3300
+NoConn ~ 2350 3300
+NoConn ~ 2450 3300
+NoConn ~ 2550 3300
+NoConn ~ 2650 3300
+NoConn ~ 2850 3300
+NoConn ~ 2950 3300
+NoConn ~ 3050 3300
+NoConn ~ 3150 3300
+NoConn ~ 3350 2400
+NoConn ~ 3050 1500
 $EndSCHEMATC
