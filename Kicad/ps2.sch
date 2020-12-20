@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date ""
+Date "2020-12-20"
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "https://neotron-compute.github.io/"
+Comment1 "Licenced as CC BY-SA"
+Comment2 "Copyright (c) The Neotron Developers, 2020"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -18,8 +18,8 @@ L Neotron-Common-Hardware:Double-mini-DIN-6 J?
 U 1 1 5FDEE757
 P 3550 3100
 AR Path="/5FDEE757" Ref="J?"  Part="1" 
-AR Path="/5FDEDE75/5FDEE757" Ref="J?"  Part="1" 
-F 0 "J?" H 3550 3798 50  0000 C CNN
+AR Path="/5FDEDE75/5FDEE757" Ref="J701"  Part="1" 
+F 0 "J701" H 3550 3798 50  0000 C CNN
 F 1 "Double-mini-DIN-6" H 3550 3707 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Double_mini-DIN_6" H 3550 3350 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 3550 3350 50  0001 C CNN

@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 9
 Title ""
-Date ""
+Date "2020-12-20"
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "https://neotron-compute.github.io/"
+Comment1 "Licenced as CC BY-SA"
+Comment2 "Copyright (c) The Neotron Developers, 2020"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -19,7 +19,8 @@ U 1 1 5FDF5821
 P 3200 3100
 AR Path="/5FDF5821" Ref="J?"  Part="1" 
 AR Path="/5FDEDE75/5FDF5821" Ref="J?"  Part="1" 
-F 0 "J?" V 3517 3056 50  0000 C CNN
+AR Path="/5FDF53DB/5FDF5821" Ref="J801"  Part="1" 
+F 0 "J801" V 3517 3056 50  0000 C CNN
 F 1 "DB9_Male_MountingHoles" V 3426 3056 50  0000 C CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 3200 3100 50  0001 C CNN
 F 3 " ~" H 3200 3100 50  0001 C CNN

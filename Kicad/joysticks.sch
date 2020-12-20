@@ -5,19 +5,19 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
 Title ""
-Date ""
+Date "2020-12-20"
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "https://neotron-compute.github.io/"
+Comment1 "Licenced as CC BY-SA"
+Comment2 "Copyright (c) The Neotron Developers, 2020"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:DB9_Female_MountingHoles J?
+L Connector:DB9_Female_MountingHoles J901
 U 1 1 5FDF5DC1
 P 3100 2900
-F 0 "J?" V 3417 2856 50  0000 C CNN
+F 0 "J901" V 3417 2856 50  0000 C CNN
 F 1 "DB9_Female_MountingHoles" V 3326 2856 50  0000 C CNN
 F 2 "" H 3100 2900 50  0001 C CNN
 F 3 " ~" H 3100 2900 50  0001 C CNN

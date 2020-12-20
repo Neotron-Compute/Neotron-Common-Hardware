@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
 Title ""
-Date ""
+Date "2020-12-20"
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "https://neotron-compute.github.io/"
+Comment1 "Licenced as CC BY-SA"
+Comment2 "Copyright (c) The Neotron Developers, 2020"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -18,8 +18,8 @@ L Connector:USB_A J?
 U 1 1 5FDEB111
 P 1700 1800
 AR Path="/5FDEB111" Ref="J?"  Part="1" 
-AR Path="/5FDE7004/5FDEB111" Ref="J?"  Part="1" 
-F 0 "J?" H 1757 2267 50  0000 C CNN
+AR Path="/5FDE7004/5FDEB111" Ref="J501"  Part="1" 
+F 0 "J501" H 1757 2267 50  0000 C CNN
 F 1 "USB_A" H 1757 2176 50  0000 C CNN
 F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 1850 1750 50  0001 C CNN
 F 3 " ~" H 1850 1750 50  0001 C CNN

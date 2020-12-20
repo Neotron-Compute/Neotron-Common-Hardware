@@ -5,19 +5,19 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title ""
-Date ""
+Date "2020-12-20"
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "https://neotron-compute.github.io/"
+Comment1 "Licenced as CC BY-SA"
+Comment2 "Copyright (c) The Neotron Developers, 2020"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:DB15_Female_HighDensity_MountingHoles J?
+L Connector:DB15_Female_HighDensity_MountingHoles J201
 U 1 1 5FDEDC06
 P 4450 3300
-F 0 "J?" V 4496 4029 50  0000 L CNN
+F 0 "J201" V 4496 4029 50  0000 L CNN
 F 1 "DB15_Female_HighDensity_MountingHoles" V 4025 2680 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-15-HD_Male_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm" H 3500 3700 50  0001 C CNN
 F 3 " ~" H 3500 3700 50  0001 C CNN

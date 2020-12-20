@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date ""
+Date "2020-12-20"
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "https://neotron-compute.github.io/"
+Comment1 "Licenced as CC BY-SA"
+Comment2 "Copyright (c) The Neotron Developers, 2020"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -26,10 +26,17 @@ F0 "Ethernet" 50
 F1 "ethernet.sch" 50
 $EndSheet
 $Sheet
-S 4000 2000 1000 1000
+S 4000 2000 1100 1000
 U 5FDE6C5A
 F0 "Audio" 50
 F1 "audio.sch" 50
+F2 "AUDIO_DAT_TO_CODEC" I L 4000 2100 50 
+F3 "AUDIO_LR_TO_CODEC" I L 4000 2200 50 
+F4 "AUDIO_BIT_CLK_TO_CODEC" I L 4000 2300 50 
+F5 "AUDIO_DAT_FROM_CODEC" O L 4000 2400 50 
+F6 "AUDIO_LR_FROM_CODEC" O L 4000 2500 50 
+F7 "I2C_SDA" B L 4000 2600 50 
+F8 "I2C_SCL" I L 4000 2700 50 
 $EndSheet
 $Sheet
 S 4000 3500 1000 1000
