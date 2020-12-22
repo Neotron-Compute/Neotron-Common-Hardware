@@ -24,6 +24,7 @@ F 0 "J802" H 8500 5300 50  0000 L CNN
 F 1 "DB9_Male_MountingHoles" H 8500 5200 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 8250 5300 50  0001 C CNN
 F 3 " ~" H 8250 5300 50  0001 C CNN
+F 4 "0" H 8250 5300 50  0001 C CNN "DNP"
 	1    8250 5300
 	1    0    0    -1  
 $EndComp
@@ -87,8 +88,9 @@ F 1 "100n" H 6615 2855 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 6538 2750 50  0001 C CNN
 F 3 "~" H 6500 2900 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "K474Z20Y5VE5TL2" H 0   0   50  0001 C CNN "mpn"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
 F 6 "0" H 6500 2900 50  0001 C CNN "DNP"
+F 7 " BC1150CT-ND" H 6500 2900 50  0001 C CNN "Digikey"
 	1    6500 2900
 	1    0    0    -1  
 $EndComp
@@ -101,8 +103,9 @@ F 1 "100n" V 6650 3650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 6838 3400 50  0001 C CNN
 F 3 "~" H 6800 3550 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "K474Z20Y5VE5TL2" H 0   0   50  0001 C CNN "mpn"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
 F 6 "0" H 6800 3550 50  0001 C CNN "DNP"
+F 7 " BC1150CT-ND" H 6800 3550 50  0001 C CNN "Digikey"
 	1    6800 3550
 	0    1    1    0   
 $EndComp
@@ -117,6 +120,7 @@ F 3 "~" H 4650 2900 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
 F 6 "0" H 4650 2900 50  0001 C CNN "DNP"
+F 7 " BC1150CT-ND" H 4650 2900 50  0001 C CNN "Digikey"
 	1    4650 2900
 	-1   0    0    1   
 $EndComp
@@ -131,6 +135,7 @@ F 3 "~" H 2050 4000 50  0001 C CNN
 F 4 "Vishay" H -1300 900 50  0001 C CNN "Manufacturer"
 F 5 "K104K15X7RF5TL2" H -1300 900 50  0001 C CNN "mpn"
 F 6 "0" H 2050 4000 50  0001 C CNN "DNP"
+F 7 " BC1150CT-ND" H 2050 4000 50  0001 C CNN "Digikey"
 	1    2050 4000
 	-1   0    0    1   
 $EndComp
@@ -199,8 +204,9 @@ F 1 "100n" H 7165 2755 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7088 2650 50  0001 C CNN
 F 3 "~" H 7050 2800 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "K474Z20Y5VE5TL2" H 0   0   50  0001 C CNN "mpn"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
 F 6 "0" H 7050 2800 50  0001 C CNN "DNP"
+F 7 " BC1150CT-ND" H 7050 2800 50  0001 C CNN "Digikey"
 	1    7050 2800
 	1    0    0    -1  
 $EndComp
@@ -355,8 +361,9 @@ U 1 1 60A5752A
 P 8250 6100
 F 0 "R801" H 8320 6146 50  0000 L CNN
 F 1 "DNF" H 8320 6055 50  0000 L CNN
-F 2 "" V 8180 6100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8180 6100 50  0001 C CNN
 F 3 "~" H 8250 6100 50  0001 C CNN
+F 4 "1" H 8250 6100 50  0001 C CNN "DNP"
 	1    8250 6100
 	1    0    0    -1  
 $EndComp

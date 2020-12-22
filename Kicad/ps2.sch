@@ -24,6 +24,7 @@ F 1 "Double-mini-DIN-6" H 3550 3707 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Double_mini-DIN_6" H 3550 3350 50  0001 C CNN
 F 3 "http://www.kycon.com/Pub_Eng_Draw/KMDGX-6S-6S-S4N.pdf" H 3550 3350 50  0001 C CNN
 F 4 "2092-KMDGX-6S/6S-S4N-ND" H 3550 3100 50  0001 C CNN "Digikey"
+F 5 "0" H 3550 3100 50  0001 C CNN "DNP"
 	1    3550 3100
 	1    0    0    -1  
 $EndComp

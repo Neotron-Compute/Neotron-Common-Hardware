@@ -21,6 +21,7 @@ F 0 "J201" V 4496 4029 50  0000 L CNN
 F 1 "DB15_Female_HighDensity_MountingHoles" V 4025 2680 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-15-HD_Male_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm" H 3500 3700 50  0001 C CNN
 F 3 " ~" H 3500 3700 50  0001 C CNN
+F 4 "0" H 4450 3300 50  0001 C CNN "DNP"
 	1    4450 3300
 	0    -1   -1   0   
 $EndComp
