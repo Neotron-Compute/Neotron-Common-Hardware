@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
-Title ""
-Date "2020-12-20"
+Title "Neotron Common Hardware"
+Date "2020-12-22"
 Rev ""
 Comp "https://neotron-compute.github.io/"
 Comment1 "Licenced as CC BY-SA"
@@ -24,6 +24,11 @@ S 2500 3500 1000 1000
 U 5FDE698D
 F0 "Ethernet" 50
 F1 "ethernet.sch" 50
+F2 "SPI_COPI" I L 2500 3650 50 
+F3 "SPI_CIPO" O L 2500 3750 50 
+F4 "SPI_CS" I L 2500 3850 50 
+F5 "SPI_CLK" I L 2500 3950 50 
+F6 "~INT" I L 2500 4050 50 
 $EndSheet
 $Sheet
 S 4000 2000 1100 1000
@@ -149,4 +154,8 @@ NoConn ~ 5500 5150
 NoConn ~ 5500 5250
 NoConn ~ 5500 5350
 NoConn ~ 5500 5450
+NoConn ~ 2500 3750
+NoConn ~ 2500 3850
+NoConn ~ 2500 3950
+NoConn ~ 2500 3650
 $EndSCHEMATC
