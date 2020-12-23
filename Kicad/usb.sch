@@ -13,25 +13,20 @@ Comment2 "Copyright (c) The Neotron Developers, 2020"
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 2550 3350 0    50   ~ 0
+The USB Type-A port allows you to plug\nUSB keyboards, mice and other devices\ninto your Neotron.\n\nThe VBUS line is either connected to the main 5V\nline, or connected via a 500mA resettable fuse/switch\nso you can power-off misbehaving devices. See\nMIC2005.
 $Comp
-L Connector:USB_A J?
-U 1 1 5FDEB111
-P 1700 1800
-AR Path="/5FDEB111" Ref="J?"  Part="1" 
-AR Path="/5FDE7004/5FDEB111" Ref="J501"  Part="1" 
-F 0 "J501" H 1757 2267 50  0000 C CNN
-F 1 "USB_A" H 1757 2176 50  0000 C CNN
-F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 1850 1750 50  0001 C CNN
-F 3 " ~" H 1850 1750 50  0001 C CNN
-F 4 "0" H 1700 1800 50  0001 C CNN "DNP"
-	1    1700 1800
+L Neotron-Common-Hardware:USB_A_x2 J501
+U 1 1 5FE385D9
+P 1800 3500
+F 0 "J501" H 1857 4567 50  0000 C CNN
+F 1 "USB_A_x2" H 1857 4476 50  0000 C CNN
+F 2 "Neotron-Common-Hardware:CUI_UJ2-ADH-1-TH" H 1750 4750 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/uj2-adh-th.pdf" H 1950 3550 50  0001 C CNN
+F 4 "CUI" H 1800 3500 50  0001 C CNN "Manufacturer"
+F 5 "UJ2-ADH-1-TH" H 1800 4650 50  0001 C CNN "MPN"
+F 6 "102-4001-ND" H 1800 4550 50  0001 C CNN "Digikey"
+	1    1800 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 2200 2150 0    50   ~ 0
-The USB Type-A port allows you to plug\nUSB keyboards, mice and other devices\ninto your Neotron.\n\nThe VBUS line is either connected to the main 5V\nline, or connected via a 500mA resettable fuse/switch\nso you can power-off misbehaving devices. See\nMIC2005.
-NoConn ~ 2000 1600
-NoConn ~ 2000 1800
-NoConn ~ 2000 1900
-NoConn ~ 1600 2200
-NoConn ~ 1700 2200
 $EndSCHEMATC

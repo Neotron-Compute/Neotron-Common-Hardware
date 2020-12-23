@@ -29,6 +29,18 @@ K Video Filter
 F https://datasheet.lcsc.com/szlcsc/1810181731_3PEAK-TPF133A-SR_C155446.pdf
 $ENDCMP
 #
+$CMP USB_A_x2
+D Dual USB Type A connector
+K connector USB
+F https://www.cuidevices.com/product/resource/digikeypdf/uj2-adh-th.pdf
+$ENDCMP
+#
+$CMP USB_A_x2_Unshielded
+D USB Type A connector
+K connector USB
+F  ~
+$ENDCMP
+#
 $CMP XR22404CG28
 D USB Hub 4-port High Speed STT
 F https://www.mouser.co.uk/datasheet/2/146/xr22404-1856004.pdf
