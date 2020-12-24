@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CY7C65634
+D USB Hub 4-port High Speed STT
+F https://www.cypress.com/file/114101/download
+$ENDCMP
+#
 $CMP Double-mini-DIN-6
 D Dual 6-pin DIN connector for PS/2 Keyboard and Mouse
 K circular DIN connector
@@ -21,6 +26,10 @@ $CMP THS7316
 D 3-Channel HDTV Video Amplifier with 5th Order Filters and 6dB Gain
 K Video Filter
 F https://www.ti.com/lit/ds/symlink/ths7316.pdf
+$ENDCMP
+#
+$CMP TPD7S019
+F https://www.ti.com/lit/ds/symlink/tpd7s019.pdf
 $ENDCMP
 #
 $CMP TPF133A
