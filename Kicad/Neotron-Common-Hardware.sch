@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "Neotron Common Hardware"
 Date "2020-12-25"
 Rev "[Uncontrolled]"
@@ -417,4 +417,10 @@ $EndComp
 NoConn ~ 4000 3150
 NoConn ~ 4000 3250
 NoConn ~ 4000 3350
+$Sheet
+S 7000 3000 1000 1000
+U 5FEF6B08
+F0 "SD Card" 50
+F1 "sdcard.sch" 50
+$EndSheet
 $EndSCHEMATC
