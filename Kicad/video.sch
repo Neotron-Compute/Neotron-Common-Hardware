@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title "Neotron Common Hardware - Video Output"
-Date "2020-12-22"
-Rev ""
+Date "2020-12-25"
+Rev "[Uncontrolled]"
 Comp "https://neotron-compute.github.io/"
 Comment1 "Licenced as CC BY-SA"
 Comment2 "Copyright (c) The Neotron Developers, 2020"
