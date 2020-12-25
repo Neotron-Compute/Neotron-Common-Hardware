@@ -24,7 +24,6 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 ### Super VGA output
 
 * 15-pin D-Sub VGA interface
-* 18-bit (6-6-6) RGB R2R DAC
 * 3peak TPF133A or Texas Instruments THS7316 RGB video buffer
    * 36 MHz bandwidth - 1024x768@60Hz maximum
    * 6dB gain
@@ -42,6 +41,7 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 * Four port High-speed USB2.0 hub
 * Two USB Type-A ports
 * 8-pin PC case style USB pin-header
+* Each port limited to 500mA with over-current protection
 
 ### Ethernet
 
