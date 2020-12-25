@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP2501
+D 2.5A single channel current limited high-side switch (active low)
+F https://www.diodes.com/assets/Datasheets/AP25x1.pdf
+$ENDCMP
+#
 $CMP CY7C65634
 D USB Hub 4-port High Speed STT
 F https://www.cypress.com/file/114101/download
