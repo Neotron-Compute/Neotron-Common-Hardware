@@ -476,23 +476,23 @@ $EndComp
 $Comp
 L Device:C C201
 U 1 1 5FEDB6AA
-P 6900 4200
-F 0 "C201" V 6648 4200 50  0000 C CNN
-F 1 "220n" V 6739 4200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6938 4050 50  0001 C CNN
-F 3 "~" H 6900 4200 50  0001 C CNN
-	1    6900 4200
+P 6750 4200
+F 0 "C201" V 6498 4200 50  0000 C CNN
+F 1 "220n" V 6589 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6788 4050 50  0001 C CNN
+F 3 "~" H 6750 4200 50  0001 C CNN
+	1    6750 4200
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0212
 U 1 1 5FEDBFC5
-P 7100 4250
-F 0 "#PWR0212" H 7100 4000 50  0001 C CNN
-F 1 "GND" H 7250 4200 50  0000 C CNN
-F 2 "" H 7100 4250 50  0001 C CNN
-F 3 "" H 7100 4250 50  0001 C CNN
-	1    7100 4250
+P 6950 4250
+F 0 "#PWR0212" H 6950 4000 50  0001 C CNN
+F 1 "GND" H 7100 4200 50  0000 C CNN
+F 2 "" H 6950 4250 50  0001 C CNN
+F 3 "" H 6950 4250 50  0001 C CNN
+	1    6950 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -576,8 +576,8 @@ Text Notes 9050 4100 0    50   Italic 0
 DDC Pull-ups
 Text Notes 5300 5000 2    50   Italic 0
 ESD Protection
-Text Notes 3700 3400 0    50   Italic 0
-RGB Buffer
+Text Notes 1900 2550 0    50   Italic 0
+RGB Buffer\n0.7V p-p inputs\n1.4V p-p outputs, into 75 ohm co-ax
 $Comp
 L power:+3V3 #PWR0201
 U 1 1 5FEFFB4D
@@ -592,7 +592,7 @@ $EndComp
 Text Notes 1000 6600 0    50   Italic 0
 Place near U202
 Text Notes 2250 6600 0    50   Italic 0
-Place near U102
+Place near U201
 $Comp
 L power:+3V3 #PWR0220
 U 1 1 5FF009FB
@@ -707,9 +707,11 @@ Wire Wire Line
 Wire Wire Line
 	8150 3950 8300 3950
 Wire Wire Line
-	6600 4200 6750 4200
+	6900 4200 6950 4200
 Wire Wire Line
-	7050 4200 7100 4200
-Wire Wire Line
-	7100 4200 7100 4250
+	6950 4200 6950 4250
+Text Notes 4050 3350 0    50   Italic 0
+Place near U201
+Text Notes 1300 3600 0    50   Italic 0
+Place near U201
 $EndSCHEMATC
