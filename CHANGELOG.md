@@ -4,4 +4,9 @@
 
 * Sub-modules added
 * Connector fit in ATX IO area tested
-* Audio Codec laid out
+* Audio Codec Sheet
+* SD Card Sheet
+* Ethernet Sheet
+* Video Sheet
+* Serial Sheet
+
