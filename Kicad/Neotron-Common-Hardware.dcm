@@ -16,9 +16,29 @@ K circular DIN connector
 F http://www.kycon.com/Pub_Eng_Draw/KMDGX-6S-6S-S4N.pdf
 $ENDCMP
 #
+$CMP K78xx-3AR3
+D DC/DC Convertor
+F https://www.mornsun-power.com/html/pdf/K7805-3AR3.html
+$ENDCMP
+#
 $CMP MIC2005A-2YM5
 D Microchip 500mA Fixed Current Limit Single High Side Switch
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579487
+$ENDCMP
+#
+$CMP MKE04P24M48SF0
+D NXP KE04 Cortex-M0+ 5V microcontroller
+F https://www.nxp.com/docs/en/data-sheet/MKE04P24M48SF0.pdf
+$ENDCMP
+#
+$CMP NUC029FAE
+D Nuvoton NuMicro family ARM®Cortex®-M0 32-bit Microcontroller
+F https://www.nuvoton.com/resource-files/DS_NUC029_EN_Rev1.06.pdf
+$ENDCMP
+#
+$CMP STM811
+D Reset circuit
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/cd/e2/ab/27/7d/5d/44/41/CD00003591.pdf/files/CD00003591.pdf/jcr:content/translations/en.CD00003591.pdf
 $ENDCMP
 #
 $CMP STX-4335-5BGP-S1
@@ -39,7 +59,7 @@ F https://www.ti.com/lit/ds/symlink/ths7316.pdf
 $ENDCMP
 #
 $CMP TPD7S019
-D 7-Channel ESD Solution for VGA Port 
+D 7-Channel ESD Solution for VGA Port
 K ESD VGA
 F https://www.ti.com/lit/ds/symlink/tpd7s019.pdf
 $ENDCMP

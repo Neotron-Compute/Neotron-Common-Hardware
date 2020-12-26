@@ -63,12 +63,22 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 
 ### Power Supply
 
-* Regulated 5V input (e.g. USB) @ 2A
-* Unregulated 7V to 12V input @ 2A
-* 5.0V regulated output @ 1A
-* 3.3V regulated output @ 1A
+* Unregulated 7V to 28V input fused at 5A
+* 3A 5.0V main regulator (DC-DC module)
+* 30mA 5.0V stand-by regulator (low-power linear regulator)
+* 1A 3.3V regulator (high-power linear regulator)
 * Power-on reset circuit support
 * Soft power-off support
+* Controlled by dedicated microcontroller
+  * NXP Kinetis MKE04Z8VTG4
+  * ARM Cortex-M0+ core
+  * Power switch input
+  * Reset switch input
+  * Controls main 5V regulator, and system RESET line
+  * I²C interface to main MCU, with IRQ line
+  * 2x PS/2 interfaces (keyboard and mouse)
+  * 5V / 5VSB / 3.3V monitoring
+  * Runs on 5V stand-by regulator
 
 ## Changelog
 
