@@ -21,6 +21,11 @@ D Microchip 500mA Fixed Current Limit Single High Side Switch
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579487
 $ENDCMP
 #
+$CMP STX-4335-5BGP-S1
+D Triple 3.5mm TRS jack
+F http://www.kycon.com/Pub_Eng_Draw/STX-4335-5BGP-S1.pdf
+$ENDCMP
+#
 $CMP SY6280
 D Low Loss Power Distribution Switch
 K power switch
@@ -34,6 +39,8 @@ F https://www.ti.com/lit/ds/symlink/ths7316.pdf
 $ENDCMP
 #
 $CMP TPD7S019
+D 7-Channel ESD Solution for VGA Port 
+K ESD VGA
 F https://www.ti.com/lit/ds/symlink/tpd7s019.pdf
 $ENDCMP
 #
