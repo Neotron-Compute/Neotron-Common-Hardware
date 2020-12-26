@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Set version number # Replace [Uncontrolled] with actual tag
+        run: |
+          sed -i "s~\[Uncontrolled\]~`git describe`~g" Kicad/*.sch Kicad/*.kicad_pcb
       - name: Build project # This would actually build your project, using zip for an example artifact
         uses: nerdyscout/kicad-exports@v2.2
         with:
