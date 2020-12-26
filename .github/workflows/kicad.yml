@@ -4,10 +4,14 @@ on:
   push:
     paths:
     - '**.sch'
+    - '**.lib'
+    - '**.kicad_mod'
     - '**.kicad_pcb'
   pull_request:
     paths:
       - '**.sch'
+      - '**.lib'
+      - '**.kicad_mod'
       - '**.kicad_pcb'
 
 jobs:
