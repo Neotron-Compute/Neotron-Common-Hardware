@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 5 9
 Title "Neotron Common Hardware - USB Hub"
-Date "2020-12-25"
+Date "2020-12-26"
 Rev "[Uncontrolled]"
 Comp "https://neotron-compute.github.io/"
 Comment1 "Licenced as CC BY-SA"
@@ -24,6 +24,7 @@ F 3 "https://www.cuidevices.com/product/resource/digikeypdf/uj2-adh-th.pdf" H 97
 F 4 "CUI" H 9600 3000 50  0001 C CNN "Manufacturer"
 F 5 "UJ2-ADH-1-TH" H 9600 4150 50  0001 C CNN "MPN"
 F 6 "102-4001-ND" H 9600 4050 50  0001 C CNN "Digikey"
+F 7 "0" H 9600 3000 50  0001 C CNN "DNP"
 	1    9600 3000
 	-1   0    0    -1  
 $EndComp
@@ -36,6 +37,9 @@ F 1 "MIC2005A-2YM5" H 7450 2574 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 7500 2650 50  0001 C CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579487" H 7450 2350 50  0001 C CNN
 F 4 "576-3464-1-ND" H 7450 2573 50  0001 C CNN "Digikey"
+F 5 "0" H 7450 2300 50  0001 C CNN "DNP"
+F 6 "MIC2005A-2YM5" H 7450 2300 50  0001 C CNN "MPN"
+F 7 "Microchip" H 7450 2300 50  0001 C CNN "Manufacturer"
 	1    7450 2300
 	1    0    0    -1  
 $EndComp
@@ -48,6 +52,9 @@ F 1 "MIC2005A-2YM5" H 7400 3450 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 7450 3550 50  0001 C CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579487" H 7400 3250 50  0001 C CNN
 F 4 "576-3464-1-ND" H 7400 3473 50  0001 C CNN "Digikey"
+F 5 "0" H 7400 3200 50  0001 C CNN "DNP"
+F 6 "MIC2005A-2YM5" H 7400 3200 50  0001 C CNN "MPN"
+F 7 "Microchip" H 7400 3200 50  0001 C CNN "Manufacturer"
 	1    7400 3200
 	1    0    0    -1  
 $EndComp
@@ -87,6 +94,8 @@ F 3 "https://www.mouser.co.uk/datasheet/2/146/xr22404-1856004.pdf" H 3750 4200 5
 F 4 "701-XR22404CG28TR-F" H 3200 5100 50  0001 C CNN "Mouser"
 F 5 "XR22404CG28" H 4050 2500 50  0001 C CNN "MPN"
 F 6 "MaxLinear" H 4050 2600 50  0001 C CNN "Manufacturer"
+F 7 "0" H 4400 3550 50  0001 C CNN "DNP"
+F 8 "XR22404CG28TR-F-ND" H 4400 3550 50  0001 C CNN "Digikey"
 	1    4400 3550
 	1    0    0    -1  
 $EndComp
@@ -111,6 +120,7 @@ F 0 "R503" H 6000 3550 50  0000 L CNN
 F 1 "10k" H 6150 3450 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 3500 50  0001 C CNN
 F 3 "~" H 5950 3500 50  0001 C CNN
+F 4 "0" H 5950 3500 50  0001 C CNN "DNP"
 	1    5950 3500
 	-1   0    0    -1  
 $EndComp
@@ -220,6 +230,9 @@ F 1 "MIC2005A-2YM5" H 7400 4524 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 7450 4600 50  0001 C CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579487" H 7400 4300 50  0001 C CNN
 F 4 "576-3464-1-ND" H 7400 4523 50  0001 C CNN "Digikey"
+F 5 "0" H 7400 4250 50  0001 C CNN "DNP"
+F 6 "MIC2005A-2YM5" H 7400 4250 50  0001 C CNN "MPN"
+F 7 "Microchip" H 7400 4250 50  0001 C CNN "Manufacturer"
 	1    7400 4250
 	1    0    0    -1  
 $EndComp
@@ -232,6 +245,9 @@ F 1 "MIC2005A-2YM5" H 7400 5424 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 7450 5500 50  0001 C CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579487" H 7400 5200 50  0001 C CNN
 F 4 "576-3464-1-ND" H 7400 5423 50  0001 C CNN "Digikey"
+F 5 "0" H 7400 5150 50  0001 C CNN "DNP"
+F 6 "MIC2005A-2YM5" H 7400 5150 50  0001 C CNN "MPN"
+F 7 "Microchip" H 7400 5150 50  0001 C CNN "Manufacturer"
 	1    7400 5150
 	1    0    0    -1  
 $EndComp
@@ -351,6 +367,9 @@ F 1 "12M" H 1800 3527 50  0000 C CNN
 F 2 "Crystal:Crystal_HC49-4H_Vertical" H 1800 3350 50  0001 C CNN
 F 3 "~" H 1800 3350 50  0001 C CNN
 F 4 "0" H 1800 3350 50  0001 C CNN "DNP"
+F 5 "535-9037-ND" H 1800 3350 50  0001 C CNN "Digikey"
+F 6 "ABL-12.000MHZ-B2" H 1800 3350 50  0001 C CNN "MPN"
+F 7 "Abracon" H 1800 3350 50  0001 C CNN "Manufacturer"
 	1    1800 3350
 	-1   0    0    -1  
 $EndComp
@@ -449,6 +468,7 @@ F 0 "C503" H 5518 2196 50  0000 L CNN
 F 1 "4u7" H 5518 2105 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5438 2000 50  0001 C CNN
 F 3 "~" H 5400 2150 50  0001 C CNN
+F 4 "0" H 5400 2150 50  0001 C CNN "DNP"
 	1    5400 2150
 	1    0    0    -1  
 $EndComp
@@ -477,6 +497,10 @@ F 0 "C502" H 5065 2196 50  0000 L CNN
 F 1 "100n" H 5065 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4988 2000 50  0001 C CNN
 F 3 "~" H 4950 2150 50  0001 C CNN
+F 4 "0" H 4950 2150 50  0001 C CNN "DNP"
+F 5 "BC1150CT-ND" H 4950 2150 50  0001 C CNN "Digikey"
+F 6 "K104K15X7RF5TL2" H 4950 2150 50  0001 C CNN "MPN"
+F 7 "Vishay" H 4950 2150 50  0001 C CNN "Manufacturer"
 	1    4950 2150
 	1    0    0    -1  
 $EndComp
@@ -526,6 +550,9 @@ F 1 "100n" H 3265 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3188 4000 50  0001 C CNN
 F 3 "~" H 3150 4150 50  0001 C CNN
 F 4 "0" H 3150 4150 50  0001 C CNN "DNP"
+F 5 "BC1150CT-ND" H 3150 4150 50  0001 C CNN "Digikey"
+F 6 "K104K15X7RF5TL2" H 3150 4150 50  0001 C CNN "MPN"
+F 7 "Vishay" H 3150 4150 50  0001 C CNN "Manufacturer"
 	1    3150 4150
 	-1   0    0    -1  
 $EndComp
@@ -548,6 +575,7 @@ F 0 "R505" H 2800 4200 50  0000 L CNN
 F 1 "100k" H 2800 4100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 4150 50  0001 C CNN
 F 3 "~" H 2750 4150 50  0001 C CNN
+F 4 "0" H 2750 4150 50  0001 C CNN "DNP"
 	1    2750 4150
 	-1   0    0    -1  
 $EndComp
@@ -583,6 +611,7 @@ F 0 "R501" H 3650 2450 50  0000 L CNN
 F 1 "2k7 1%" H 3650 2350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3530 2400 50  0001 C CNN
 F 3 "~" H 3600 2400 50  0001 C CNN
+F 4 "0" H 3600 2400 50  0001 C CNN "DNP"
 	1    3600 2400
 	1    0    0    -1  
 $EndComp
@@ -617,6 +646,7 @@ F 0 "C504" H 8368 2446 50  0000 L CNN
 F 1 "120u" H 8368 2355 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8288 2250 50  0001 C CNN
 F 3 "~" H 8250 2400 50  0001 C CNN
+F 4 "0" H 8250 2400 50  0001 C CNN "DNP"
 	1    8250 2400
 	1    0    0    -1  
 $EndComp
@@ -628,6 +658,7 @@ F 0 "C505" H 8368 3346 50  0000 L CNN
 F 1 "120u" H 8368 3255 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8288 3150 50  0001 C CNN
 F 3 "~" H 8250 3300 50  0001 C CNN
+F 4 "0" H 8250 3300 50  0001 C CNN "DNP"
 	1    8250 3300
 	1    0    0    -1  
 $EndComp
@@ -639,6 +670,7 @@ F 0 "C509" H 8368 4396 50  0000 L CNN
 F 1 "120u" H 8368 4305 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8288 4200 50  0001 C CNN
 F 3 "~" H 8250 4350 50  0001 C CNN
+F 4 "0" H 8250 4350 50  0001 C CNN "DNP"
 	1    8250 4350
 	1    0    0    -1  
 $EndComp
@@ -650,6 +682,7 @@ F 0 "C510" H 8368 5296 50  0000 L CNN
 F 1 "120u" H 8368 5205 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8288 5100 50  0001 C CNN
 F 3 "~" H 8250 5250 50  0001 C CNN
+F 4 "0" H 8250 5250 50  0001 C CNN "DNP"
 	1    8250 5250
 	1    0    0    -1  
 $EndComp
@@ -745,6 +778,7 @@ F 0 "R504" H 2800 3800 50  0000 L CNN
 F 1 "10k" H 2800 3700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 3750 50  0001 C CNN
 F 3 "~" H 2750 3750 50  0001 C CNN
+F 4 "0" H 2750 3750 50  0001 C CNN "DNP"
 	1    2750 3750
 	-1   0    0    -1  
 $EndComp
@@ -760,7 +794,8 @@ P 9600 4950
 F 0 "J502" H 9600 6000 50  0000 C CNN
 F 1 "USB Ports Internal" H 9600 5900 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:USB_Header" H 9550 6200 50  0001 C CNN
-F 3 "" H 9750 5000 50  0001 C CNN
+F 3 "~" H 9750 5000 50  0001 C CNN
+F 4 "0" H 9600 4950 50  0001 C CNN "DNP"
 	1    9600 4950
 	-1   0    0    -1  
 $EndComp
@@ -776,6 +811,7 @@ F 0 "R506" H 3700 4700 50  0000 L CNN
 F 1 "10k" H 3700 4600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3580 4650 50  0001 C CNN
 F 3 "~" H 3650 4650 50  0001 C CNN
+F 4 "0" H 3650 4650 50  0001 C CNN "DNP"
 	1    3650 4650
 	-1   0    0    -1  
 $EndComp
@@ -808,7 +844,9 @@ F 1 "AP2501" H 2650 674 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2750 1100 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP25x1.pdf" H 2650 1200 50  0001 C CNN
 F 4 "Diodes Incorporated" H 2650 1050 50  0001 C CNN "Manufacturer"
-F 5 " AP2501S-13" H 2600 950 50  0001 C CNN "MPN"
+F 5 "AP2501S-13" H 2600 950 50  0001 C CNN "MPN"
+F 6 "0" H 2650 1200 50  0001 C CNN "DNP"
+F 7 "AP2501S-13DICT-ND" H 2650 1200 50  0001 C CNN "Digikey"
 	1    2650 1200
 	1    0    0    -1  
 $EndComp
@@ -860,6 +898,7 @@ F 0 "R502" H 1200 2600 50  0000 L CNN
 F 1 "10k" H 1200 2500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1080 2550 50  0001 C CNN
 F 3 "~" H 1150 2550 50  0001 C CNN
+F 4 "0" H 1150 2550 50  0001 C CNN "DNP"
 	1    1150 2550
 	1    0    0    -1  
 $EndComp
@@ -902,6 +941,10 @@ F 0 "C501" H 1915 2196 50  0000 L CNN
 F 1 "100n" H 1915 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1838 2000 50  0001 C CNN
 F 3 "~" H 1800 2150 50  0001 C CNN
+F 4 "0" H 1800 2150 50  0001 C CNN "DNP"
+F 5 "BC1150CT-ND" H 1800 2150 50  0001 C CNN "Digikey"
+F 6 "K104K15X7RF5TL2" H 1800 2150 50  0001 C CNN "MPN"
+F 7 "Vishay" H 1800 2150 50  0001 C CNN "Manufacturer"
 	1    1800 2150
 	-1   0    0    -1  
 $EndComp

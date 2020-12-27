@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 8 9
 Title "Neotron Common Hardware - Serial Port"
-Date "2020-12-25"
+Date "2020-12-26"
 Rev "[Uncontrolled]"
 Comp "https://neotron-compute.github.io/"
 Comment1 "Licenced as CC BY-SA"
@@ -45,8 +45,10 @@ F 1 "ST3232CDR" H 5000 4150 50  0000 C CNN
 F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 5500 2000 50  0001 L CNN
 F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/group1/40/2c/7f/62/3a/3f/47/3c/CD00002253/files/CD00002253.pdf/jcr:content/translations/en.CD00002253.pdf" H 5450 3150 50  0001 C CNN
 F 4 "ST" H 5450 3050 50  0001 C CNN "Manufacturer"
-F 5 "ST3232CDR" H 5450 3050 50  0001 C CNN "mpn"
+F 5 "" H 5450 3050 50  0001 C CNN "mpn"
 F 6 "0" H 5450 3050 50  0001 C CNN "DNP"
+F 7 "497-3731-1-ND" H 5450 3050 50  0001 C CNN "Digikey"
+F 8 "ST3232CDR" H 5450 3050 50  0001 C CNN "MPN"
 	1    5450 3050
 	1    0    0    -1  
 $EndComp
@@ -88,9 +90,10 @@ F 1 "100n" H 6650 2250 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6388 2150 50  0001 C CNN
 F 3 "~" H 6350 2300 50  0001 C CNN
 F 4 "Vishay" H -150 -600 50  0001 C CNN "Manufacturer"
-F 5 "K104K15X7RF5TL2" H -150 -600 50  0001 C CNN "mpn"
+F 5 "" H -150 -600 50  0001 C CNN "mpn"
 F 6 "0" H 6350 2300 50  0001 C CNN "DNP"
-F 7 " BC1150CT-ND" H 6350 2300 50  0001 C CNN "Digikey"
+F 7 "BC1150CT-ND" H 6350 2300 50  0001 C CNN "Digikey"
+F 8 "K104K15X7RF5TL2" H 6350 2300 50  0001 C CNN "MPN"
 	1    6350 2300
 	1    0    0    -1  
 $EndComp
@@ -103,9 +106,10 @@ F 1 "100n" V 6450 3200 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6588 2800 50  0001 C CNN
 F 3 "~" H 6550 2950 50  0001 C CNN
 F 4 "Vishay" H -250 -600 50  0001 C CNN "Manufacturer"
-F 5 "K104K15X7RF5TL2" H -250 -600 50  0001 C CNN "mpn"
+F 5 "" H -250 -600 50  0001 C CNN "mpn"
 F 6 "0" H 6550 2950 50  0001 C CNN "DNP"
-F 7 " BC1150CT-ND" H 6550 2950 50  0001 C CNN "Digikey"
+F 7 "BC1150CT-ND" H 6550 2950 50  0001 C CNN "Digikey"
+F 8 "K104K15X7RF5TL2" H 6550 2950 50  0001 C CNN "MPN"
 	1    6550 2950
 	0    1    1    0   
 $EndComp
@@ -118,9 +122,10 @@ F 1 "100n" H 1785 3445 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1938 3250 50  0001 C CNN
 F 3 "~" H 1900 3400 50  0001 C CNN
 F 4 "Vishay" H -1450 300 50  0001 C CNN "Manufacturer"
-F 5 "K104K15X7RF5TL2" H -1450 300 50  0001 C CNN "mpn"
+F 5 "" H -1450 300 50  0001 C CNN "mpn"
 F 6 "0" H 1900 3400 50  0001 C CNN "DNP"
-F 7 " BC1150CT-ND" H 1900 3400 50  0001 C CNN "Digikey"
+F 7 "BC1150CT-ND" H 1900 3400 50  0001 C CNN "Digikey"
+F 8 "K104K15X7RF5TL2" H 1900 3400 50  0001 C CNN "MPN"
 	1    1900 3400
 	-1   0    0    1   
 $EndComp
@@ -204,8 +209,10 @@ F 1 "Conn_02x05" H 8000 3116 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 7950 3450 50  0001 C CNN
 F 3 "~" H 7950 3450 50  0001 C CNN
 F 4 "On Shore Technology" H 7950 3450 50  0001 C CNN "Manufacturer"
-F 5 "302-S101" H 7950 3450 50  0001 C CNN "mpn"
+F 5 "" H 7950 3450 50  0001 C CNN "mpn"
 F 6 "0" H 7950 3450 50  0001 C CNN "DNP"
+F 7 "ED1543-ND" H 7950 3450 50  0001 C CNN "Digikey"
+F 8 "302-S101" H 7950 3450 50  0001 C CNN "MPN"
 	1    7950 3450
 	1    0    0    1   
 $EndComp
@@ -342,9 +349,10 @@ F 1 "100n" V 6450 2900 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6588 2500 50  0001 C CNN
 F 3 "~" H 6550 2650 50  0001 C CNN
 F 4 "Vishay" H -500 -150 50  0001 C CNN "Manufacturer"
-F 5 "K104K15X7RF5TL2" H -500 -150 50  0001 C CNN "mpn"
+F 5 "" H -500 -150 50  0001 C CNN "mpn"
 F 6 "0" H 6550 2650 50  0001 C CNN "DNP"
-F 7 " BC1150CT-ND" H 6550 2650 50  0001 C CNN "Digikey"
+F 7 "BC1150CT-ND" H 6550 2650 50  0001 C CNN "Digikey"
+F 8 "K104K15X7RF5TL2" H 6550 2650 50  0001 C CNN "MPN"
 	1    6550 2650
 	0    1    1    0   
 $EndComp
@@ -357,9 +365,10 @@ F 1 "100n" H 4600 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4538 2150 50  0001 C CNN
 F 3 "~" H 4500 2300 50  0001 C CNN
 F 4 "Vishay" H -150 -600 50  0001 C CNN "Manufacturer"
-F 5 "K104K15X7RF5TL2" H -150 -600 50  0001 C CNN "mpn"
+F 5 "" H -150 -600 50  0001 C CNN "mpn"
 F 6 "0" H 4500 2300 50  0001 C CNN "DNP"
-F 7 " BC1150CT-ND" H 4500 2300 50  0001 C CNN "Digikey"
+F 7 "BC1150CT-ND" H 4500 2300 50  0001 C CNN "Digikey"
+F 8 "K104K15X7RF5TL2" H 4500 2300 50  0001 C CNN "MPN"
 	1    4500 2300
 	-1   0    0    1   
 $EndComp

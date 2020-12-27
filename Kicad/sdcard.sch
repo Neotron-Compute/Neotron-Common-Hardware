@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 9 9
 Title "Neotron Common Hardware - SD Card Slot"
-Date "2020-12-25"
+Date "2020-12-26"
 Rev "[Uncontrolled]"
 Comp "https://neotron-compute.github.io/"
 Comment1 "Licenced as CC BY-SA"
@@ -19,8 +19,9 @@ U 1 1 5FE7BB6E
 P 5950 3750
 F 0 "J1001" H 5950 4415 50  0000 C CNN
 F 1 "SD_Card" H 5950 4324 50  0000 C CNN
-F 2 "" H 5950 3750 50  0001 C CNN
+F 2 "Connector_Card:SD_Kyocera_145638109511859+" H 5950 3750 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 5950 3750 50  0001 C CNN
+F 4 "0" H 5950 3750 50  0001 C CNN "DNP"
 	1    5950 3750
 	1    0    0    -1  
 $EndComp
@@ -152,8 +153,12 @@ U 1 1 5FE85358
 P 8250 3750
 F 0 "C1001" H 8368 3796 50  0000 L CNN
 F 1 "10u" H 8368 3705 50  0000 L CNN
-F 2 "" H 8288 3600 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8288 3600 50  0001 C CNN
 F 3 "~" H 8250 3750 50  0001 C CNN
+F 4 "0" H 8250 3750 50  0001 C CNN "DNP"
+F 5 "493-10359-1-ND" H 8250 3750 50  0001 C CNN "Digikey"
+F 6 "UMW1E100MDD1TP" H 8250 3750 50  0001 C CNN "MPN"
+F 7 "Nichicon" H 8250 3750 50  0001 C CNN "Manufacturer"
 	1    8250 3750
 	1    0    0    -1  
 $EndComp
@@ -163,8 +168,12 @@ U 1 1 5FE86138
 P 8700 3750
 F 0 "C1002" H 8815 3796 50  0000 L CNN
 F 1 "100n" H 8815 3705 50  0000 L CNN
-F 2 "" H 8738 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8738 3600 50  0001 C CNN
 F 3 "~" H 8700 3750 50  0001 C CNN
+F 4 "0" H 8700 3750 50  0001 C CNN "DNP"
+F 5 "BC1150CT-ND" H 8700 3750 50  0001 C CNN "Digikey"
+F 6 "K104K15X7RF5TL2" H 8700 3750 50  0001 C CNN "MPN"
+F 7 "Vishay" H 8700 3750 50  0001 C CNN "Manufacturer"
 	1    8700 3750
 	1    0    0    -1  
 $EndComp
@@ -220,6 +229,7 @@ F 0 "RN1001" H 4300 2800 50  0000 C CNN
 F 1 "8x10k" H 4300 2700 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 4675 2500 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4300 2500 50  0001 C CNN
+F 4 "0" H 4300 2500 50  0001 C CNN "DNP"
 	1    4300 2500
 	1    0    0    -1  
 $EndComp
