@@ -109,6 +109,7 @@ F 0 "H101" H 1700 6449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1700 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 1600 6400 50  0001 C CNN
 F 3 "~" H 1600 6400 50  0001 C CNN
+F 4 "0" H 1600 6400 50  0001 C CNN "DNP"
 	1    1600 6400
 	1    0    0    -1  
 $EndComp
@@ -120,6 +121,7 @@ F 0 "H105" H 1700 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1700 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 1600 6900 50  0001 C CNN
 F 3 "~" H 1600 6900 50  0001 C CNN
+F 4 "0" H 1600 6900 50  0001 C CNN "DNP"
 	1    1600 6900
 	1    0    0    -1  
 $EndComp
@@ -131,6 +133,7 @@ F 0 "H102" H 2650 6449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2650 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 6400 50  0001 C CNN
 F 3 "~" H 2550 6400 50  0001 C CNN
+F 4 "0" H 2550 6400 50  0001 C CNN "DNP"
 	1    2550 6400
 	1    0    0    -1  
 $EndComp
@@ -142,6 +145,7 @@ F 0 "H106" H 2650 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2650 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 6900 50  0001 C CNN
 F 3 "~" H 2550 6900 50  0001 C CNN
+F 4 "0" H 2550 6900 50  0001 C CNN "DNP"
 	1    2550 6900
 	1    0    0    -1  
 $EndComp
@@ -153,6 +157,7 @@ F 0 "H103" H 3600 6449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 6400 50  0001 C CNN
 F 3 "~" H 3500 6400 50  0001 C CNN
+F 4 "0" H 3500 6400 50  0001 C CNN "DNP"
 	1    3500 6400
 	1    0    0    -1  
 $EndComp
@@ -164,6 +169,7 @@ F 0 "H108" H 2650 7449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2650 7358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 7400 50  0001 C CNN
 F 3 "~" H 2550 7400 50  0001 C CNN
+F 4 "0" H 2550 7400 50  0001 C CNN "DNP"
 	1    2550 7400
 	1    0    0    -1  
 $EndComp
@@ -175,6 +181,7 @@ F 0 "H104" H 800 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 800 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 700 6900 50  0001 C CNN
 F 3 "~" H 700 6900 50  0001 C CNN
+F 4 "0" H 700 6900 50  0001 C CNN "DNP"
 	1    700  6900
 	1    0    0    -1  
 $EndComp
@@ -263,6 +270,7 @@ F 0 "H109" H 3600 7449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 7358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 7400 50  0001 C CNN
 F 3 "~" H 3500 7400 50  0001 C CNN
+F 4 "0" H 3500 7400 50  0001 C CNN "DNP"
 	1    3500 7400
 	1    0    0    -1  
 $EndComp
@@ -274,6 +282,7 @@ F 0 "H107" H 3600 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 6900 50  0001 C CNN
 F 3 "~" H 3500 6900 50  0001 C CNN
+F 4 "0" H 3500 6900 50  0001 C CNN "DNP"
 	1    3500 6900
 	1    0    0    -1  
 $EndComp
@@ -312,34 +321,37 @@ Misc symbols
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO101
 U 1 1 5FE3E77B
-P 10850 6200
-F 0 "LOGO101" H 10850 6475 50  0001 C CNN
-F 1 "OSHW Logo" H 10850 6500 50  0000 C CNN
-F 2 "Symbol:OSHW-Logo_11.4x12mm_SilkScreen" H 10850 6494 50  0001 C CNN
-F 3 "~" H 10850 6200 50  0001 C CNN
-	1    10850 6200
+P 6100 6650
+F 0 "LOGO101" H 6100 6925 50  0001 C CNN
+F 1 "OSHW Logo" H 6100 6950 50  0000 C CNN
+F 2 "Symbol:OSHW-Logo_11.4x12mm_SilkScreen" H 6100 6944 50  0001 C CNN
+F 3 "~" H 6100 6650 50  0001 C CNN
+F 4 "0" H 6100 6650 50  0001 C CNN "DNP"
+	1    6100 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO102
 U 1 1 5FE412EB
-P 10350 6200
-F 0 "LOGO102" H 10350 6475 50  0001 C CNN
-F 1 "Kicad Logo" H 10350 6500 50  0000 C CNN
-F 2 "Symbol:KiCad-Logo2_12mm_SilkScreen" H 10350 6494 50  0001 C CNN
-F 3 "~" H 10350 6200 50  0001 C CNN
-	1    10350 6200
+P 5600 6650
+F 0 "LOGO102" H 5600 6925 50  0001 C CNN
+F 1 "Kicad Logo" H 5600 6950 50  0000 C CNN
+F 2 "Symbol:KiCad-Logo2_12mm_SilkScreen" H 5600 6944 50  0001 C CNN
+F 3 "~" H 5600 6650 50  0001 C CNN
+F 4 "0" H 5600 6650 50  0001 C CNN "DNP"
+	1    5600 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO103
 U 1 1 5FE4193F
-P 9800 6200
-F 0 "LOGO103" H 9800 6475 50  0001 C CNN
-F 1 "Neotron Logo" H 9800 6500 50  0000 C CNN
-F 2 "Neotron-Common-Hardware:logo" H 9800 6494 50  0001 C CNN
-F 3 "~" H 9800 6200 50  0001 C CNN
-	1    9800 6200
+P 5050 6650
+F 0 "LOGO103" H 5050 6925 50  0001 C CNN
+F 1 "Neotron Logo" H 5050 6950 50  0000 C CNN
+F 2 "Neotron-Common-Hardware:logo" H 5050 6944 50  0001 C CNN
+F 3 "~" H 5050 6650 50  0001 C CNN
+F 4 "0" H 5050 6650 50  0001 C CNN "DNP"
+	1    5050 6650
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2500 1900
@@ -366,27 +378,29 @@ $EndSheet
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 60A5B22E
-P 5550 6750
-F 0 "#FLG0103" H 5550 6825 50  0001 C CNN
-F 1 "PWR_FLAG" H 5550 6923 50  0000 C CNN
-F 2 "" H 5550 6750 50  0001 C CNN
-F 3 "~" H 5550 6750 50  0001 C CNN
-	1    5550 6750
+P 5600 7350
+F 0 "#FLG0103" H 5600 7425 50  0001 C CNN
+F 1 "PWR_FLAG" H 5600 7523 50  0000 C CNN
+F 2 "" H 5600 7350 50  0001 C CNN
+F 3 "~" H 5600 7350 50  0001 C CNN
+	1    5600 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 60A5AA95
-P 5550 6750
-F 0 "#PWR0103" H 5550 6500 50  0001 C CNN
-F 1 "GND" H 5555 6577 50  0000 C CNN
-F 2 "" H 5550 6750 50  0001 C CNN
-F 3 "" H 5550 6750 50  0001 C CNN
-	1    5550 6750
+P 5600 7350
+F 0 "#PWR0103" H 5600 7100 50  0001 C CNN
+F 1 "GND" H 5605 7177 50  0000 C CNN
+F 2 "" H 5600 7350 50  0001 C CNN
+F 3 "" H 5600 7350 50  0001 C CNN
+	1    5600 7350
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5500 1600
 NoConn ~ 5500 1700
 NoConn ~ 5500 1800
 NoConn ~ 5500 1900
+Text Notes 9400 5650 0    50   ~ 0
+All capacitors are 16V unless specified.\nAll resistors are 1% 1/4W unless specified.
 $EndSCHEMATC

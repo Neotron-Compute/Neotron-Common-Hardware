@@ -46,18 +46,53 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 ### Ethernet
 
 * 10/100base-T Ethernet
-* Ethernet MAC/PHY with SPI connection to main MCU
+* Ethernet MAC/PHY with SPI connection to main CPU
 * Link and Activity LEDs
+
+## Board Management Controller
+* NXP Kinetic KE04 (MKE04Z8VWJ4) microcontroller
+  * 32-bit Arm Cortex-M0+ Core
+  * 5V I/O
+  * 8 KiB Flash
+  * 1 KiB SRAM
+  * SOIC-20 package
+* Controls two PS/2 ports
+* Monitors 5V and 3.3V rails
+* Controls reset, soft-on and soft-off for main CPU
+* Runs from 5V stand-by regulator
+* I²C interface (with dedicated IRQ line) with main CPU
+
+| Pin | Name | Peripheral | Function          |
+|:----|:-----|:-----------|:------------------|
+| 1   | PTA5 | ~RESET     | Reset BMC         |
+| 2   | PTA4 | SWDIO      | Debug             |
+| 3   | VDD  | N/A        | 5V Power          |
+| 4   | VSS  | N/A        | Ground            |
+| 5   | PTB7 | PTB7       | Status LED        |
+| 6   | PTB6 | PTB6       | DC-DC Enable      |
+| 7   | PTB5 | PTB5       | Reset Output      |
+| 8   | PTB4 | PTB4       | Power Switch In   |
+| 9   | PTC3 | PTC3       | PS/2 Clock 0      |
+| 10  | PTC2 | PTC2       | PS/2 Data 0       |
+| 11  | PTC1 | PTC1       | PS/2 Clock 1      |
+| 12  | PTC0 | PTC0       | PS/2 Data 1       |
+| 13  | PTB3 | PTB3       | Reset Switch In   |
+| 14  | PTB2 | PTB2       | Host IRQ          |
+| 15  | PTB1 | UART0_TX   | Console           |
+| 16  | PTB0 | ADC0_SE4   | Monitor 3.3V rail |
+| 17  | PTA3 | I2C0_SCL   | Host comms        |
+| 18  | PTA2 | I2C0_SDA   | Host comms        |
+| 19  | PTA1 | ADC0_SE1   | Monitor 5V rail   |
+| 20  | PTA0 | SWDCLK     | Debug             |
 
 ### PS/2 Keyboard and Mouse
 
 * Twin mini 6-pin DIN ports
-* Level shifter for connection to 3.3V MCU
-* Optional AtMega microcontroller with I²C interface (if your MCU cannot handle 10 kHz interrupts)
+* Controlled via Board Management Controller
 
 ### Joystick/Joypad
 
-* I²C interface to host MCU
+* I²C interface to main CPU
 * Two 9-pin Atari/SEGA/Commodore digital joystick/joypad interfaces
 * Supports 3-button SEGA MegaDrive/Genesis joypads
 
@@ -75,7 +110,7 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
   * Power switch input
   * Reset switch input
   * Controls main 5V regulator, and system RESET line
-  * I²C interface to main MCU, with IRQ line
+  * I²C interface to main CPU, with IRQ line
   * 2x PS/2 interfaces (keyboard and mouse)
   * 5V / 5VSB / 3.3V monitoring
   * Runs on 5V stand-by regulator
