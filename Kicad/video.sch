@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 8
 Title "Neotron Common Hardware - Video Output"
 Date "2020-12-26"
 Rev "[Uncontrolled]"
@@ -170,18 +170,6 @@ Wire Wire Line
 	3550 3350 3550 3750
 Wire Wire Line
 	3550 2550 3550 2650
-Text HLabel 2000 2850 0    50   Input ~ 0
-RED
-Text HLabel 2000 3000 0    50   Input ~ 0
-GREEN
-Text HLabel 2000 3150 0    50   Input ~ 0
-BLUE
-Wire Wire Line
-	2000 3150 2900 3150
-Wire Wire Line
-	2000 3000 2550 3000
-Wire Wire Line
-	2000 2850 2200 2850
 $Comp
 L Device:R R204
 U 1 1 5FE90AE6
@@ -749,4 +737,27 @@ Text Notes 4050 3350 0    50   Italic 0
 Place near U201
 Text Notes 1300 3600 0    50   Italic 0
 Place near U201
+Text Label 2000 2850 2    50   ~ 0
+RED_ANA
+Text Label 2000 3000 2    50   ~ 0
+GREEN_ANA
+Text Label 2000 3150 2    50   ~ 0
+BLUE_ANA
+Wire Wire Line
+	1750 2850 2200 2850
+Wire Wire Line
+	1750 3000 2550 3000
+Wire Wire Line
+	1750 3150 2900 3150
+Text HLabel 2000 1125 0    50   Input ~ 0
+RED[7..0]
+Text HLabel 2000 1250 0    50   Input ~ 0
+GREEN[7..0]
+Text HLabel 2000 1375 0    50   Input ~ 0
+BLUE[7..0]
+NoConn ~ 2000 1125
+NoConn ~ 2000 1250
+NoConn ~ 2000 1375
+Text Notes 2075 1275 0    50   ~ 0
+TODO: 24-bit R2R DAC here
 $EndSCHEMATC
