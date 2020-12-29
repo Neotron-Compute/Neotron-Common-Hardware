@@ -36,6 +36,11 @@ D Nuvoton NuMicro family ARM®Cortex®-M0 32-bit Microcontroller
 F https://www.nuvoton.com/resource-files/DS_NUC029_EN_Rev1.06.pdf
 $ENDCMP
 #
+$CMP Neotron-CPU
+D Neotron Processor Card
+F https://github.com/neotron-compute
+$ENDCMP
+#
 $CMP STM811
 D Reset circuit
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/cd/e2/ab/27/7d/5d/44/41/CD00003591.pdf/files/CD00003591.pdf/jcr:content/translations/en.CD00003591.pdf
