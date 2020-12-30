@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 8 8
 Title "Neotron Common Hardware - Ethernet MAC/PHY"
 Date "2020-12-26"
 Rev "[Uncontrolled]"
@@ -35,7 +35,7 @@ SPI_COPI
 Text HLabel 2850 3600 0    50   Output ~ 0
 SPI_CIPO
 Text HLabel 2850 3500 0    50   Input ~ 0
-SPI_CS
+~SPI_CS
 Text HLabel 2850 3800 0    50   Input ~ 0
 SPI_CLK
 $Comp
@@ -53,8 +53,8 @@ F 7 "Microchip" H 4200 4400 50  0001 C CNN "Manufacturer"
 	1    4200 4400
 	1    0    0    -1  
 $EndComp
-Text HLabel 2850 3300 0    50   Input ~ 0
-~INT
+Text HLabel 2850 3300 0    50   Output ~ 0
+~IRQ
 $Comp
 L Device:Crystal Y301
 U 1 1 60818460

@@ -750,14 +750,14 @@ Wire Wire Line
 Wire Wire Line
 	1750 3150 2900 3150
 Text HLabel 2000 1125 0    50   Input ~ 0
-RED[7..0]
+RED[5..0]
 Text HLabel 2000 1250 0    50   Input ~ 0
-GREEN[7..0]
+GREEN[5..0]
 Text HLabel 2000 1375 0    50   Input ~ 0
-BLUE[7..0]
+BLUE[5..0]
 NoConn ~ 2000 1125
 NoConn ~ 2000 1250
 NoConn ~ 2000 1375
 Text Notes 2075 1275 0    50   ~ 0
-TODO: 24-bit R2R DAC here
+TODO: 18-bit R2R DAC here
 $EndSCHEMATC

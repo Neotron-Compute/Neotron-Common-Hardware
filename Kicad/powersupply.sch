@@ -920,8 +920,8 @@ Text HLabel 7400 4175 0    50   BiDi ~ 0
 I2C_SDA
 Text HLabel 7400 4275 0    50   Input ~ 0
 I2C_SCL
-Text HLabel 8800 4325 2    50   Input ~ 0
-IRQ
+Text HLabel 8800 4325 2    50   Output ~ 0
+~IRQ
 Wire Wire Line
 	7500 4275 7400 4275
 Wire Wire Line
