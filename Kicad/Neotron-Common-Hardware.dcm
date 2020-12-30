@@ -37,8 +37,12 @@ F https://www.nuvoton.com/resource-files/DS_NUC029_EN_Rev1.06.pdf
 $ENDCMP
 #
 $CMP Neotron-CPU
-D Neotron Processor Card
+D Processor Card Slot for Neotron Motherboards
 F https://github.com/neotron-compute
+$ENDCMP
+#
+$CMP Neotron-Expansion-Slot
+D Expansion slot for Neotron Motherboards
 $ENDCMP
 #
 $CMP STM811

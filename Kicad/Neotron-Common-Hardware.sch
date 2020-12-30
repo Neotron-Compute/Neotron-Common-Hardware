@@ -341,7 +341,7 @@ F 3 "" H 5600 7350 50  0001 C CNN
 	1    5600 7350
 	1    0    0    -1  
 $EndComp
-Text Notes 9400 5650 0    50   ~ 0
+Text Notes 9450 6000 0    50   ~ 0
 All capacitors are 16V unless specified.\nAll resistors are 1% 1/4W unless specified.
 $Comp
 L Neotron-Common-Hardware:Neotron-CPU U101
@@ -617,4 +617,504 @@ NoConn ~ 4500 3550
 NoConn ~ 2150 3675
 NoConn ~ 2325 3875
 NoConn ~ 3525 3875
+$Comp
+L Neotron-Common-Hardware:Neotron-Expansion-Slot J101
+U 1 1 5FECC710
+P 3975 4825
+F 0 "J101" H 3950 5540 50  0000 C CNN
+F 1 "Neotron-Expansion-Slot" H 3950 5449 50  0000 C CNN
+F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 4425 5225 50  0001 C CNN
+F 3 "" H 4425 5225 50  0001 C CNN
+	1    3975 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5FED032B
+P 3225 5475
+F 0 "#PWR0118" H 3225 5225 50  0001 C CNN
+F 1 "GND" H 3230 5302 50  0000 C CNN
+F 2 "" H 3225 5475 50  0001 C CNN
+F 3 "" H 3225 5475 50  0001 C CNN
+	1    3225 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 4875 3225 4875
+Wire Wire Line
+	3375 4975 3225 4975
+Wire Wire Line
+	3225 4875 3225 4975
+Connection ~ 3225 4975
+Wire Wire Line
+	3225 4975 3225 5075
+Wire Wire Line
+	3375 5075 3225 5075
+Connection ~ 3225 5075
+Wire Wire Line
+	3225 5075 3225 5175
+Wire Wire Line
+	3375 5175 3225 5175
+Connection ~ 3225 5175
+Wire Wire Line
+	3225 5175 3225 5275
+Wire Wire Line
+	3375 5275 3225 5275
+Connection ~ 3225 5275
+Wire Wire Line
+	3225 5275 3225 5375
+Wire Wire Line
+	3375 5375 3225 5375
+Connection ~ 3225 5375
+Wire Wire Line
+	3225 5375 3225 5475
+$Comp
+L power:GND #PWR0119
+U 1 1 5FED378B
+P 4675 5475
+F 0 "#PWR0119" H 4675 5225 50  0001 C CNN
+F 1 "GND" H 4680 5302 50  0000 C CNN
+F 2 "" H 4675 5475 50  0001 C CNN
+F 3 "" H 4675 5475 50  0001 C CNN
+	1    4675 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 5375 4675 5375
+Wire Wire Line
+	4675 5375 4675 5475
+Wire Wire Line
+	4525 5275 4675 5275
+Connection ~ 4675 5375
+Wire Wire Line
+	4525 5175 4675 5175
+Wire Wire Line
+	4675 5175 4675 5275
+Connection ~ 4675 5275
+Wire Wire Line
+	4675 5275 4675 5375
+$Comp
+L power:+5V #PWR0120
+U 1 1 5FED6284
+P 4775 4600
+F 0 "#PWR0120" H 4775 4450 50  0001 C CNN
+F 1 "+5V" H 4790 4773 50  0000 C CNN
+F 2 "" H 4775 4600 50  0001 C CNN
+F 3 "" H 4775 4600 50  0001 C CNN
+	1    4775 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 4675 4775 4675
+Wire Wire Line
+	4775 4675 4775 4600
+Wire Wire Line
+	4525 4775 4775 4775
+Wire Wire Line
+	4775 4775 4775 4675
+Connection ~ 4775 4675
+$Comp
+L power:+3V3 #PWR0121
+U 1 1 5FED8E4E
+P 4925 4775
+F 0 "#PWR0121" H 4925 4625 50  0001 C CNN
+F 1 "+3V3" H 4940 4948 50  0000 C CNN
+F 2 "" H 4925 4775 50  0001 C CNN
+F 3 "" H 4925 4775 50  0001 C CNN
+	1    4925 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 4875 4925 4875
+Wire Wire Line
+	4525 4975 4925 4975
+Wire Wire Line
+	4925 4775 4925 4875
+Connection ~ 4925 4875
+Wire Wire Line
+	4925 4875 4925 4975
+NoConn ~ 4525 4475
+NoConn ~ 4525 4375
+NoConn ~ 3375 4775
+NoConn ~ 3375 4675
+NoConn ~ 3375 4575
+NoConn ~ 3375 4475
+NoConn ~ 3375 4375
+$Comp
+L Neotron-Common-Hardware:Neotron-Expansion-Slot J102
+U 1 1 5FEDE85C
+P 5900 4825
+F 0 "J102" H 5875 5540 50  0000 C CNN
+F 1 "Neotron-Expansion-Slot" H 5875 5449 50  0000 C CNN
+F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 6350 5225 50  0001 C CNN
+F 3 "" H 6350 5225 50  0001 C CNN
+	1    5900 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5FEDE866
+P 5150 5475
+F 0 "#PWR0122" H 5150 5225 50  0001 C CNN
+F 1 "GND" H 5155 5302 50  0000 C CNN
+F 2 "" H 5150 5475 50  0001 C CNN
+F 3 "" H 5150 5475 50  0001 C CNN
+	1    5150 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4875 5150 4875
+Wire Wire Line
+	5300 4975 5150 4975
+Wire Wire Line
+	5150 4875 5150 4975
+Connection ~ 5150 4975
+Wire Wire Line
+	5150 4975 5150 5075
+Wire Wire Line
+	5300 5075 5150 5075
+Connection ~ 5150 5075
+Wire Wire Line
+	5150 5075 5150 5175
+Wire Wire Line
+	5300 5175 5150 5175
+Connection ~ 5150 5175
+Wire Wire Line
+	5150 5175 5150 5275
+Wire Wire Line
+	5300 5275 5150 5275
+Connection ~ 5150 5275
+Wire Wire Line
+	5150 5275 5150 5375
+Wire Wire Line
+	5300 5375 5150 5375
+Connection ~ 5150 5375
+Wire Wire Line
+	5150 5375 5150 5475
+$Comp
+L power:GND #PWR0123
+U 1 1 5FEDE881
+P 6600 5475
+F 0 "#PWR0123" H 6600 5225 50  0001 C CNN
+F 1 "GND" H 6605 5302 50  0000 C CNN
+F 2 "" H 6600 5475 50  0001 C CNN
+F 3 "" H 6600 5475 50  0001 C CNN
+	1    6600 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 5375 6600 5375
+Wire Wire Line
+	6600 5375 6600 5475
+Wire Wire Line
+	6450 5275 6600 5275
+Connection ~ 6600 5375
+Wire Wire Line
+	6600 5275 6600 5375
+$Comp
+L power:+5V #PWR0124
+U 1 1 5FEDE893
+P 6700 4600
+F 0 "#PWR0124" H 6700 4450 50  0001 C CNN
+F 1 "+5V" H 6715 4773 50  0000 C CNN
+F 2 "" H 6700 4600 50  0001 C CNN
+F 3 "" H 6700 4600 50  0001 C CNN
+	1    6700 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4675 6700 4675
+Wire Wire Line
+	6700 4675 6700 4600
+Wire Wire Line
+	6450 4775 6700 4775
+Wire Wire Line
+	6700 4775 6700 4675
+Connection ~ 6700 4675
+$Comp
+L power:+3V3 #PWR0125
+U 1 1 5FEDE8A2
+P 6850 4775
+F 0 "#PWR0125" H 6850 4625 50  0001 C CNN
+F 1 "+3V3" H 6865 4948 50  0000 C CNN
+F 2 "" H 6850 4775 50  0001 C CNN
+F 3 "" H 6850 4775 50  0001 C CNN
+	1    6850 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4875 6850 4875
+Wire Wire Line
+	6450 4975 6850 4975
+Wire Wire Line
+	6850 4775 6850 4875
+Connection ~ 6850 4875
+Wire Wire Line
+	6850 4875 6850 4975
+NoConn ~ 6450 4475
+NoConn ~ 6450 4375
+NoConn ~ 5300 4775
+NoConn ~ 5300 4675
+NoConn ~ 5300 4575
+NoConn ~ 5300 4475
+NoConn ~ 5300 4375
+Wire Wire Line
+	6450 5175 6850 5175
+Wire Wire Line
+	6850 5175 6850 4975
+Connection ~ 6850 4975
+$Comp
+L Neotron-Common-Hardware:Neotron-Expansion-Slot J103
+U 1 1 5FEED110
+P 7725 4825
+F 0 "J103" H 7700 5540 50  0000 C CNN
+F 1 "Neotron-Expansion-Slot" H 7700 5449 50  0000 C CNN
+F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 8175 5225 50  0001 C CNN
+F 3 "" H 8175 5225 50  0001 C CNN
+	1    7725 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5FEED11A
+P 6975 5475
+F 0 "#PWR0126" H 6975 5225 50  0001 C CNN
+F 1 "GND" H 6980 5302 50  0000 C CNN
+F 2 "" H 6975 5475 50  0001 C CNN
+F 3 "" H 6975 5475 50  0001 C CNN
+	1    6975 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7125 4875 6975 4875
+Wire Wire Line
+	7125 4975 6975 4975
+Wire Wire Line
+	6975 4875 6975 4975
+Connection ~ 6975 4975
+Wire Wire Line
+	6975 4975 6975 5075
+Wire Wire Line
+	7125 5075 6975 5075
+Connection ~ 6975 5075
+Wire Wire Line
+	6975 5075 6975 5175
+Wire Wire Line
+	7125 5175 6975 5175
+Connection ~ 6975 5175
+Wire Wire Line
+	6975 5175 6975 5275
+Wire Wire Line
+	7125 5275 6975 5275
+Connection ~ 6975 5275
+Wire Wire Line
+	6975 5275 6975 5375
+Wire Wire Line
+	7125 5375 6975 5375
+Connection ~ 6975 5375
+Wire Wire Line
+	6975 5375 6975 5475
+$Comp
+L power:+5V #PWR0127
+U 1 1 5FEED144
+P 8525 4600
+F 0 "#PWR0127" H 8525 4450 50  0001 C CNN
+F 1 "+5V" H 8540 4773 50  0000 C CNN
+F 2 "" H 8525 4600 50  0001 C CNN
+F 3 "" H 8525 4600 50  0001 C CNN
+	1    8525 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8275 4675 8525 4675
+Wire Wire Line
+	8525 4675 8525 4600
+Wire Wire Line
+	8275 4775 8525 4775
+Wire Wire Line
+	8525 4775 8525 4675
+Connection ~ 8525 4675
+$Comp
+L power:+3V3 #PWR0128
+U 1 1 5FEED153
+P 8675 4775
+F 0 "#PWR0128" H 8675 4625 50  0001 C CNN
+F 1 "+3V3" H 8690 4948 50  0000 C CNN
+F 2 "" H 8675 4775 50  0001 C CNN
+F 3 "" H 8675 4775 50  0001 C CNN
+	1    8675 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8275 4875 8675 4875
+Wire Wire Line
+	8275 4975 8675 4975
+Wire Wire Line
+	8675 4775 8675 4875
+Connection ~ 8675 4875
+Wire Wire Line
+	8675 4875 8675 4975
+NoConn ~ 8275 4475
+NoConn ~ 8275 4375
+NoConn ~ 7125 4775
+NoConn ~ 7125 4675
+NoConn ~ 7125 4575
+NoConn ~ 7125 4475
+NoConn ~ 7125 4375
+Connection ~ 8675 4975
+Text Notes 3800 5575 0    50   ~ 0
+Slot 0
+Text Notes 5725 5575 0    50   ~ 0
+Slot 1
+Text Notes 7550 5575 0    50   ~ 0
+Slot 2
+$Comp
+L power:GND #PWR0129
+U 1 1 5FF20385
+P 8425 5475
+F 0 "#PWR0129" H 8425 5225 50  0001 C CNN
+F 1 "GND" H 8430 5302 50  0000 C CNN
+F 2 "" H 8425 5475 50  0001 C CNN
+F 3 "" H 8425 5475 50  0001 C CNN
+	1    8425 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 4975 8675 5275
+Wire Wire Line
+	8425 5175 8275 5175
+Wire Wire Line
+	8425 5175 8425 5375
+Wire Wire Line
+	8275 5375 8425 5375
+Connection ~ 8425 5375
+Wire Wire Line
+	8425 5375 8425 5475
+Wire Wire Line
+	8275 5275 8675 5275
+$Comp
+L Neotron-Common-Hardware:Neotron-Expansion-Slot J104
+U 1 1 5FF3FC03
+P 9575 4825
+F 0 "J104" H 9550 5540 50  0000 C CNN
+F 1 "Neotron-Expansion-Slot" H 9550 5449 50  0000 C CNN
+F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 10025 5225 50  0001 C CNN
+F 3 "" H 10025 5225 50  0001 C CNN
+	1    9575 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0130
+U 1 1 5FF3FC0D
+P 8825 5475
+F 0 "#PWR0130" H 8825 5225 50  0001 C CNN
+F 1 "GND" H 8830 5302 50  0000 C CNN
+F 2 "" H 8825 5475 50  0001 C CNN
+F 3 "" H 8825 5475 50  0001 C CNN
+	1    8825 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8975 4875 8825 4875
+Wire Wire Line
+	8975 4975 8825 4975
+Wire Wire Line
+	8825 4875 8825 4975
+Connection ~ 8825 4975
+Wire Wire Line
+	8825 4975 8825 5075
+Wire Wire Line
+	8975 5075 8825 5075
+Connection ~ 8825 5075
+Wire Wire Line
+	8825 5075 8825 5175
+Wire Wire Line
+	8975 5175 8825 5175
+Connection ~ 8825 5175
+Wire Wire Line
+	8825 5175 8825 5275
+Wire Wire Line
+	8975 5275 8825 5275
+Connection ~ 8825 5275
+Wire Wire Line
+	8825 5275 8825 5375
+Wire Wire Line
+	8975 5375 8825 5375
+Connection ~ 8825 5375
+Wire Wire Line
+	8825 5375 8825 5475
+$Comp
+L power:+5V #PWR0131
+U 1 1 5FF3FC28
+P 10375 4600
+F 0 "#PWR0131" H 10375 4450 50  0001 C CNN
+F 1 "+5V" H 10390 4773 50  0000 C CNN
+F 2 "" H 10375 4600 50  0001 C CNN
+F 3 "" H 10375 4600 50  0001 C CNN
+	1    10375 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 4675 10375 4675
+Wire Wire Line
+	10375 4675 10375 4600
+Wire Wire Line
+	10125 4775 10375 4775
+Wire Wire Line
+	10375 4775 10375 4675
+Connection ~ 10375 4675
+$Comp
+L power:+3V3 #PWR0132
+U 1 1 5FF3FC37
+P 10525 4775
+F 0 "#PWR0132" H 10525 4625 50  0001 C CNN
+F 1 "+3V3" H 10540 4948 50  0000 C CNN
+F 2 "" H 10525 4775 50  0001 C CNN
+F 3 "" H 10525 4775 50  0001 C CNN
+	1    10525 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 4875 10525 4875
+Wire Wire Line
+	10125 4975 10525 4975
+Wire Wire Line
+	10525 4775 10525 4875
+Connection ~ 10525 4875
+Wire Wire Line
+	10525 4875 10525 4975
+NoConn ~ 10125 4475
+NoConn ~ 10125 4375
+NoConn ~ 8975 4775
+NoConn ~ 8975 4675
+NoConn ~ 8975 4575
+NoConn ~ 8975 4475
+NoConn ~ 8975 4375
+Connection ~ 10525 4975
+Text Notes 9400 5575 0    50   ~ 0
+Slot 3
+$Comp
+L power:GND #PWR0133
+U 1 1 5FF3FC4F
+P 10275 5475
+F 0 "#PWR0133" H 10275 5225 50  0001 C CNN
+F 1 "GND" H 10280 5302 50  0000 C CNN
+F 2 "" H 10275 5475 50  0001 C CNN
+F 3 "" H 10275 5475 50  0001 C CNN
+	1    10275 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10525 4975 10525 5175
+Wire Wire Line
+	10125 5375 10275 5375
+Wire Wire Line
+	10275 5375 10275 5475
+Wire Wire Line
+	10125 5275 10525 5275
+Wire Wire Line
+	10125 5175 10525 5175
+Connection ~ 10525 5175
+Wire Wire Line
+	10525 5175 10525 5275
 $EndSCHEMATC
