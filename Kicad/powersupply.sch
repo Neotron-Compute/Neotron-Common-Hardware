@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 6 8
 Title "Neotron Common Hardware - Power Supply"
 Date "2020-12-26"
 Rev "[Uncontrolled]"
@@ -425,7 +425,7 @@ F 0 "TP601" V 7475 4775 50  0000 C CNN
 F 1 "Reset" V 7475 5025 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 7675 4475 50  0001 C CNN
 F 3 "~" H 7675 4475 50  0001 C CNN
-F 4 "0" H 7475 4475 50  0001 C CNN "DNP"
+F 4 "1" H 7475 4475 50  0001 C CNN "DNP"
 	1    7475 4475
 	0    -1   1    0   
 $EndComp
@@ -920,8 +920,8 @@ Text HLabel 7400 4175 0    50   BiDi ~ 0
 I2C_SDA
 Text HLabel 7400 4275 0    50   Input ~ 0
 I2C_SCL
-Text HLabel 8800 4325 2    50   Input ~ 0
-IRQ
+Text HLabel 8800 4325 2    50   Output ~ 0
+~IRQ
 Wire Wire Line
 	7500 4275 7400 4275
 Wire Wire Line

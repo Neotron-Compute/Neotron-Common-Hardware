@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 4 8
 Title "Neotron Common Hardware - SD Card Slot"
 Date "2020-12-26"
 Rev "[Uncontrolled]"
@@ -19,7 +19,7 @@ U 1 1 5FE7BB6E
 P 5950 3750
 F 0 "J1001" H 5950 4415 50  0000 C CNN
 F 1 "SD_Card" H 5950 4324 50  0000 C CNN
-F 2 "Connector_Card:SD_Kyocera_145638109511859+" H 5950 3750 50  0001 C CNN
+F 2 "Connector_Card:SD_Kyocera_145638009211859+" H 5950 3750 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 5950 3750 50  0001 C CNN
 F 4 "0" H 5950 3750 50  0001 C CNN "DNP"
 	1    5950 3750
