@@ -4,6 +4,10 @@
 
 * None
 
+## v0.3.0
+
+Added R2R DAC
+
 ## v0.2.0
 
 * Added RTC sheet
