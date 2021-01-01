@@ -9,7 +9,7 @@ Date "2020-12-25"
 Rev "[Uncontrolled]"
 Comp "https://neotron-compute.github.io/"
 Comment1 "Licenced as CC BY-SA"
-Comment2 "Copyright (c) The Neotron Developers, 2020"
+Comment2 "Copyright (c) The Neotron Developers, 2021"
 Comment3 ""
 Comment4 ""
 $EndDescr
