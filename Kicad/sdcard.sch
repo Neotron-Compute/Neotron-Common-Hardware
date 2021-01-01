@@ -22,6 +22,9 @@ F 1 "SD_Card" H 5950 4324 50  0000 C CNN
 F 2 "Connector_Card:SD_Kyocera_145638009211859+" H 5950 3750 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 5950 3750 50  0001 C CNN
 F 4 "0" H 5950 3750 50  0001 C CNN "DNP"
+F 5 "478-4059-1-ND" H 5950 3750 50  0001 C CNN "Digikey"
+F 6 "145638009211859+" H 5950 3750 50  0001 C CNN "MPN"
+F 7 "Kyocera" H 5950 3750 50  0001 C CNN "Manufacturer"
 	1    5950 3750
 	1    0    0    -1  
 $EndComp
@@ -230,6 +233,9 @@ F 1 "8x10k" H 4300 2700 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 4675 2500 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4300 2500 50  0001 C CNN
 F 4 "0" H 4300 2500 50  0001 C CNN "DNP"
+F 5 "4609X-101-103LF-ND" H 4300 2500 50  0001 C CNN "Digikey"
+F 6 "4609X-101-103LF" H 4300 2500 50  0001 C CNN "MPN"
+F 7 "Bourns" H 4300 2500 50  0001 C CNN "Manufacturer"
 	1    4300 2500
 	1    0    0    -1  
 $EndComp
