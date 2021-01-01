@@ -28,6 +28,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" H 4075 2675 
 F 4 "Microchip" H 4075 2675 50  0001 C CNN "Manufacturer"
 F 5 "0" H 4075 2675 50  0001 C CNN "DNP"
 F 6 "MCP7940NT-I/SN" H 4075 2675 50  0001 C CNN "MPN"
+F 7 "MCP7940NT-I/SNCT-ND" H 4075 2675 50  0001 C CNN "Digikey"
 	1    4075 2675
 	1    0    0    -1  
 $EndComp
@@ -42,6 +43,7 @@ F 3 "~" V 6300 3460 50  0001 C CNN
 F 4 "Keystone" H 6300 3400 50  0001 C CNN "Manufacturer"
 F 5 "0" H 6300 3400 50  0001 C CNN "DNP"
 F 6 "103" H 6300 3400 50  0001 C CNN "MPN"
+F 7 "36-103-ND" H 6300 3400 50  0001 C CNN "Digikey"
 	1    6300 3400
 	1    0    0    -1  
 $EndComp
@@ -136,6 +138,7 @@ F 3 "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206
 F 4 "Citizen" H 5025 3000 50  0001 C CNN "Manufacturer"
 F 5 "0" H 5025 3000 50  0001 C CNN "DNP"
 F 6 "CFS-20632768DZBB " H 5025 3000 50  0001 C CNN "MPN"
+F 7 "300-8301-ND" H 5025 3000 50  0001 C CNN "Digikey"
 	1    5025 3000
 	-1   0    0    1   
 $EndComp
@@ -197,9 +200,10 @@ F 0 "C1203" H 5465 3546 50  0000 L CNN
 F 1 "6p" H 5465 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5388 3350 50  0001 C CNN
 F 3 "~" H 5350 3500 50  0001 C CNN
-F 4 "TDK" H -200 550 50  0001 C CNN "Manufacturer"
+F 4 "Yageo" H -200 550 50  0001 C CNN "Manufacturer"
 F 5 "0" H 5350 3500 50  0001 C CNN "DNP"
-F 6 "FG18C0G1H060DNT06" H 5350 3500 50  0001 C CNN "MPN"
+F 6 "CC0805DRNPO9BN6R0" H 5350 3500 50  0001 C CNN "MPN"
+F 7 "311-1095-1-ND" H 5350 3500 50  0001 C CNN "Digikey"
 	1    5350 3500
 	1    0    0    -1  
 $EndComp
@@ -211,9 +215,10 @@ F 0 "C1202" H 4815 3546 50  0000 L CNN
 F 1 "6p" H 4815 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4738 3350 50  0001 C CNN
 F 3 "~" H 4700 3500 50  0001 C CNN
-F 4 "TDK" H -850 -250 50  0001 C CNN "Manufacturer"
+F 4 "Yageo" H -850 -250 50  0001 C CNN "Manufacturer"
 F 5 "0" H 4700 3500 50  0001 C CNN "DNP"
-F 6 "FG18C0G1H060DNT06" H 4700 3500 50  0001 C CNN "MPN"
+F 6 "CC0805DRNPO9BN6R0" H 4700 3500 50  0001 C CNN "MPN"
+F 7 "311-1095-1-ND" H 4700 3500 50  0001 C CNN "Digikey"
 	1    4700 3500
 	1    0    0    -1  
 $EndComp

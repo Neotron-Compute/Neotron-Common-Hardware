@@ -4,13 +4,17 @@
 
 * None
 
+## v0.4.0
+
+* Added missing part numbers.
+
 ## v0.3.1
 
 * Fix ERC error when SPI CIPO pins joined together.
 
 ## v0.3.0
 
-Added R2R DAC
+* Added R2R DAC
 
 ## v0.2.0
 
