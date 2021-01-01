@@ -22,9 +22,12 @@ AR Path="/5FDEDE75/5FDF5821" Ref="J?"  Part="1"
 AR Path="/5FDF53DB/5FDF5821" Ref="J802"  Part="1" 
 F 0 "J802" H 8350 4700 50  0000 L CNN
 F 1 "DB9_Male_MountingHoles" H 8350 4600 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 8100 4700 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 8100 4700 50  0001 C CNN
 F 3 " ~" H 8100 4700 50  0001 C CNN
 F 4 "0" H 8100 4700 50  0001 C CNN "DNP"
+F 5 "AE10968-ND" H 8100 4700 50  0001 C CNN "Digikey"
+F 6 "A-DS 09 A/KG-T2S" H 8100 4700 50  0001 C CNN "MPN"
+F 7 "Assmann WSW Components" H 8100 4700 50  0001 C CNN "Manufacturer"
 	1    8100 4700
 	1    0    0    -1  
 $EndComp
@@ -319,6 +322,9 @@ F 1 "DNF" H 8170 5455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8030 5500 50  0001 C CNN
 F 3 "~" H 8100 5500 50  0001 C CNN
 F 4 "1" H 8100 5500 50  0001 C CNN "DNP"
+F 5 "~" H 8100 5500 50  0001 C CNN "Digikey"
+F 6 "~" H 8100 5500 50  0001 C CNN "MPN"
+F 7 "~" H 8100 5500 50  0001 C CNN "Manufacturer"
 	1    8100 5500
 	1    0    0    -1  
 $EndComp
