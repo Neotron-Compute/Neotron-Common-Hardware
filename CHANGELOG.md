@@ -4,6 +4,10 @@
 
 * None
 
+## v0.2.0
+
+* Added RTC sheet
+
 ## v0.1.0
 
 First WIP draft release.
