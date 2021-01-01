@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 12
+Sheet 11 12
 Title "Neotron Common Hardware - Ethernet MAC/PHY"
 Date "2021-01-01"
 Rev "[Uncontrolled]"
@@ -32,7 +32,7 @@ Text Notes 1300 2850 0    50   ~ 0
 Ethernet Jack with integrated magnetics.\nGreen LED is Activity.\nYellow LED is 100base-T mode active.
 Text HLabel 2850 3700 0    50   Input ~ 0
 SPI_COPI
-Text HLabel 2850 3600 0    50   Output ~ 0
+Text HLabel 2850 3600 0    50   3State ~ 0
 SPI_CIPO
 Text HLabel 2850 3500 0    50   Input ~ 0
 ~SPI_CS
