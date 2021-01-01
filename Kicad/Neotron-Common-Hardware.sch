@@ -3,13 +3,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "Neotron Common Hardware"
-Date "2020-12-26"
+Date "2021-01-01"
 Rev "[Uncontrolled]"
 Comp "https://neotron-compute.github.io/"
 Comment1 "Licenced as CC BY-SA"
-Comment2 "Copyright (c) The Neotron Developers, 2020"
+Comment2 "Copyright (c) The Neotron Developers, 2021"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1102,4 +1102,14 @@ NoConn ~ 7125 4875
 NoConn ~ 5300 4875
 NoConn ~ 3375 4875
 NoConn ~ 6200 6100
+$Sheet
+S 8250 2750 1000 1000
+U 5FEF404D
+F0 "Real TIme Clock" 50
+F1 "rtc.sch" 50
+F2 "I2C_SDA" B L 8250 2900 50 
+F3 "I2C_SCL" I L 8250 3000 50 
+$EndSheet
+NoConn ~ 8250 2900
+NoConn ~ 8250 3000
 $EndSCHEMATC
