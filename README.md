@@ -51,40 +51,40 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 * Link and Activity LEDs
 
 ### Board Management Controller
-* NXP Kinetic KE04 (MKE04Z8VWJ4) microcontroller
+* ST Micro STM32F0 (STM32F030F4P6) microcontroller
   * 32-bit Arm Cortex-M0+ Core
-  * 5V I/O
+  * 3.3V I/O
   * 8 KiB Flash
-  * 1 KiB SRAM
-  * SOIC-20 package
+  * 4 KiB SRAM
+  * TSSOP-20 package
 * Controls two PS/2 ports
 * Monitors 5V and 3.3V rails
 * Controls reset, soft-on and soft-off for main CPU
-* Runs from 5V stand-by regulator
+* Runs from 3.3V stand-by regulator
 * I²C interface (with dedicated IRQ line) with main CPU
 
-| Pin | Name | Peripheral | Function          |
-|:----|:-----|:-----------|:------------------|
-| 1   | PTA5 | ~RESET     | Reset BMC         |
-| 2   | PTA4 | SWDIO      | Debug             |
-| 3   | VDD  | N/A        | 5V Power          |
-| 4   | VSS  | N/A        | Ground            |
-| 5   | PTB7 | PTB7       | Status LED        |
-| 6   | PTB6 | PTB6       | DC-DC Enable      |
-| 7   | PTB5 | PTB5       | Reset Output      |
-| 8   | PTB4 | PTB4       | Power Switch In   |
-| 9   | PTC3 | PTC3       | PS/2 Clock 0      |
-| 10  | PTC2 | PTC2       | PS/2 Data 0       |
-| 11  | PTC1 | PTC1       | PS/2 Clock 1      |
-| 12  | PTC0 | PTC0       | PS/2 Data 1       |
-| 13  | PTB3 | PTB3       | Reset Switch In   |
-| 14  | PTB2 | PTB2       | Host IRQ          |
-| 15  | PTB1 | UART0_TX   | Console           |
-| 16  | PTB0 | ADC0_SE4   | Monitor 3.3V rail |
-| 17  | PTA3 | I2C0_SCL   | Host comms        |
-| 18  | PTA2 | I2C0_SDA   | Host comms        |
-| 19  | PTA1 | ADC0_SE1   | Monitor 5V rail   |
-| 20  | PTA0 | SWDCLK     | Debug             |
+| Pin | Name  | Peripheral | Function           |
+|:----|:------|:-----------|:-------------------|
+| 16  | VDD   | N/A        | 3.3V Digital Power |
+| 5   | VDDA  | N/A        | 3.3V Analog Power  |
+| 15  | VSS   | N/A        | Ground             |
+| 1   | BOOT0 | BOOT0      | Boot Mode Select   |
+| 4   | NRST  | Reset      | Reset BMC          |
+| 6   | PA0   | ADC0       | Monitor 3.3V rail  |
+| 7   | PA1   | ADC0       | Monitor 5V rail    |
+| 8   | PA2   | USART1_TX  | Debug Log          |
+| 9   | PA3   | Output     | Status LED         |
+| 10  | PA4   | Output     | DC-DC Enable       |
+| 11  | PA5   | Output     | System Reset       |
+| 12  | PA6   | Input      | Reset Switch In    |
+| 13  | PA7   | Input      | Power Switch In    |
+| 17  | PA9   | I2C0_SCL   | Host comms         |
+| 18  | PA10  | I2C0_SDA   | Host comms         |
+| 19  | PA13  | IO         | PS/2 Data 1        |
+| 20  | PA14  | IO         | PS/2 Clock 1       |
+| 14  | PB1   | Output     | Host IRQ           |
+| 2   | PF0   | IO         | PS/2 Data 0        |
+| 3   | PF1   | IO         | PS/2 Clock 0       |
 
 ### PS/2 Keyboard and Mouse
 
@@ -105,16 +105,7 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 * 1A 3.3V regulator (high-power linear regulator)
 * Power-on reset circuit support
 * Soft power-off support
-* Controlled by dedicated microcontroller
-  * NXP Kinetis MKE04Z8VTG4
-  * ARM Cortex-M0+ core
-  * Power switch input
-  * Reset switch input
-  * Controls main 5V regulator, and system RESET line
-  * I²C interface to main CPU, with IRQ line
-  * 2x PS/2 interfaces (keyboard and mouse)
-  * 5V / 5VSB / 3.3V monitoring
-  * Runs on 5V stand-by regulator
+* Controlled by Board Management Controller
 
 ### CPU Socket
 
