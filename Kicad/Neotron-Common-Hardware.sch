@@ -59,6 +59,9 @@ F 1 "MountingHole_Pad" H 1700 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 1600 6400 50  0001 C CNN
 F 3 "~" H 1600 6400 50  0001 C CNN
 F 4 "1" H 1600 6400 50  0001 C CNN "DNP"
+F 5 "~" H 1600 6400 50  0001 C CNN "Digikey"
+F 6 "~" H 1600 6400 50  0001 C CNN "MPN"
+F 7 "~" H 1600 6400 50  0001 C CNN "Manufacturer"
 	1    1600 6400
 	1    0    0    -1  
 $EndComp
@@ -71,6 +74,9 @@ F 1 "MountingHole_Pad" H 1700 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 1600 6900 50  0001 C CNN
 F 3 "~" H 1600 6900 50  0001 C CNN
 F 4 "1" H 1600 6900 50  0001 C CNN "DNP"
+F 5 "~" H 1600 6900 50  0001 C CNN "Digikey"
+F 6 "~" H 1600 6900 50  0001 C CNN "MPN"
+F 7 "~" H 1600 6900 50  0001 C CNN "Manufacturer"
 	1    1600 6900
 	1    0    0    -1  
 $EndComp
@@ -83,6 +89,9 @@ F 1 "MountingHole_Pad" H 2650 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 6400 50  0001 C CNN
 F 3 "~" H 2550 6400 50  0001 C CNN
 F 4 "1" H 2550 6400 50  0001 C CNN "DNP"
+F 5 "~" H 2550 6400 50  0001 C CNN "Digikey"
+F 6 "~" H 2550 6400 50  0001 C CNN "MPN"
+F 7 "~" H 2550 6400 50  0001 C CNN "Manufacturer"
 	1    2550 6400
 	1    0    0    -1  
 $EndComp
@@ -95,6 +104,9 @@ F 1 "MountingHole_Pad" H 2650 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 6900 50  0001 C CNN
 F 3 "~" H 2550 6900 50  0001 C CNN
 F 4 "1" H 2550 6900 50  0001 C CNN "DNP"
+F 5 "~" H 2550 6900 50  0001 C CNN "Digikey"
+F 6 "~" H 2550 6900 50  0001 C CNN "MPN"
+F 7 "~" H 2550 6900 50  0001 C CNN "Manufacturer"
 	1    2550 6900
 	1    0    0    -1  
 $EndComp
@@ -107,6 +119,9 @@ F 1 "MountingHole_Pad" H 3600 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 6400 50  0001 C CNN
 F 3 "~" H 3500 6400 50  0001 C CNN
 F 4 "1" H 3500 6400 50  0001 C CNN "DNP"
+F 5 "~" H 3500 6400 50  0001 C CNN "Digikey"
+F 6 "~" H 3500 6400 50  0001 C CNN "MPN"
+F 7 "~" H 3500 6400 50  0001 C CNN "Manufacturer"
 	1    3500 6400
 	1    0    0    -1  
 $EndComp
@@ -119,6 +134,9 @@ F 1 "MountingHole_Pad" H 2650 7358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 7400 50  0001 C CNN
 F 3 "~" H 2550 7400 50  0001 C CNN
 F 4 "1" H 2550 7400 50  0001 C CNN "DNP"
+F 5 "~" H 2550 7400 50  0001 C CNN "Digikey"
+F 6 "~" H 2550 7400 50  0001 C CNN "MPN"
+F 7 "~" H 2550 7400 50  0001 C CNN "Manufacturer"
 	1    2550 7400
 	1    0    0    -1  
 $EndComp
@@ -131,6 +149,9 @@ F 1 "MountingHole_Pad" H 800 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 700 6900 50  0001 C CNN
 F 3 "~" H 700 6900 50  0001 C CNN
 F 4 "1" H 700 6900 50  0001 C CNN "DNP"
+F 5 "~" H 700 6900 50  0001 C CNN "Digikey"
+F 6 "~" H 700 6900 50  0001 C CNN "MPN"
+F 7 "~" H 700 6900 50  0001 C CNN "Manufacturer"
 	1    700  6900
 	1    0    0    -1  
 $EndComp
@@ -220,6 +241,9 @@ F 1 "MountingHole_Pad" H 3600 7358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 7400 50  0001 C CNN
 F 3 "~" H 3500 7400 50  0001 C CNN
 F 4 "1" H 3500 7400 50  0001 C CNN "DNP"
+F 5 "~" H 3500 7400 50  0001 C CNN "Digikey"
+F 6 "~" H 3500 7400 50  0001 C CNN "MPN"
+F 7 "~" H 3500 7400 50  0001 C CNN "Manufacturer"
 	1    3500 7400
 	1    0    0    -1  
 $EndComp
@@ -232,6 +256,9 @@ F 1 "MountingHole_Pad" H 3600 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 6900 50  0001 C CNN
 F 3 "~" H 3500 6900 50  0001 C CNN
 F 4 "1" H 3500 6900 50  0001 C CNN "DNP"
+F 5 "~" H 3500 6900 50  0001 C CNN "Digikey"
+F 6 "~" H 3500 6900 50  0001 C CNN "MPN"
+F 7 "~" H 3500 6900 50  0001 C CNN "Manufacturer"
 	1    3500 6900
 	1    0    0    -1  
 $EndComp
