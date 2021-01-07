@@ -18,8 +18,8 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 * AC'97 Pin Header
   * Headphone Out
   * Microphone In
-* Extra line-level output pin header (e.g. for additional RCA audio jacks)
-* Extra line-level input pin header (e.g. CD-ROM audio)
+* Extra line-level output pin header (e.g. for additional RCA audio jacks - operates in addition to 3.5mm headphone jack output)
+* Internal line-level input pin header (e.g. for CD-ROM audio - disabled when line-in 3.5mm jack in-use)
 
 ### Super VGA output
 
@@ -28,7 +28,7 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 * 3peak TPF133A or Texas Instruments THS7316 RGB video buffer
    * 36 MHz bandwidth - 1024x768@60Hz maximum
    * 6dB gain
-   * Drives 75 ohm output
+   * Drives 75 ohm standard VGA interface
 * I²C/DDC level shifter and EMC filter
 
 ### RS232 Interface
@@ -59,7 +59,8 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
   * TSSOP-20 package
 * Controls two PS/2 ports
 * Monitors 5V and 3.3V rails
-* Controls reset, soft-on and soft-off for main CPU
+* Controls system reset, soft-on and soft-off for main CPU
+* Can the main 5V regulator on and off
 * Runs from 3.3V stand-by regulator
 * I²C interface (with dedicated IRQ line) with main CPU
 
@@ -91,21 +92,13 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 * Twin mini 6-pin DIN ports
 * Controlled via Board Management Controller
 
-### Joystick/Joypad
-
-* I²C interface to main CPU
-* Two 9-pin Atari/SEGA/Commodore digital joystick/joypad interfaces
-* Supports 3-button SEGA MegaDrive/Genesis joypads
-
 ### Power Supply
 
-* Unregulated 7V to 28V input fused at 5A
-* 3A 5.0V main regulator (DC-DC module)
-* 30mA 5.0V stand-by regulator (low-power linear regulator)
-* 1A 3.3V regulator (high-power linear regulator)
-* Power-on reset circuit support
-* Soft power-off support
-* Controlled by Board Management Controller
+* Unregulated 12V (7V to 28V) input fused with a PTC at 2A
+* 3A 5.0V main regulator (DC-DC switch-mode regulator module)
+* 30mA 3.3V stand-by regulator (a micropower linear regulator)
+* 1A 3.3V regulator (a high-power 1117 type linear regulator)
+* Controlled by the Board Management Controller
 
 ### CPU Socket
 
@@ -113,28 +106,34 @@ The CPU can either be designed to solder direct to your particular motherboard d
 
 The socket is basically two 2x20 pin headers, placed 130 mil apart. This should give enough space to fit even a TQFP-176 microcontroller and some TSOP-54 SDRAM.
 
-```
-+---------------------------------------+
-|o o o o o o o o o o o o o o o o o o o o|
-|o o o o o o o o o o o o o o o o o o o o|
-+---------------------------------------+
-
-
-
-
-
-
-
-
-
-
-+---------------------------------------+
-|o o o o o o o o o o o o o o o o o o o o|
-|o o o o o o o o o o o o o o o o o o o o|
-+---------------------------------------+
-```
-
 The pins are labelled in column.row fashion, i.e. 1.1 is top left, 1.20 is top right and 4.20 is bottom right.
+
+```
+ +----- Pin 1.1
+ |
+ v
++---------------------------------------+
+|o o o o o o o o o o o o o o o o o o o o|
+|o o o o o o o o o o o o o o o o o o o o|
++---------------------------------------+
+
+
+
+
+
+
+
+
+
+
++---------------------------------------+
+|o o o o o o o o o o o o o o o o o o o o|
+|o o o o o o o o o o o o o o o o o o o o|
++---------------------------------------+
+                                       ^
+                                       |
+                         Pin 4.20 -----+
+```
 
 | Pin  | Function             |
 |:-----|:---------------------|
@@ -215,11 +214,11 @@ The pins are labelled in column.row fashion, i.e. 1.1 is top left, 1.20 is top r
 | 4.19 | ~IRQ1                |
 | 4.20 | ~IRQ0                |
 
-### Expansion Socket
+## Expansion
 
-The expansion socket allows you to add on I²C or SPI based devices at a later date. It provides a single chip-select and a single IRQ line - the motherboard design should ensure each socket gets a unique signal for each of these. Each expansion device should also contain a AT24C256 or similar EEPROM device. To allow these EEPROM devices to be scanned, each slot also contains three `EEPROM_ADDRESS` pins, tied to Vcc or GND in a unique combination. These should be connected through to the EEPROM address lines on your AT24C256, thus ensuring that each expansion card has its EEPROM at a unique address.
+The (up-to) seven expansion sockets allow you to add on I²C or SPI based devices at a later date. Each provides a single chip-select and a single IRQ line - the motherboard design should ensure each socket gets a unique signal for each of these. Each expansion device should also contain a AT24C256 or similar EEPROM device. To allow these EEPROM devices to be scanned, each slot also contains three `EEPROM_ADDRESS` pins, tied to Vcc or GND in a unique combination. These should be connected through to the EEPROM address lines on your AT24C256, thus ensuring that each expansion card has its EEPROM at a unique address - 0x50 on Slot 0 through to a maximum possible 0x57 for Slot 7. Where your board has on-board devices, you should fit an AT24C256 EEPROM for each device so that the on-board devices can be discovered, exactly as if they were on an expansion card.
 
-The expansion slot is a simple 2x10 header. We suggest the use of a TE card-edge connector, but you could equally use a pin-header if desired.
+The expansion slot is a simple 2x10 header. We suggest the use of a TE card-edge connector, but you could equally use two 1x10 pin-headers if desired.
 
 The pin functions are:
 
@@ -235,6 +234,20 @@ The pin functions are:
           3V3   17  18   3V3
           GND   19  20   GND
 ```
+
+## Expansion Ideas
+
+Why not design and build your own expansion card? You could try designing:
+
+* A dual Atari/SEGA 9-pin Joypad Interface
+* A Mikro Eletronika Click adaptor, allow many of the range of [Click board](https://www.mikroe.com/click) to be fitted
+* A Wi-Fi/Bluetooth card, using an Espressif ESP32
+* A second processor card - perhaps with a RISC-V microcontroller, or classic Zilog Z80
+* An OPL2 or OPL3 based FM synthesiser card
+* An ISA adaptor card (taking an ISA card at right-angles, i.e. parallel to the base board) - a simple microcontroller should be able to bit-bang the ISA bus at 8 MHz and offer an SPI peripheral interface to the Neotron Expansion Slot
+* An IDE interface card, allowing 40-pin IDE Hard Disk Drives and CD-ROM drives to be used - this will be quite similar to an ISA bus adaptor
+* A floppy drive controller card - either using an eSPI Super I/O chip, or connecting a legacy ISA bus floppy controller as per the ISA adaptor
+* A video card for a second monitor output, perhaps based on the CPLD used in the [VGAtonic](https://hackaday.io/project/6309-vga-graphics-over-spi-and-serial-vgatonic)
 
 ## Changelog
 
