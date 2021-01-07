@@ -58,7 +58,10 @@ F 0 "H101" H 1700 6449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1700 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 1600 6400 50  0001 C CNN
 F 3 "~" H 1600 6400 50  0001 C CNN
-F 4 "0" H 1600 6400 50  0001 C CNN "DNP"
+F 4 "1" H 1600 6400 50  0001 C CNN "DNP"
+F 5 "~" H 1600 6400 50  0001 C CNN "Digikey"
+F 6 "~" H 1600 6400 50  0001 C CNN "MPN"
+F 7 "~" H 1600 6400 50  0001 C CNN "Manufacturer"
 	1    1600 6400
 	1    0    0    -1  
 $EndComp
@@ -70,7 +73,10 @@ F 0 "H105" H 1700 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1700 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 1600 6900 50  0001 C CNN
 F 3 "~" H 1600 6900 50  0001 C CNN
-F 4 "0" H 1600 6900 50  0001 C CNN "DNP"
+F 4 "1" H 1600 6900 50  0001 C CNN "DNP"
+F 5 "~" H 1600 6900 50  0001 C CNN "Digikey"
+F 6 "~" H 1600 6900 50  0001 C CNN "MPN"
+F 7 "~" H 1600 6900 50  0001 C CNN "Manufacturer"
 	1    1600 6900
 	1    0    0    -1  
 $EndComp
@@ -82,7 +88,10 @@ F 0 "H102" H 2650 6449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2650 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 6400 50  0001 C CNN
 F 3 "~" H 2550 6400 50  0001 C CNN
-F 4 "0" H 2550 6400 50  0001 C CNN "DNP"
+F 4 "1" H 2550 6400 50  0001 C CNN "DNP"
+F 5 "~" H 2550 6400 50  0001 C CNN "Digikey"
+F 6 "~" H 2550 6400 50  0001 C CNN "MPN"
+F 7 "~" H 2550 6400 50  0001 C CNN "Manufacturer"
 	1    2550 6400
 	1    0    0    -1  
 $EndComp
@@ -94,7 +103,10 @@ F 0 "H106" H 2650 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2650 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 6900 50  0001 C CNN
 F 3 "~" H 2550 6900 50  0001 C CNN
-F 4 "0" H 2550 6900 50  0001 C CNN "DNP"
+F 4 "1" H 2550 6900 50  0001 C CNN "DNP"
+F 5 "~" H 2550 6900 50  0001 C CNN "Digikey"
+F 6 "~" H 2550 6900 50  0001 C CNN "MPN"
+F 7 "~" H 2550 6900 50  0001 C CNN "Manufacturer"
 	1    2550 6900
 	1    0    0    -1  
 $EndComp
@@ -106,7 +118,10 @@ F 0 "H103" H 3600 6449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 6400 50  0001 C CNN
 F 3 "~" H 3500 6400 50  0001 C CNN
-F 4 "0" H 3500 6400 50  0001 C CNN "DNP"
+F 4 "1" H 3500 6400 50  0001 C CNN "DNP"
+F 5 "~" H 3500 6400 50  0001 C CNN "Digikey"
+F 6 "~" H 3500 6400 50  0001 C CNN "MPN"
+F 7 "~" H 3500 6400 50  0001 C CNN "Manufacturer"
 	1    3500 6400
 	1    0    0    -1  
 $EndComp
@@ -118,7 +133,10 @@ F 0 "H108" H 2650 7449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2650 7358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 7400 50  0001 C CNN
 F 3 "~" H 2550 7400 50  0001 C CNN
-F 4 "0" H 2550 7400 50  0001 C CNN "DNP"
+F 4 "1" H 2550 7400 50  0001 C CNN "DNP"
+F 5 "~" H 2550 7400 50  0001 C CNN "Digikey"
+F 6 "~" H 2550 7400 50  0001 C CNN "MPN"
+F 7 "~" H 2550 7400 50  0001 C CNN "Manufacturer"
 	1    2550 7400
 	1    0    0    -1  
 $EndComp
@@ -130,7 +148,10 @@ F 0 "H104" H 800 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 800 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 700 6900 50  0001 C CNN
 F 3 "~" H 700 6900 50  0001 C CNN
-F 4 "0" H 700 6900 50  0001 C CNN "DNP"
+F 4 "1" H 700 6900 50  0001 C CNN "DNP"
+F 5 "~" H 700 6900 50  0001 C CNN "Digikey"
+F 6 "~" H 700 6900 50  0001 C CNN "MPN"
+F 7 "~" H 700 6900 50  0001 C CNN "Manufacturer"
 	1    700  6900
 	1    0    0    -1  
 $EndComp
@@ -219,7 +240,10 @@ F 0 "H109" H 3600 7449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 7358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 7400 50  0001 C CNN
 F 3 "~" H 3500 7400 50  0001 C CNN
-F 4 "0" H 3500 7400 50  0001 C CNN "DNP"
+F 4 "1" H 3500 7400 50  0001 C CNN "DNP"
+F 5 "~" H 3500 7400 50  0001 C CNN "Digikey"
+F 6 "~" H 3500 7400 50  0001 C CNN "MPN"
+F 7 "~" H 3500 7400 50  0001 C CNN "Manufacturer"
 	1    3500 7400
 	1    0    0    -1  
 $EndComp
@@ -231,7 +255,10 @@ F 0 "H107" H 3600 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 6900 50  0001 C CNN
 F 3 "~" H 3500 6900 50  0001 C CNN
-F 4 "0" H 3500 6900 50  0001 C CNN "DNP"
+F 4 "1" H 3500 6900 50  0001 C CNN "DNP"
+F 5 "~" H 3500 6900 50  0001 C CNN "Digikey"
+F 6 "~" H 3500 6900 50  0001 C CNN "MPN"
+F 7 "~" H 3500 6900 50  0001 C CNN "Manufacturer"
 	1    3500 6900
 	1    0    0    -1  
 $EndComp
@@ -276,6 +303,10 @@ F 1 "OSHW Logo" H 6100 6950 50  0000 C CNN
 F 2 "Symbol:OSHW-Logo_11.4x12mm_SilkScreen" H 6100 6944 50  0001 C CNN
 F 3 "~" H 6100 6650 50  0001 C CNN
 F 4 "1" H 6100 6650 50  0001 C CNN "DNP"
+F 5 "~" H 6100 6650 50  0001 C CNN "Digikey"
+F 6 "~" H 6100 6650 50  0001 C CNN "MPN"
+F 7 "~" H 6100 6650 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6100 6650 50  0001 C CNN "Mouser"
 	1    6100 6650
 	1    0    0    -1  
 $EndComp
@@ -288,6 +319,10 @@ F 1 "Kicad Logo" H 5600 6950 50  0000 C CNN
 F 2 "Symbol:KiCad-Logo2_12mm_SilkScreen" H 5600 6944 50  0001 C CNN
 F 3 "~" H 5600 6650 50  0001 C CNN
 F 4 "1" H 5600 6650 50  0001 C CNN "DNP"
+F 5 "~" H 5600 6650 50  0001 C CNN "Digikey"
+F 6 "~" H 5600 6650 50  0001 C CNN "MPN"
+F 7 "~" H 5600 6650 50  0001 C CNN "Manufacturer"
+F 8 "~" H 5600 6650 50  0001 C CNN "Mouser"
 	1    5600 6650
 	1    0    0    -1  
 $EndComp
@@ -300,6 +335,10 @@ F 1 "Neotron Logo" H 5050 6950 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:logo" H 5050 6944 50  0001 C CNN
 F 3 "~" H 5050 6650 50  0001 C CNN
 F 4 "1" H 5050 6650 50  0001 C CNN "DNP"
+F 5 "~" H 5050 6650 50  0001 C CNN "Digikey"
+F 6 "~" H 5050 6650 50  0001 C CNN "MPN"
+F 7 "~" H 5050 6650 50  0001 C CNN "Manufacturer"
+F 8 "~" H 5050 6650 50  0001 C CNN "Mouser"
 	1    5050 6650
 	1    0    0    -1  
 $EndComp
@@ -351,6 +390,11 @@ F 0 "U101" H 1300 1940 50  0000 C CNN
 F 1 "Neotron-CPU" H 1300 1849 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron_CPU_Socket" H 1400 2025 50  0001 C CNN
 F 3 "https://github.com/neotron-compute" H 2200 1575 50  0001 C CNN
+F 4 "1" H 1300 1475 50  0001 C CNN "DNP"
+F 5 "~" H 1300 1475 50  0001 C CNN "Digikey"
+F 6 "~" H 1300 1475 50  0001 C CNN "MPN"
+F 7 "~" H 1300 1475 50  0001 C CNN "Manufacturer"
+F 8 "~" H 1300 1475 50  0001 C CNN "Mouser"
 	1    1300 1475
 	1    0    0    -1  
 $EndComp
@@ -362,6 +406,11 @@ F 0 "U101" H 1400 3240 50  0000 C CNN
 F 1 "Neotron-CPU" H 1400 3149 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron_CPU_Socket" H 1450 3325 50  0001 C CNN
 F 3 "https://github.com/neotron-compute" H 2250 2875 50  0001 C CNN
+F 4 "1" H 1350 2775 50  0001 C CNN "DNP"
+F 5 "~" H 1350 2775 50  0001 C CNN "Digikey"
+F 6 "~" H 1350 2775 50  0001 C CNN "MPN"
+F 7 "~" H 1350 2775 50  0001 C CNN "Manufacturer"
+F 8 "~" H 1350 2775 50  0001 C CNN "Mouser"
 	2    1350 2775
 	1    0    0    -1  
 $EndComp
@@ -373,6 +422,11 @@ F 0 "U101" H 2925 2990 50  0000 C CNN
 F 1 "Neotron-CPU" H 2925 2899 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron_CPU_Socket" H 3025 3075 50  0001 C CNN
 F 3 "https://github.com/neotron-compute" H 3825 2625 50  0001 C CNN
+F 4 "1" H 2925 2525 50  0001 C CNN "DNP"
+F 5 "~" H 2925 2525 50  0001 C CNN "Digikey"
+F 6 "~" H 2925 2525 50  0001 C CNN "MPN"
+F 7 "~" H 2925 2525 50  0001 C CNN "Manufacturer"
+F 8 "~" H 2925 2525 50  0001 C CNN "Mouser"
 	3    2925 2525
 	1    0    0    -1  
 $EndComp
@@ -384,6 +438,11 @@ F 0 "U101" H 3375 1850 50  0000 R CNN
 F 1 "Neotron-CPU" H 2375 1850 50  0000 L CNN
 F 2 "Neotron-Common-Hardware:Neotron_CPU_Socket" H 2975 2050 50  0001 C CNN
 F 3 "https://github.com/neotron-compute" H 3775 1600 50  0001 C CNN
+F 4 "1" H 2875 1500 50  0001 C CNN "DNP"
+F 5 "~" H 2875 1500 50  0001 C CNN "Digikey"
+F 6 "~" H 2875 1500 50  0001 C CNN "MPN"
+F 7 "~" H 2875 1500 50  0001 C CNN "Manufacturer"
+F 8 "~" H 2875 1500 50  0001 C CNN "Mouser"
 	4    2875 1500
 	-1   0    0    -1  
 $EndComp
@@ -395,6 +454,11 @@ F 0 "U101" H 1875 5175 50  0000 R CNN
 F 1 "Neotron-CPU" H 875 5175 50  0000 L CNN
 F 2 "Neotron-Common-Hardware:Neotron_CPU_Socket" H 1475 5375 50  0001 C CNN
 F 3 "https://github.com/neotron-compute" H 2275 4925 50  0001 C CNN
+F 4 "1" H 1375 4825 50  0001 C CNN "DNP"
+F 5 "~" H 1375 4825 50  0001 C CNN "Digikey"
+F 6 "~" H 1375 4825 50  0001 C CNN "MPN"
+F 7 "~" H 1375 4825 50  0001 C CNN "Manufacturer"
+F 8 "~" H 1375 4825 50  0001 C CNN "Mouser"
 	5    1375 4825
 	-1   0    0    -1  
 $EndComp
@@ -621,7 +685,11 @@ P 3975 4825
 F 0 "J101" H 3950 5540 50  0000 C CNN
 F 1 "Neotron-Expansion-Slot" H 3950 5449 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 4425 5225 50  0001 C CNN
-F 3 "" H 4425 5225 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English" H 4425 5225 50  0001 C CNN
+F 4 "0" H 3975 4825 50  0001 C CNN "DNP"
+F 5 "A31722-ND" H 3975 4825 50  0001 C CNN "Digikey"
+F 6 "5-5530843-0" H 3975 4825 50  0001 C CNN "MPN"
+F 7 "TE" H 3975 4825 50  0001 C CNN "Manufacturer"
 	1    3975 4825
 	1    0    0    -1  
 $EndComp
@@ -734,7 +802,11 @@ P 5900 4825
 F 0 "J102" H 5875 5540 50  0000 C CNN
 F 1 "Neotron-Expansion-Slot" H 5875 5449 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 6350 5225 50  0001 C CNN
-F 3 "" H 6350 5225 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English" H 6350 5225 50  0001 C CNN
+F 4 "0" H 5900 4825 50  0001 C CNN "DNP"
+F 5 "A31722-ND" H 5900 4825 50  0001 C CNN "Digikey"
+F 6 "5-5530843-0" H 5900 4825 50  0001 C CNN "MPN"
+F 7 "TE" H 5900 4825 50  0001 C CNN "Manufacturer"
 	1    5900 4825
 	1    0    0    -1  
 $EndComp
@@ -847,7 +919,11 @@ P 7725 4825
 F 0 "J103" H 7700 5540 50  0000 C CNN
 F 1 "Neotron-Expansion-Slot" H 7700 5449 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 8175 5225 50  0001 C CNN
-F 3 "" H 8175 5225 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English" H 8175 5225 50  0001 C CNN
+F 4 "0" H 7725 4825 50  0001 C CNN "DNP"
+F 5 "A31722-ND" H 7725 4825 50  0001 C CNN "Digikey"
+F 6 "5-5530843-0" H 7725 4825 50  0001 C CNN "MPN"
+F 7 "TE" H 7725 4825 50  0001 C CNN "Manufacturer"
 	1    7725 4825
 	1    0    0    -1  
 $EndComp
@@ -966,7 +1042,11 @@ P 9575 4825
 F 0 "J104" H 9550 5540 50  0000 C CNN
 F 1 "Neotron-Expansion-Slot" H 9550 5449 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 10025 5225 50  0001 C CNN
-F 3 "" H 10025 5225 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English" H 10025 5225 50  0001 C CNN
+F 4 "0" H 9575 4825 50  0001 C CNN "DNP"
+F 5 "A31722-ND" H 9575 4825 50  0001 C CNN "Digikey"
+F 6 "5-5530843-0" H 9575 4825 50  0001 C CNN "MPN"
+F 7 "TE" H 9575 4825 50  0001 C CNN "Manufacturer"
 	1    9575 4825
 	1    0    0    -1  
 $EndComp
