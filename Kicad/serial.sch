@@ -325,6 +325,7 @@ F 4 "1" H 8100 5500 50  0001 C CNN "DNP"
 F 5 "~" H 8100 5500 50  0001 C CNN "Digikey"
 F 6 "~" H 8100 5500 50  0001 C CNN "MPN"
 F 7 "~" H 8100 5500 50  0001 C CNN "Manufacturer"
+F 8 "~" H 8100 5500 50  0001 C CNN "Mouser"
 	1    8100 5500
 	1    0    0    -1  
 $EndComp

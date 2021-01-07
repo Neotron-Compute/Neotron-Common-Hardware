@@ -251,7 +251,7 @@ P 1250 4350
 F 0 "Y601" H 1250 4618 50  0000 C CNN
 F 1 "12M" H 1250 4527 50  0000 C CNN
 F 2 "Crystal:Crystal_HC49-4H_Vertical" H 1250 4350 50  0001 C CNN
-F 3 "~" H 1250 4350 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/ABL.pdf" H 1250 4350 50  0001 C CNN
 F 4 "0" H 1250 4350 50  0001 C CNN "DNP"
 F 5 "535-9037-ND" H 1250 4350 50  0001 C CNN "Digikey"
 F 6 "Abracon" H 1250 4350 50  0001 C CNN "Manufacturer"
@@ -1489,6 +1489,7 @@ F 4 "1" H 6750 5100 50  0001 C CNN "DNP"
 F 5 "~" H 6750 5100 50  0001 C CNN "Digikey"
 F 6 "~" H 6750 5100 50  0001 C CNN "MPN"
 F 7 "~" H 6750 5100 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6750 5100 50  0001 C CNN "Mouser"
 	1    6750 5100
 	-1   0    0    1   
 $EndComp
@@ -1809,6 +1810,7 @@ F 4 "1" H 7050 1650 50  0001 C CNN "DNP"
 F 5 "~" H 7050 1650 50  0001 C CNN "Digikey"
 F 6 "~" H 7050 1650 50  0001 C CNN "MPN"
 F 7 "~" H 7050 1650 50  0001 C CNN "Manufacturer"
+F 8 "~" H 7050 1650 50  0001 C CNN "Mouser"
 	1    7050 1650
 	-1   0    0    1   
 $EndComp
@@ -1837,6 +1839,7 @@ F 4 "1" H 6450 1650 50  0001 C CNN "DNP"
 F 5 "~" H 6450 1650 50  0001 C CNN "Digikey"
 F 6 "~" H 6450 1650 50  0001 C CNN "MPN"
 F 7 "~" H 6450 1650 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6450 1650 50  0001 C CNN "Mouser"
 	1    6450 1650
 	1    0    0    1   
 $EndComp
@@ -1865,6 +1868,7 @@ F 4 "1" H 5550 1650 50  0001 C CNN "DNP"
 F 5 "~" H 5550 1650 50  0001 C CNN "Digikey"
 F 6 "~" H 5550 1650 50  0001 C CNN "MPN"
 F 7 "~" H 5550 1650 50  0001 C CNN "Manufacturer"
+F 8 "~" H 5550 1650 50  0001 C CNN "Mouser"
 	1    5550 1650
 	-1   0    0    1   
 $EndComp
@@ -1880,6 +1884,7 @@ F 4 "1" H 6050 1650 50  0001 C CNN "DNP"
 F 5 "~" H 6050 1650 50  0001 C CNN "Digikey"
 F 6 "~" H 6050 1650 50  0001 C CNN "MPN"
 F 7 "~" H 6050 1650 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6050 1650 50  0001 C CNN "Mouser"
 	1    6050 1650
 	1    0    0    1   
 $EndComp
@@ -1983,6 +1988,7 @@ F 4 "1" H 7250 2850 50  0001 C CNN "DNP"
 F 5 "~" H 7250 2850 50  0001 C CNN "Digikey"
 F 6 "~" H 7250 2850 50  0001 C CNN "MPN"
 F 7 "~" H 7250 2850 50  0001 C CNN "Manufacturer"
+F 8 "~" H 7250 2850 50  0001 C CNN "Mouser"
 	1    7250 2850
 	-1   0    0    1   
 $EndComp
@@ -2011,6 +2017,7 @@ F 4 "1" H 6650 2850 50  0001 C CNN "DNP"
 F 5 "~" H 6650 2850 50  0001 C CNN "Digikey"
 F 6 "~" H 6650 2850 50  0001 C CNN "MPN"
 F 7 "~" H 6650 2850 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6650 2850 50  0001 C CNN "Mouser"
 	1    6650 2850
 	1    0    0    1   
 $EndComp
@@ -2039,6 +2046,7 @@ F 4 "1" H 5650 2850 50  0001 C CNN "DNP"
 F 5 "~" H 5650 2850 50  0001 C CNN "Digikey"
 F 6 "~" H 5650 2850 50  0001 C CNN "MPN"
 F 7 "~" H 5650 2850 50  0001 C CNN "Manufacturer"
+F 8 "~" H 5650 2850 50  0001 C CNN "Mouser"
 	1    5650 2850
 	-1   0    0    1   
 $EndComp
@@ -2054,6 +2062,7 @@ F 4 "1" H 6250 2850 50  0001 C CNN "DNP"
 F 5 "~" H 6250 2850 50  0001 C CNN "Digikey"
 F 6 "~" H 6250 2850 50  0001 C CNN "MPN"
 F 7 "~" H 6250 2850 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6250 2850 50  0001 C CNN "Mouser"
 	1    6250 2850
 	1    0    0    1   
 $EndComp
@@ -2139,6 +2148,7 @@ F 4 "1" H 7150 4000 50  0001 C CNN "DNP"
 F 5 "~" H 7150 4000 50  0001 C CNN "Digikey"
 F 6 "~" H 7150 4000 50  0001 C CNN "MPN"
 F 7 "~" H 7150 4000 50  0001 C CNN "Manufacturer"
+F 8 "~" H 7150 4000 50  0001 C CNN "Mouser"
 	1    7150 4000
 	1    0    0    1   
 $EndComp
@@ -2169,6 +2179,7 @@ F 4 "1" H 7750 4000 50  0001 C CNN "DNP"
 F 5 "~" H 7750 4000 50  0001 C CNN "Digikey"
 F 6 "~" H 7750 4000 50  0001 C CNN "MPN"
 F 7 "~" H 7750 4000 50  0001 C CNN "Manufacturer"
+F 8 "~" H 7750 4000 50  0001 C CNN "Mouser"
 	1    7750 4000
 	-1   0    0    1   
 $EndComp
@@ -2227,6 +2238,7 @@ F 4 "1" H 6750 4000 50  0001 C CNN "DNP"
 F 5 "~" H 6750 4000 50  0001 C CNN "Digikey"
 F 6 "~" H 6750 4000 50  0001 C CNN "MPN"
 F 7 "~" H 6750 4000 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6750 4000 50  0001 C CNN "Mouser"
 	1    6750 4000
 	1    0    0    1   
 $EndComp
@@ -2257,6 +2269,7 @@ F 4 "1" H 6350 4000 50  0001 C CNN "DNP"
 F 5 "~" H 6350 4000 50  0001 C CNN "Digikey"
 F 6 "~" H 6350 4000 50  0001 C CNN "MPN"
 F 7 "~" H 6350 4000 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6350 4000 50  0001 C CNN "Mouser"
 	1    6350 4000
 	1    0    0    1   
 $EndComp

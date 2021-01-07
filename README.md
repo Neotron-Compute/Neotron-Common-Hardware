@@ -18,8 +18,8 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 * AC'97 Pin Header
   * Headphone Out
   * Microphone In
-* Extra line-level output pin header (e.g. for additional RCA audio jacks)
-* Extra line-level input pin header (e.g. CD-ROM audio)
+* Extra line-level output pin header (e.g. for additional RCA audio jacks - operates in addition to 3.5mm headphone jack output)
+* Internal line-level input pin header (e.g. for CD-ROM audio - disabled when line-in 3.5mm jack in-use)
 
 ### Super VGA output
 
@@ -28,7 +28,7 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 * 3peak TPF133A or Texas Instruments THS7316 RGB video buffer
    * 36 MHz bandwidth - 1024x768@60Hz maximum
    * 6dB gain
-   * Drives 75 ohm output
+   * Drives 75 ohm standard VGA interface
 * I²C/DDC level shifter and EMC filter
 
 ### RS232 Interface
@@ -51,70 +51,54 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 * Link and Activity LEDs
 
 ### Board Management Controller
-* NXP Kinetic KE04 (MKE04Z8VWJ4) microcontroller
+* ST Micro STM32F0 (STM32F030F4P6) microcontroller
   * 32-bit Arm Cortex-M0+ Core
-  * 5V I/O
+  * 3.3V I/O
   * 8 KiB Flash
-  * 1 KiB SRAM
-  * SOIC-20 package
+  * 4 KiB SRAM
+  * TSSOP-20 package
 * Controls two PS/2 ports
 * Monitors 5V and 3.3V rails
-* Controls reset, soft-on and soft-off for main CPU
-* Runs from 5V stand-by regulator
+* Controls system reset, soft-on and soft-off for main CPU
+* Can the main 5V regulator on and off
+* Runs from 3.3V stand-by regulator
 * I²C interface (with dedicated IRQ line) with main CPU
 
-| Pin | Name | Peripheral | Function          |
-|:----|:-----|:-----------|:------------------|
-| 1   | PTA5 | ~RESET     | Reset BMC         |
-| 2   | PTA4 | SWDIO      | Debug             |
-| 3   | VDD  | N/A        | 5V Power          |
-| 4   | VSS  | N/A        | Ground            |
-| 5   | PTB7 | PTB7       | Status LED        |
-| 6   | PTB6 | PTB6       | DC-DC Enable      |
-| 7   | PTB5 | PTB5       | Reset Output      |
-| 8   | PTB4 | PTB4       | Power Switch In   |
-| 9   | PTC3 | PTC3       | PS/2 Clock 0      |
-| 10  | PTC2 | PTC2       | PS/2 Data 0       |
-| 11  | PTC1 | PTC1       | PS/2 Clock 1      |
-| 12  | PTC0 | PTC0       | PS/2 Data 1       |
-| 13  | PTB3 | PTB3       | Reset Switch In   |
-| 14  | PTB2 | PTB2       | Host IRQ          |
-| 15  | PTB1 | UART0_TX   | Console           |
-| 16  | PTB0 | ADC0_SE4   | Monitor 3.3V rail |
-| 17  | PTA3 | I2C0_SCL   | Host comms        |
-| 18  | PTA2 | I2C0_SDA   | Host comms        |
-| 19  | PTA1 | ADC0_SE1   | Monitor 5V rail   |
-| 20  | PTA0 | SWDCLK     | Debug             |
+| Pin | Name  | Peripheral | Function           |
+|:----|:------|:-----------|:-------------------|
+| 16  | VDD   | N/A        | 3.3V Digital Power |
+| 5   | VDDA  | N/A        | 3.3V Analog Power  |
+| 15  | VSS   | N/A        | Ground             |
+| 1   | BOOT0 | BOOT0      | Boot Mode Select   |
+| 4   | NRST  | Reset      | Reset BMC          |
+| 6   | PA0   | ADC0       | Monitor 3.3V rail  |
+| 7   | PA1   | ADC0       | Monitor 5V rail    |
+| 8   | PA2   | USART1_TX  | Debug Log          |
+| 9   | PA3   | Output     | Status LED         |
+| 10  | PA4   | Output     | DC-DC Enable       |
+| 11  | PA5   | Output     | System Reset       |
+| 12  | PA6   | Input      | Reset Switch In    |
+| 13  | PA7   | Input      | Power Switch In    |
+| 17  | PA9   | I2C0_SCL   | Host comms         |
+| 18  | PA10  | I2C0_SDA   | Host comms         |
+| 19  | PA13  | IO         | PS/2 Data 1        |
+| 20  | PA14  | IO         | PS/2 Clock 1       |
+| 14  | PB1   | Output     | Host IRQ           |
+| 2   | PF0   | IO         | PS/2 Data 0        |
+| 3   | PF1   | IO         | PS/2 Clock 0       |
 
 ### PS/2 Keyboard and Mouse
 
 * Twin mini 6-pin DIN ports
 * Controlled via Board Management Controller
 
-### Joystick/Joypad
-
-* I²C interface to main CPU
-* Two 9-pin Atari/SEGA/Commodore digital joystick/joypad interfaces
-* Supports 3-button SEGA MegaDrive/Genesis joypads
-
 ### Power Supply
 
-* Unregulated 7V to 28V input fused at 5A
-* 3A 5.0V main regulator (DC-DC module)
-* 30mA 5.0V stand-by regulator (low-power linear regulator)
-* 1A 3.3V regulator (high-power linear regulator)
-* Power-on reset circuit support
-* Soft power-off support
-* Controlled by dedicated microcontroller
-  * NXP Kinetis MKE04Z8VTG4
-  * ARM Cortex-M0+ core
-  * Power switch input
-  * Reset switch input
-  * Controls main 5V regulator, and system RESET line
-  * I²C interface to main CPU, with IRQ line
-  * 2x PS/2 interfaces (keyboard and mouse)
-  * 5V / 5VSB / 3.3V monitoring
-  * Runs on 5V stand-by regulator
+* Unregulated 12V (7V to 28V) input fused with a PTC at 2A
+* 3A 5.0V main regulator (DC-DC switch-mode regulator module)
+* 30mA 3.3V stand-by regulator (a micropower linear regulator)
+* 1A 3.3V regulator (a high-power 1117 type linear regulator)
+* Controlled by the Board Management Controller
 
 ### CPU Socket
 
@@ -122,7 +106,12 @@ The CPU can either be designed to solder direct to your particular motherboard d
 
 The socket is basically two 2x20 pin headers, placed 130 mil apart. This should give enough space to fit even a TQFP-176 microcontroller and some TSOP-54 SDRAM.
 
+The pins are labelled in row.column fashion, i.e. 1.1 is top left, 1.20 is top right and 4.20 is bottom right.
+
 ```
+ +----- Pin 1.1
+ |
+ v
 +---------------------------------------+
 |o o o o o o o o o o o o o o o o o o o o|
 |o o o o o o o o o o o o o o o o o o o o|
@@ -141,9 +130,10 @@ The socket is basically two 2x20 pin headers, placed 130 mil apart. This should 
 |o o o o o o o o o o o o o o o o o o o o|
 |o o o o o o o o o o o o o o o o o o o o|
 +---------------------------------------+
+                                       ^
+                                       |
+                         Pin 4.20 -----+
 ```
-
-The pins are labelled in column.row fashion, i.e. 1.1 is top left, 1.20 is top right and 4.20 is bottom right.
 
 | Pin  | Function             |
 |:-----|:---------------------|
@@ -224,11 +214,11 @@ The pins are labelled in column.row fashion, i.e. 1.1 is top left, 1.20 is top r
 | 4.19 | ~IRQ1                |
 | 4.20 | ~IRQ0                |
 
-### Expansion Socket
+## Expansion
 
-The expansion socket allows you to add on I²C or SPI based devices at a later date. It provides a single chip-select and a single IRQ line - the motherboard design should ensure each socket gets a unique signal for each of these. Each expansion device should also contain a AT24C256 or similar EEPROM device. To allow these EEPROM devices to be scanned, each slot also contains three `EEPROM_ADDRESS` pins, tied to Vcc or GND in a unique combination. These should be connected through to the EEPROM address lines on your AT24C256, thus ensuring that each expansion card has its EEPROM at a unique address.
+The (up-to) seven expansion sockets allow you to add on I²C or SPI based devices at a later date. Each provides a single chip-select and a single IRQ line - the motherboard design should ensure each socket gets a unique signal for each of these. Each expansion device should also contain a AT24C256 or similar EEPROM device. To allow these EEPROM devices to be scanned, each slot also contains three `EEPROM_ADDRESS` pins, tied to Vcc or GND in a unique combination. These should be connected through to the EEPROM address lines on your AT24C256, thus ensuring that each expansion card has its EEPROM at a unique address - 0x50 on Slot 0 through to a maximum possible 0x57 for Slot 7. Where your board has on-board devices, you should fit an AT24C256 EEPROM for each device so that the on-board devices can be discovered, exactly as if they were on an expansion card.
 
-The expansion slot is a simple 2x10 header. We suggest the use of a TE card-edge connector, but you could equally use a pin-header if desired.
+The expansion slot is a simple 2x10 header. We suggest the use of a TE card-edge connector, but you could equally use two 1x10 pin-headers if desired.
 
 The pin functions are:
 
@@ -244,6 +234,20 @@ The pin functions are:
           3V3   17  18   3V3
           GND   19  20   GND
 ```
+
+## Expansion Ideas
+
+Why not design and build your own expansion card? You could try designing:
+
+* A dual Atari/SEGA 9-pin Joypad Interface
+* A Mikro Eletronika Click adaptor, allow many of the range of [Click board](https://www.mikroe.com/click) to be fitted
+* A Wi-Fi/Bluetooth card, using an Espressif ESP32
+* A second processor card - perhaps with a RISC-V microcontroller, or classic Zilog Z80
+* An OPL2 or OPL3 based FM synthesiser card
+* An ISA adaptor card (taking an ISA card at right-angles, i.e. parallel to the base board) - a simple microcontroller should be able to bit-bang the ISA bus at 8 MHz and offer an SPI peripheral interface to the Neotron Expansion Slot
+* An IDE interface card, allowing 40-pin IDE Hard Disk Drives and CD-ROM drives to be used - this will be quite similar to an ISA bus adaptor
+* A floppy drive controller card - either using an eSPI Super I/O chip, or connecting a legacy ISA bus floppy controller as per the ISA adaptor
+* A video card for a second monitor output, perhaps based on the CPLD used in the [VGAtonic](https://hackaday.io/project/6309-vga-graphics-over-spi-and-serial-vgatonic)
 
 ## Changelog
 

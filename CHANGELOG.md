@@ -4,6 +4,10 @@
 
 * None
 
+## v0.5.0
+
+* Swap BMC from NXP KE04Z to ST STM32F0
+
 ## v0.4.0
 
 * Added missing part numbers.
