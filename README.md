@@ -106,7 +106,7 @@ The CPU can either be designed to solder direct to your particular motherboard d
 
 The socket is basically two 2x20 pin headers, placed 130 mil apart. This should give enough space to fit even a TQFP-176 microcontroller and some TSOP-54 SDRAM.
 
-The pins are labelled in column.row fashion, i.e. 1.1 is top left, 1.20 is top right and 4.20 is bottom right.
+The pins are labelled in row.column fashion, i.e. 1.1 is top left, 1.20 is top right and 4.20 is bottom right.
 
 ```
  +----- Pin 1.1
