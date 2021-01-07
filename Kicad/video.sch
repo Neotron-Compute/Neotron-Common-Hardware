@@ -707,6 +707,10 @@ F 1 "DNF" V 8950 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8980 4750 50  0001 C CNN
 F 3 "~" H 9050 4750 50  0001 C CNN
 F 4 "1" H 9050 4750 50  0001 C CNN "DNP"
+F 5 "~" H 9050 4750 50  0001 C CNN "Digikey"
+F 6 "~" H 9050 4750 50  0001 C CNN "MPN"
+F 7 "~" H 9050 4750 50  0001 C CNN "Manufacturer"
+F 8 "~" H 9050 4750 50  0001 C CNN "Mouser"
 	1    9050 4750
 	0    -1   -1   0   
 $EndComp

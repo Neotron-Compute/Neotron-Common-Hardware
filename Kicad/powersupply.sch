@@ -399,6 +399,10 @@ F 1 "SW_DIP_x01" H 9650 5276 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9650 5100 50  0001 C CNN
 F 3 "~" H 9650 5100 50  0001 C CNN
 F 4 "1" H 9650 5100 50  0001 C CNN "DNP"
+F 5 "~" H 9650 5100 50  0001 C CNN "Digikey"
+F 6 "~" H 9650 5100 50  0001 C CNN "MPN"
+F 7 "~" H 9650 5100 50  0001 C CNN "Manufacturer"
+F 8 "~" H 9650 5100 50  0001 C CNN "Mouser"
 	1    9650 5100
 	-1   0    0    -1  
 $EndComp
@@ -415,6 +419,10 @@ F 1 "SW_DIP_x01" H 9650 5951 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9650 5775 50  0001 C CNN
 F 3 "~" H 9650 5775 50  0001 C CNN
 F 4 "1" H 9650 5775 50  0001 C CNN "DNP"
+F 5 "~" H 9650 5775 50  0001 C CNN "Digikey"
+F 6 "~" H 9650 5775 50  0001 C CNN "MPN"
+F 7 "~" H 9650 5775 50  0001 C CNN "Manufacturer"
+F 8 "~" H 9650 5775 50  0001 C CNN "Mouser"
 	1    9650 5775
 	-1   0    0    -1  
 $EndComp
@@ -868,6 +876,9 @@ F 1 "STM32F030F4Px" H 7500 5050 50  0000 C CNN
 F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 7500 3675 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf" H 7900 4375 50  0001 C CNN
 F 4 "0" H 7900 4375 50  0001 C CNN "DNP"
+F 5 "497-17333-1-ND" H 7900 4375 50  0001 C CNN "Digikey"
+F 6 "STM32F030F4P6TR" H 7900 4375 50  0001 C CNN "MPN"
+F 7 "ST Micro" H 7900 4375 50  0001 C CNN "Manufacturer"
 	1    7900 4375
 	1    0    0    -1  
 $EndComp
@@ -986,6 +997,10 @@ F 1 "Jumper" H 6650 4169 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6650 4075 50  0001 C CNN
 F 3 "~" H 6650 4075 50  0001 C CNN
 F 4 "1" H 6650 4075 50  0001 C CNN "DNP"
+F 5 "~" H 6650 4075 50  0001 C CNN "Digikey"
+F 6 "~" H 6650 4075 50  0001 C CNN "MPN"
+F 7 "~" H 6650 4075 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6650 4075 50  0001 C CNN "Mouser"
 	1    6650 4075
 	1    0    0    -1  
 $EndComp
@@ -1157,6 +1172,10 @@ F 1 "Jumper" H 5525 4796 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5525 4675 50  0001 C CNN
 F 3 "~" H 5525 4675 50  0001 C CNN
 F 4 "1" H 5525 4675 50  0001 C CNN "DNP"
+F 5 "~" H 5525 4675 50  0001 C CNN "Digikey"
+F 6 "~" H 5525 4675 50  0001 C CNN "MPN"
+F 7 "~" H 5525 4675 50  0001 C CNN "Manufacturer"
+F 8 "~" H 5525 4675 50  0001 C CNN "Mouser"
 	1    5525 4675
 	-1   0    0    -1  
 $EndComp
@@ -1169,6 +1188,10 @@ F 1 "Jumper" H 5525 5096 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5525 4975 50  0001 C CNN
 F 3 "~" H 5525 4975 50  0001 C CNN
 F 4 "1" H 5525 4975 50  0001 C CNN "DNP"
+F 5 "~" H 5525 4975 50  0001 C CNN "Digikey"
+F 6 "~" H 5525 4975 50  0001 C CNN "MPN"
+F 7 "~" H 5525 4975 50  0001 C CNN "Manufacturer"
+F 8 "~" H 5525 4975 50  0001 C CNN "Mouser"
 	1    5525 4975
 	-1   0    0    -1  
 $EndComp
@@ -1183,6 +1206,10 @@ F 1 "TestPoint" H 9183 3902 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9325 3875 50  0001 C CNN
 F 3 "~" H 9325 3875 50  0001 C CNN
 F 4 "1" H 9125 3875 50  0001 C CNN "DNP"
+F 5 "~" H 9125 3875 50  0001 C CNN "Digikey"
+F 6 "~" H 9125 3875 50  0001 C CNN "MPN"
+F 7 "~" H 9125 3875 50  0001 C CNN "Manufacturer"
+F 8 "~" H 9125 3875 50  0001 C CNN "Mouser"
 	1    9125 3875
 	1    0    0    -1  
 $EndComp
@@ -1273,6 +1300,10 @@ F 1 "TestPoint" V 5720 5413 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5875 5225 50  0001 C CNN
 F 3 "~" H 5875 5225 50  0001 C CNN
 F 4 "1" H 5675 5225 50  0001 C CNN "DNP"
+F 5 "~" H 5675 5225 50  0001 C CNN "Digikey"
+F 6 "~" H 5675 5225 50  0001 C CNN "MPN"
+F 7 "~" H 5675 5225 50  0001 C CNN "Manufacturer"
+F 8 "~" H 5675 5225 50  0001 C CNN "Mouser"
 	1    5675 5225
 	0    -1   1    0   
 $EndComp
@@ -1285,6 +1316,10 @@ F 1 "TestPoint" V 5720 5613 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5875 5425 50  0001 C CNN
 F 3 "~" H 5875 5425 50  0001 C CNN
 F 4 "1" H 5675 5425 50  0001 C CNN "DNP"
+F 5 "~" H 5675 5425 50  0001 C CNN "Digikey"
+F 6 "~" H 5675 5425 50  0001 C CNN "MPN"
+F 7 "~" H 5675 5425 50  0001 C CNN "Manufacturer"
+F 8 "~" H 5675 5425 50  0001 C CNN "Mouser"
 	1    5675 5425
 	0    -1   1    0   
 $EndComp

@@ -242,7 +242,7 @@ P 1250 4350
 F 0 "Y601" H 1250 4618 50  0000 C CNN
 F 1 "12M" H 1250 4527 50  0000 C CNN
 F 2 "Crystal:Crystal_HC49-4H_Vertical" H 1250 4350 50  0001 C CNN
-F 3 "~" H 1250 4350 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/ABL.pdf" H 1250 4350 50  0001 C CNN
 F 4 "0" H 1250 4350 50  0001 C CNN "DNP"
 F 5 "535-9037-ND" H 1250 4350 50  0001 C CNN "Digikey"
 F 6 "Abracon" H 1250 4350 50  0001 C CNN "Manufacturer"
@@ -1435,6 +1435,10 @@ F 1 "DNF" H 6658 5145 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6750 5100 50  0001 C CNN
 F 3 "~" H 6750 5100 50  0001 C CNN
 F 4 "1" H 6750 5100 50  0001 C CNN "DNP"
+F 5 "~" H 6750 5100 50  0001 C CNN "Digikey"
+F 6 "~" H 6750 5100 50  0001 C CNN "MPN"
+F 7 "~" H 6750 5100 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6750 5100 50  0001 C CNN "Mouser"
 	1    6750 5100
 	-1   0    0    1   
 $EndComp
@@ -1740,6 +1744,10 @@ F 1 "DNF" H 6958 1695 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7050 1650 50  0001 C CNN
 F 3 "~" H 7050 1650 50  0001 C CNN
 F 4 "1" H 7050 1650 50  0001 C CNN "DNP"
+F 5 "~" H 7050 1650 50  0001 C CNN "Digikey"
+F 6 "~" H 7050 1650 50  0001 C CNN "MPN"
+F 7 "~" H 7050 1650 50  0001 C CNN "Manufacturer"
+F 8 "~" H 7050 1650 50  0001 C CNN "Mouser"
 	1    7050 1650
 	-1   0    0    1   
 $EndComp
@@ -1765,6 +1773,10 @@ F 1 "DNF" H 6358 1695 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6450 1650 50  0001 C CNN
 F 3 "~" H 6450 1650 50  0001 C CNN
 F 4 "1" H 6450 1650 50  0001 C CNN "DNP"
+F 5 "~" H 6450 1650 50  0001 C CNN "Digikey"
+F 6 "~" H 6450 1650 50  0001 C CNN "MPN"
+F 7 "~" H 6450 1650 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6450 1650 50  0001 C CNN "Mouser"
 	1    6450 1650
 	1    0    0    1   
 $EndComp
@@ -1790,6 +1802,10 @@ F 1 "DNF" H 5458 1695 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5550 1650 50  0001 C CNN
 F 3 "~" H 5550 1650 50  0001 C CNN
 F 4 "1" H 5550 1650 50  0001 C CNN "DNP"
+F 5 "~" H 5550 1650 50  0001 C CNN "Digikey"
+F 6 "~" H 5550 1650 50  0001 C CNN "MPN"
+F 7 "~" H 5550 1650 50  0001 C CNN "Manufacturer"
+F 8 "~" H 5550 1650 50  0001 C CNN "Mouser"
 	1    5550 1650
 	-1   0    0    1   
 $EndComp
@@ -1802,6 +1818,10 @@ F 1 "DNF" H 6000 1750 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6050 1650 50  0001 C CNN
 F 3 "~" H 6050 1650 50  0001 C CNN
 F 4 "1" H 6050 1650 50  0001 C CNN "DNP"
+F 5 "~" H 6050 1650 50  0001 C CNN "Digikey"
+F 6 "~" H 6050 1650 50  0001 C CNN "MPN"
+F 7 "~" H 6050 1650 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6050 1650 50  0001 C CNN "Mouser"
 	1    6050 1650
 	1    0    0    1   
 $EndComp
@@ -1902,6 +1922,10 @@ F 1 "DNF" H 7158 2895 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7250 2850 50  0001 C CNN
 F 3 "~" H 7250 2850 50  0001 C CNN
 F 4 "1" H 7250 2850 50  0001 C CNN "DNP"
+F 5 "~" H 7250 2850 50  0001 C CNN "Digikey"
+F 6 "~" H 7250 2850 50  0001 C CNN "MPN"
+F 7 "~" H 7250 2850 50  0001 C CNN "Manufacturer"
+F 8 "~" H 7250 2850 50  0001 C CNN "Mouser"
 	1    7250 2850
 	-1   0    0    1   
 $EndComp
@@ -1927,6 +1951,10 @@ F 1 "DNF" H 6550 2900 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6650 2850 50  0001 C CNN
 F 3 "~" H 6650 2850 50  0001 C CNN
 F 4 "1" H 6650 2850 50  0001 C CNN "DNP"
+F 5 "~" H 6650 2850 50  0001 C CNN "Digikey"
+F 6 "~" H 6650 2850 50  0001 C CNN "MPN"
+F 7 "~" H 6650 2850 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6650 2850 50  0001 C CNN "Mouser"
 	1    6650 2850
 	1    0    0    1   
 $EndComp
@@ -1952,6 +1980,10 @@ F 1 "DNF" H 5550 2900 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 2850 50  0001 C CNN
 F 3 "~" H 5650 2850 50  0001 C CNN
 F 4 "1" H 5650 2850 50  0001 C CNN "DNP"
+F 5 "~" H 5650 2850 50  0001 C CNN "Digikey"
+F 6 "~" H 5650 2850 50  0001 C CNN "MPN"
+F 7 "~" H 5650 2850 50  0001 C CNN "Manufacturer"
+F 8 "~" H 5650 2850 50  0001 C CNN "Mouser"
 	1    5650 2850
 	-1   0    0    1   
 $EndComp
@@ -1964,6 +1996,10 @@ F 1 "DNF" H 6150 2900 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 2850 50  0001 C CNN
 F 3 "~" H 6250 2850 50  0001 C CNN
 F 4 "1" H 6250 2850 50  0001 C CNN "DNP"
+F 5 "~" H 6250 2850 50  0001 C CNN "Digikey"
+F 6 "~" H 6250 2850 50  0001 C CNN "MPN"
+F 7 "~" H 6250 2850 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6250 2850 50  0001 C CNN "Mouser"
 	1    6250 2850
 	1    0    0    1   
 $EndComp
@@ -2046,6 +2082,10 @@ F 1 "DNF" H 7058 4045 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7150 4000 50  0001 C CNN
 F 3 "~" H 7150 4000 50  0001 C CNN
 F 4 "1" H 7150 4000 50  0001 C CNN "DNP"
+F 5 "~" H 7150 4000 50  0001 C CNN "Digikey"
+F 6 "~" H 7150 4000 50  0001 C CNN "MPN"
+F 7 "~" H 7150 4000 50  0001 C CNN "Manufacturer"
+F 8 "~" H 7150 4000 50  0001 C CNN "Mouser"
 	1    7150 4000
 	1    0    0    1   
 $EndComp
@@ -2073,6 +2113,10 @@ F 1 "DNF" H 7658 4045 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7750 4000 50  0001 C CNN
 F 3 "~" H 7750 4000 50  0001 C CNN
 F 4 "1" H 7750 4000 50  0001 C CNN "DNP"
+F 5 "~" H 7750 4000 50  0001 C CNN "Digikey"
+F 6 "~" H 7750 4000 50  0001 C CNN "MPN"
+F 7 "~" H 7750 4000 50  0001 C CNN "Manufacturer"
+F 8 "~" H 7750 4000 50  0001 C CNN "Mouser"
 	1    7750 4000
 	-1   0    0    1   
 $EndComp
@@ -2128,6 +2172,10 @@ F 1 "DNF" H 6650 4050 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6750 4000 50  0001 C CNN
 F 3 "~" H 6750 4000 50  0001 C CNN
 F 4 "1" H 6750 4000 50  0001 C CNN "DNP"
+F 5 "~" H 6750 4000 50  0001 C CNN "Digikey"
+F 6 "~" H 6750 4000 50  0001 C CNN "MPN"
+F 7 "~" H 6750 4000 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6750 4000 50  0001 C CNN "Mouser"
 	1    6750 4000
 	1    0    0    1   
 $EndComp
@@ -2155,6 +2203,10 @@ F 1 "DNF" H 6250 4050 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6350 4000 50  0001 C CNN
 F 3 "~" H 6350 4000 50  0001 C CNN
 F 4 "1" H 6350 4000 50  0001 C CNN "DNP"
+F 5 "~" H 6350 4000 50  0001 C CNN "Digikey"
+F 6 "~" H 6350 4000 50  0001 C CNN "MPN"
+F 7 "~" H 6350 4000 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6350 4000 50  0001 C CNN "Mouser"
 	1    6350 4000
 	1    0    0    1   
 $EndComp

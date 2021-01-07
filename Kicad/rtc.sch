@@ -28,6 +28,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" H 4075 2675 
 F 4 "Microchip" H 4075 2675 50  0001 C CNN "Manufacturer"
 F 5 "0" H 4075 2675 50  0001 C CNN "DNP"
 F 6 "MCP7940NT-I/SN" H 4075 2675 50  0001 C CNN "MPN"
+F 7 "MCP7940NT-I/SNCT-ND" H 4075 2675 50  0001 C CNN "Digikey"
 	1    4075 2675
 	1    0    0    -1  
 $EndComp
@@ -38,10 +39,11 @@ P 6300 3400
 F 0 "BT1201" H 6418 3496 50  0000 L CNN
 F 1 "Coin Cell" H 6418 3405 50  0000 L CNN
 F 2 "Neotron-Common-Hardware:BatteryHolder_Keystone_103_1x20mm" V 6300 3460 50  0001 C CNN
-F 3 "~" V 6300 3460 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p3.pdf" V 6300 3460 50  0001 C CNN
 F 4 "Keystone" H 6300 3400 50  0001 C CNN "Manufacturer"
 F 5 "0" H 6300 3400 50  0001 C CNN "DNP"
 F 6 "103" H 6300 3400 50  0001 C CNN "MPN"
+F 7 "36-103-ND" H 6300 3400 50  0001 C CNN "Digikey"
 	1    6300 3400
 	1    0    0    -1  
 $EndComp
@@ -131,11 +133,12 @@ U 1 1 5E028A76
 P 5025 3000
 F 0 "Y1201" H 4925 2850 50  0000 L CNN
 F 1 "32,768 Hz" H 4825 3150 50  0000 L CNN
-F 2 "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal" H 5025 3000 50  0001 C CNN
+F 2 "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Horizontal" H 5025 3000 50  0001 C CNN
 F 3 "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf" H 5025 3000 50  0001 C CNN
 F 4 "Citizen" H 5025 3000 50  0001 C CNN "Manufacturer"
 F 5 "0" H 5025 3000 50  0001 C CNN "DNP"
 F 6 "CFS-20632768DZBB " H 5025 3000 50  0001 C CNN "MPN"
+F 7 "300-8301-ND" H 5025 3000 50  0001 C CNN "Digikey"
 	1    5025 3000
 	-1   0    0    1   
 $EndComp
