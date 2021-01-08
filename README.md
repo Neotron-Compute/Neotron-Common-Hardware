@@ -94,7 +94,7 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 
 ### Power Supply
 
-* Unregulated 12V (7V to 28V) input fused with a PTC at 2A
+* Unregulated 12V (8V to 28V) input fused with a PTC at 2A
 * 3A 5.0V main regulator (DC-DC switch-mode regulator module)
 * 30mA 3.3V stand-by regulator (a micropower linear regulator)
 * 1A 3.3V regulator (a high-power 1117 type linear regulator)

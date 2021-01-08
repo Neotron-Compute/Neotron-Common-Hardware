@@ -4,6 +4,14 @@
 
 * None
 
+## v0.6.0
+
+* Added 3D model for USB header
+* Changed main input Inductor to horizontal footprint
+* Created footprint for Mornsun DC/DC PSU
+* Added header for case power LED
+* Changed BMC debug header to standard part
+
 ## v0.5.0
 
 * Swap BMC from NXP KE04Z to ST STM32F0
