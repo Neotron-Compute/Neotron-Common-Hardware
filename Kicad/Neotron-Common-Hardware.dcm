@@ -16,8 +16,33 @@ K circular DIN connector
 F http://www.kycon.com/Pub_Eng_Draw/KMDGX-6S-6S-S4N.pdf
 $ENDCMP
 #
-$CMP K78xx-3AR3
-D DC/DC Convertor
+$CMP K78(L)03-3AR3
+D Mornsun 8-28V to 3.3V 3A DC/DC Convertor
+F https://www.mornsun-power.com/html/pdf/K7805-3AR3.html
+$ENDCMP
+#
+$CMP K78(L)05-3AR3
+D Mornsun 8-36V to 5.0V 3A DC/DC Convertor
+F https://www.mornsun-power.com/html/pdf/K7805-3AR3.html
+$ENDCMP
+#
+$CMP K78(L)09-3AR3
+D Mornsun 13-36V to 9V 3A DC/DC Convertor
+F https://www.mornsun-power.com/html/pdf/K7805-3AR3.html
+$ENDCMP
+#
+$CMP K78(L)12-3AR3
+D Mornsun 16-36V to 12V 3A DC/DC Convertor
+F https://www.mornsun-power.com/html/pdf/K7805-3AR3.html
+$ENDCMP
+#
+$CMP K78(L)15-3AR3
+D Mornsun 19-36V to 15V 3A DC/DC Convertor
+F https://www.mornsun-power.com/html/pdf/K7805-3AR3.html
+$ENDCMP
+#
+$CMP K78(L)X6-3AR3
+D Mornsun 10-36V to 6.5V 3A DC/DC Convertor
 F https://www.mornsun-power.com/html/pdf/K7805-3AR3.html
 $ENDCMP
 #
