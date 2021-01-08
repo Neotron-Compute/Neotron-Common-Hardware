@@ -44,6 +44,26 @@ X LHPOUT 9 800 400 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Conn_01x02_Male
+#
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_DB15_Female_HighDensity_MountingHoles
 #
 DEF Connector_DB15_Female_HighDensity_MountingHoles J 0 40 Y N 1 F N
@@ -158,6 +178,37 @@ X Pin_1 1 -200 100 150 R 50 50 1 1 P
 X Pin_2 2 -200 0 150 R 50 50 1 1 P
 X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x04_Odd_Even
+#
+DEF Connector_Generic_Conn_02x04_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x04_Odd_Even" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+X Pin_7 7 -200 -200 150 R 50 50 1 1 P
+X Pin_8 8 300 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -563,49 +614,6 @@ P 2 0 1 0 0 35 0 51 N
 P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
 X ~ 1 0 100 50 D 50 50 1 1 P
 X ~ 2 0 -100 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Jumper_NC_Small
-#
-DEF Device_Jumper_NC_Small JP 0 30 N N 1 F N
-F0 "JP" 0 80 50 H V C CNN
-F1 "Device_Jumper_NC_Small" 10 -60 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*Bridged*
- Jumper*
- TestPoint*2Pads*
- TestPoint*Bridge*
-$ENDFPLIST
-DRAW
-A 0 -10 57 450 1350 0 1 0 N 40 30 -40 30
-C -40 0 20 0 1 0 N
-C 40 0 20 0 1 0 N
-X 1 1 -100 0 40 R 50 50 0 1 P
-X 2 2 100 0 40 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Jumper_NO_Small
-#
-DEF Device_Jumper_NO_Small JP 0 30 N N 1 F N
-F0 "JP" 0 80 50 H V C CNN
-F1 "Device_Jumper_NO_Small" 10 -60 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*Open*
- Jumper*
- TestPoint*2Pads*
- TestPoint*Bridge*
-$ENDFPLIST
-DRAW
-C -40 0 20 0 1 0 N
-C 40 0 20 0 1 0 N
-X 1 1 -100 0 40 R 50 50 0 1 P
-X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1060,28 +1068,22 @@ X ~ 9 300 -300 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Neotron-Common-Hardware_K78xx-3AR3
+# Neotron-Common-Hardware_K78(L)05-3AR3
 #
-DEF Neotron-Common-Hardware_K78xx-3AR3 U 0 40 Y Y 1 F N
+DEF Neotron-Common-Hardware_K78(L)05-3AR3 U 0 40 Y Y 1 F N
 F0 "U" 250 0 50 H V R CNN
-F1 "Neotron-Common-Hardware_K78xx-3AR3" -250 0 50 H V C CNN
-F2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" 0 250 50 H I C CNN
+F1 "Neotron-Common-Hardware_K78(L)05-3AR3" -250 0 50 H V C CNN
+F2 "Neotron-Common-Hardware:K78xx-3AR3" 0 250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Mornsun" 0 350 50 H I C CNN "Manufacturer"
+ALIAS K78(L)05-3AR3 K78(L)X6-3AR3 K78(L)09-3AR3 K78(L)12-3AR3 K78(L)15-3AR3
 DRAW
-S -250 -50 250 -750 0 1 0 f
-X Ctrl 1 -350 -450 100 R 50 50 0 0 I
-X Vo 10 350 -250 100 L 50 50 0 0 P
-X Vo 11 350 -150 100 L 50 50 0 0 P
-X Trim 12 350 -450 100 L 50 50 0 0 I
-X Vin 2 -350 -350 100 R 50 50 0 0 W
-X Vin 3 -350 -250 100 R 50 50 0 0 W
-X Vin 4 -350 -150 100 R 50 50 0 0 W
-X GND 5 150 -850 100 U 50 50 0 0 W
-X GND 6 50 -850 100 U 50 50 0 0 W
-X GND 7 -50 -850 100 U 50 50 0 0 W
-X GND 8 -150 -850 100 U 50 50 0 0 W
-X Vo 9 350 -350 100 L 50 50 0 0 w
+S -250 -50 250 -550 0 1 0 f
+X Ctrl 1 -350 -300 100 R 50 50 0 0 I
+X Vin 2 -350 -150 100 R 50 50 0 0 W
+X GND 3 0 -650 100 U 50 50 0 0 W
+X Vo 4 350 -150 100 L 50 50 0 0 w
+X Trim 5 350 -300 100 L 50 50 0 0 I
 ENDDRAW
 ENDDEF
 #
