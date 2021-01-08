@@ -47,7 +47,7 @@ F 0 "U801" H 5950 4150 50  0000 C CNN
 F 1 "ST3232CDR" H 5000 4150 50  0000 C CNN
 F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 5500 2000 50  0001 L CNN
 F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/group1/40/2c/7f/62/3a/3f/47/3c/CD00002253/files/CD00002253.pdf/jcr:content/translations/en.CD00002253.pdf" H 5450 3150 50  0001 C CNN
-F 4 "ST" H 5450 3050 50  0001 C CNN "Manufacturer"
+F 4 "ST Micro" H 5450 3050 50  0001 C CNN "Manufacturer"
 F 5 "0" H 5450 3050 50  0001 C CNN "DNP"
 F 6 "497-3731-1-ND" H 5450 3050 50  0001 C CNN "Digikey"
 F 7 "ST3232CDR" H 5450 3050 50  0001 C CNN "MPN"
@@ -325,7 +325,7 @@ F 4 "1" H 8100 5500 50  0001 C CNN "DNP"
 F 5 "~" H 8100 5500 50  0001 C CNN "Digikey"
 F 6 "~" H 8100 5500 50  0001 C CNN "MPN"
 F 7 "~" H 8100 5500 50  0001 C CNN "Manufacturer"
-F 8 "~" H 8100 5500 50  0001 C CNN "Mouser"
+F 8 "" H 8100 5500 50  0001 C CNN "Mouser"
 	1    8100 5500
 	1    0    0    -1  
 $EndComp
