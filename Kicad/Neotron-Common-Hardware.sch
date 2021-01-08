@@ -306,7 +306,7 @@ F 4 "1" H 6100 6650 50  0001 C CNN "DNP"
 F 5 "~" H 6100 6650 50  0001 C CNN "Digikey"
 F 6 "~" H 6100 6650 50  0001 C CNN "MPN"
 F 7 "~" H 6100 6650 50  0001 C CNN "Manufacturer"
-F 8 "~" H 6100 6650 50  0001 C CNN "Mouser"
+F 8 "" H 6100 6650 50  0001 C CNN "Mouser"
 	1    6100 6650
 	1    0    0    -1  
 $EndComp
@@ -322,7 +322,7 @@ F 4 "1" H 5600 6650 50  0001 C CNN "DNP"
 F 5 "~" H 5600 6650 50  0001 C CNN "Digikey"
 F 6 "~" H 5600 6650 50  0001 C CNN "MPN"
 F 7 "~" H 5600 6650 50  0001 C CNN "Manufacturer"
-F 8 "~" H 5600 6650 50  0001 C CNN "Mouser"
+F 8 "" H 5600 6650 50  0001 C CNN "Mouser"
 	1    5600 6650
 	1    0    0    -1  
 $EndComp
@@ -338,7 +338,7 @@ F 4 "1" H 5050 6650 50  0001 C CNN "DNP"
 F 5 "~" H 5050 6650 50  0001 C CNN "Digikey"
 F 6 "~" H 5050 6650 50  0001 C CNN "MPN"
 F 7 "~" H 5050 6650 50  0001 C CNN "Manufacturer"
-F 8 "~" H 5050 6650 50  0001 C CNN "Mouser"
+F 8 "" H 5050 6650 50  0001 C CNN "Mouser"
 	1    5050 6650
 	1    0    0    -1  
 $EndComp
@@ -394,7 +394,7 @@ F 4 "1" H 1300 1475 50  0001 C CNN "DNP"
 F 5 "~" H 1300 1475 50  0001 C CNN "Digikey"
 F 6 "~" H 1300 1475 50  0001 C CNN "MPN"
 F 7 "~" H 1300 1475 50  0001 C CNN "Manufacturer"
-F 8 "~" H 1300 1475 50  0001 C CNN "Mouser"
+F 8 "" H 1300 1475 50  0001 C CNN "Mouser"
 	1    1300 1475
 	1    0    0    -1  
 $EndComp
@@ -410,7 +410,7 @@ F 4 "1" H 1350 2775 50  0001 C CNN "DNP"
 F 5 "~" H 1350 2775 50  0001 C CNN "Digikey"
 F 6 "~" H 1350 2775 50  0001 C CNN "MPN"
 F 7 "~" H 1350 2775 50  0001 C CNN "Manufacturer"
-F 8 "~" H 1350 2775 50  0001 C CNN "Mouser"
+F 8 "" H 1350 2775 50  0001 C CNN "Mouser"
 	2    1350 2775
 	1    0    0    -1  
 $EndComp
@@ -426,7 +426,7 @@ F 4 "1" H 2925 2525 50  0001 C CNN "DNP"
 F 5 "~" H 2925 2525 50  0001 C CNN "Digikey"
 F 6 "~" H 2925 2525 50  0001 C CNN "MPN"
 F 7 "~" H 2925 2525 50  0001 C CNN "Manufacturer"
-F 8 "~" H 2925 2525 50  0001 C CNN "Mouser"
+F 8 "" H 2925 2525 50  0001 C CNN "Mouser"
 	3    2925 2525
 	1    0    0    -1  
 $EndComp
@@ -442,7 +442,7 @@ F 4 "1" H 2875 1500 50  0001 C CNN "DNP"
 F 5 "~" H 2875 1500 50  0001 C CNN "Digikey"
 F 6 "~" H 2875 1500 50  0001 C CNN "MPN"
 F 7 "~" H 2875 1500 50  0001 C CNN "Manufacturer"
-F 8 "~" H 2875 1500 50  0001 C CNN "Mouser"
+F 8 "" H 2875 1500 50  0001 C CNN "Mouser"
 	4    2875 1500
 	-1   0    0    -1  
 $EndComp
@@ -458,7 +458,7 @@ F 4 "1" H 1375 4825 50  0001 C CNN "DNP"
 F 5 "~" H 1375 4825 50  0001 C CNN "Digikey"
 F 6 "~" H 1375 4825 50  0001 C CNN "MPN"
 F 7 "~" H 1375 4825 50  0001 C CNN "Manufacturer"
-F 8 "~" H 1375 4825 50  0001 C CNN "Mouser"
+F 8 "" H 1375 4825 50  0001 C CNN "Mouser"
 	5    1375 4825
 	-1   0    0    -1  
 $EndComp

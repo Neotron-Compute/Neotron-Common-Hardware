@@ -930,7 +930,7 @@ F 4 "1" H 10250 4350 50  0001 C CNN "DNP"
 F 5 "~" H 10250 4350 50  0001 C CNN "Digikey"
 F 6 "~" H 10250 4350 50  0001 C CNN "MPN"
 F 7 "~" H 10250 4350 50  0001 C CNN "Manufacturer"
-F 8 "~" H 10250 4350 50  0001 C CNN "Mouser"
+F 8 "" H 10250 4350 50  0001 C CNN "Mouser"
 	1    10250 4350
 	1    0    0    -1  
 $EndComp
