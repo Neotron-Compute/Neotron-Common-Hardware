@@ -2,6 +2,10 @@
 
 ## Unreleased Changes
 
+* None
+
+## v0.7.0
+
 * Replaced STM32F0 TSSOP with LQFP-32
   * Has 0.8mm pitch (instead of 0.65mm) so should be easier to solder
 * Replaced most of the big electrolytics with 0805 MLCC
