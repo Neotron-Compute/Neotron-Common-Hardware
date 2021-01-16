@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 12
+Sheet 12 12
 Title "Neotron Common Hardware - Real Time Clock"
 Date "2021-01-01"
 Rev "[Uncontrolled]"
@@ -37,7 +37,7 @@ L Device:Battery_Cell BT1201
 U 1 1 5E0F507E
 P 6300 3400
 F 0 "BT1201" H 6418 3496 50  0000 L CNN
-F 1 "Coin Cell" H 6418 3405 50  0000 L CNN
+F 1 "CR2032" H 6418 3405 50  0000 L CNN
 F 2 "Neotron-Common-Hardware:BatteryHolder_Keystone_103_1x20mm" V 6300 3460 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p3.pdf" V 6300 3460 50  0001 C CNN
 F 4 "Keystone" H 6300 3400 50  0001 C CNN "Manufacturer"
