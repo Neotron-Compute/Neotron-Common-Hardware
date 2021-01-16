@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 12
+Sheet 8 12
 Title "Neotron Common Hardware - Serial Port"
 Date "2021-01-01"
 Rev "[Uncontrolled]"
