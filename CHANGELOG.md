@@ -4,6 +4,11 @@
 
 * None
 
+## v0.8.0
+
+* Updated some 5V0 caps from 10V to 16V
+* README updates
+
 ## v0.7.0
 
 * Replaced STM32F0 TSSOP with LQFP-32
