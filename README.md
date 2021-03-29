@@ -10,7 +10,7 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
   * I²S + I²C interface
   * Amplified 32mW headphone output and line out
   * Microphone in and line in
-  * TSSOP-28 package
+  * TSSOP-28 package (0.635mm pitch)
 * Triple 3.5mm TRS jack (Kycon STX-4335-5BGP-S1)
   * Headphone Out (green)
   * Line In (blue)
@@ -29,34 +29,40 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
    * 36 MHz bandwidth - 1024x768@60Hz maximum
    * 6dB gain
    * Drives 75 ohm standard VGA interface
-* I²C/DDC level shifter and EMC filter
+   * SOIC-8 package (1.27mm pitch)
+* Texas Instruments TPD7S019 Sync/DDC level shifter and RGB EMC filter
+   * SSOP-16 package (0.635mm pitch)
 
 ### RS232 Interface
 
 * Tx, Rx, RTS and CTS signals
 * 3.3V TTL on the MCU side
+* Low-power ST ST3232C RS-232 level shifter (powered from single 3.3V rail)
 * RS-232 signalling on a 9-pin D-Sub connector (or 10-pin IDC box header), wired DTE
 
 ### USB
 
-* Four port High-speed USB2.0 hub
-* Two USB Type-A ports
-* 8-pin PC case style USB pin-header
+* Four port USB 2.0 High Speed hub
+* MaxLinear XR22404CG28 USB2.0 hub IC
+  * SSOP-28 package (0.635mm pitch)
+* Two USB 2.0 High Speed Type-A ports
+* 8-pin PC case style USB pin-header (providing two USB 2.0 High Speed ports)
 * Each port limited to 500mA with over-current protection
 
 ### Ethernet
 
 * 10/100base-T Ethernet
-* Ethernet MAC/PHY with SPI connection to main CPU
+* Microchip ENC424J600 Ethernet MAC/PHY with SPI connection to main CPU
+  * TQFP-44 package (0.8mm pitch)
 * Link and Activity LEDs
 
 ### Board Management Controller
-* ST Micro STM32F0 (STM32F030F4P6) microcontroller
+* ST Micro STM32F0 (STM32F031K6T6) microcontroller
   * 32-bit Arm Cortex-M0+ Core
-  * 3.3V I/O
-  * 8 KiB Flash
+  * 3.3V I/O (5V tolerant)
+  * 32 KiB Flash
   * 4 KiB SRAM
-  * TSSOP-20 package
+  * LQFP-32 package (0.8mm pitch)
 * Controls two PS/2 ports
 * Monitors 5V and 3.3V rails
 * Controls system reset, soft-on and soft-off for main CPU
@@ -89,13 +95,14 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 
 ### PS/2 Keyboard and Mouse
 
-* Twin mini 6-pin DIN ports
+* Kycon two-port stacked 6-pin DIN sockets (Kycon KMDGX-6S/6S-S4N)
 * Controlled via Board Management Controller
 
 ### Power Supply
 
 * Unregulated 12V (8V to 28V) input fused with a PTC at 2A
 * 3A 5.0V main regulator (DC-DC switch-mode regulator module)
+  * Morsun K7805-3AR3
 * 30mA 3.3V stand-by regulator (a micropower linear regulator)
 * 1A 3.3V regulator (a high-power 1117 type linear regulator)
 * Controlled by the Board Management Controller
