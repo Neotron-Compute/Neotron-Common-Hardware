@@ -90,8 +90,8 @@ Power-on Reset sequencing, soft shutdown, voltage monitoring and PS/2 interfacin
 | 14   | PB0  | BUTTON_RST | Reset Button Input (active low)              |
 | 15   | PB1  | DC_ON      | PSU Enable Output                            |
 | 18   | PA8  | HOST_NIRQ  | Interrupt Output to the Host (active low)    |
-| 19   | PA9  | I2C1_SCL   | I²C Clock                                    |
-| 20   | PA10 | I2C1_SDA   | I²C Data                                     |
+| 19   | PA9  | USART1_TX  | UART Transmit Output                         |
+| 20   | PA10 | USART1_RX  | UART Receive Input                           |
 | 21   | PA11 | USART1_CTS | UART Clear-to-Send Output                    |
 | 22   | PA12 | USART1_RTS | UART Ready-to-Receive Input                  |
 | 23   | PA13 | SWDIO      | SWD Progamming Data Input                    |
@@ -100,8 +100,8 @@ Power-on Reset sequencing, soft shutdown, voltage monitoring and PS/2 interfacin
 | 26   | PB3  | PS2_CLK1   | Mouse Clock Input                            |
 | 27   | PB4  | PS2_DAT0   | Keyboard Data Input                          |
 | 28   | PB5  | PS2_DAT1   | Mouse Data Input                             |
-| 29   | PB6  | USART1_TX  | UART Transmit Output                         |
-| 30   | PB7  | USART1_RX  | UART Receive Input                           |
+| 29   | PB6  | I2C1_SCL   | I²C Clock                                    |
+| 30   | PB7  | I2C1_SDA   | I²C Data                                     |
 
 Note that in the above table, the UART signals labelled from the point of view of the BMC chip (i.e. UART_RX as an input to the BMC).
 
