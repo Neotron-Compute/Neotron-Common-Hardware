@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 16
 Title "Neotron Common Hardware"
 Date "2021-01-01"
 Rev "[Uncontrolled]"
@@ -16,8 +16,8 @@ $EndDescr
 $Sheet
 S 4500 2750 1000 1000
 U 5FDE658D
-F0 "Video" 50
-F1 "video.sch" 50
+F0 "18-bit Video" 50
+F1 "video18.sch" 50
 F2 "DDC_SDA" B L 4500 3450 50 
 F3 "DDC_SCL" I L 4500 3550 50 
 F4 "VSYNC" I L 4500 3250 50 
@@ -46,15 +46,15 @@ NoConn ~ 8250 1900
 NoConn ~ 8250 2000
 NoConn ~ 8250 2100
 NoConn ~ 8250 2200
-NoConn ~ 5750 3000
-NoConn ~ 5750 3100
-NoConn ~ 5750 3200
-NoConn ~ 5750 2900
+NoConn ~ 7000 3000
+NoConn ~ 7000 3100
+NoConn ~ 7000 3200
+NoConn ~ 7000 2900
 $Comp
-L Mechanical:MountingHole_Pad H101
+L Mechanical:MountingHole_Pad H2
 U 1 1 60B38A8B
 P 1600 6400
-F 0 "H101" H 1700 6449 50  0000 L CNN
+F 0 "H2" H 1700 6449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1700 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 1600 6400 50  0001 C CNN
 F 3 "~" H 1600 6400 50  0001 C CNN
@@ -66,10 +66,10 @@ F 7 "~" H 1600 6400 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H105
+L Mechanical:MountingHole_Pad H3
 U 1 1 60B38F65
 P 1600 6900
-F 0 "H105" H 1700 6949 50  0000 L CNN
+F 0 "H3" H 1700 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1700 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 1600 6900 50  0001 C CNN
 F 3 "~" H 1600 6900 50  0001 C CNN
@@ -81,10 +81,10 @@ F 7 "~" H 1600 6900 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H102
+L Mechanical:MountingHole_Pad H4
 U 1 1 60B394BF
 P 2550 6400
-F 0 "H102" H 2650 6449 50  0000 L CNN
+F 0 "H4" H 2650 6449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2650 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 6400 50  0001 C CNN
 F 3 "~" H 2550 6400 50  0001 C CNN
@@ -96,10 +96,10 @@ F 7 "~" H 2550 6400 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H106
+L Mechanical:MountingHole_Pad H5
 U 1 1 60B394C9
 P 2550 6900
-F 0 "H106" H 2650 6949 50  0000 L CNN
+F 0 "H5" H 2650 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2650 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 6900 50  0001 C CNN
 F 3 "~" H 2550 6900 50  0001 C CNN
@@ -111,10 +111,10 @@ F 7 "~" H 2550 6900 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H103
+L Mechanical:MountingHole_Pad H7
 U 1 1 60B39D3B
 P 3500 6400
-F 0 "H103" H 3600 6449 50  0000 L CNN
+F 0 "H7" H 3600 6449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 6358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 6400 50  0001 C CNN
 F 3 "~" H 3500 6400 50  0001 C CNN
@@ -126,10 +126,10 @@ F 7 "~" H 3500 6400 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H108
+L Mechanical:MountingHole_Pad H6
 U 1 1 60B39D45
 P 2550 7400
-F 0 "H108" H 2650 7449 50  0000 L CNN
+F 0 "H6" H 2650 7449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2650 7358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2550 7400 50  0001 C CNN
 F 3 "~" H 2550 7400 50  0001 C CNN
@@ -141,10 +141,10 @@ F 7 "~" H 2550 7400 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H104
+L Mechanical:MountingHole_Pad H1
 U 1 1 60B39D59
 P 700 6900
-F 0 "H104" H 800 6949 50  0000 L CNN
+F 0 "H1" H 800 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 800 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 700 6900 50  0001 C CNN
 F 3 "~" H 700 6900 50  0001 C CNN
@@ -156,10 +156,10 @@ F 7 "~" H 700 6900 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0125
+L power:GND #PWR05
 U 1 1 60B3BDE2
 P 1600 7000
-F 0 "#PWR0125" H 1600 6750 50  0001 C CNN
+F 0 "#PWR05" H 1600 6750 50  0001 C CNN
 F 1 "GND" H 1605 6827 50  0000 C CNN
 F 2 "" H 1600 7000 50  0001 C CNN
 F 3 "" H 1600 7000 50  0001 C CNN
@@ -167,10 +167,10 @@ F 3 "" H 1600 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0126
+L power:GND #PWR09
 U 1 1 60B3C24E
 P 2550 7000
-F 0 "#PWR0126" H 2550 6750 50  0001 C CNN
+F 0 "#PWR09" H 2550 6750 50  0001 C CNN
 F 1 "GND" H 2555 6827 50  0000 C CNN
 F 2 "" H 2550 7000 50  0001 C CNN
 F 3 "" H 2550 7000 50  0001 C CNN
@@ -178,10 +178,10 @@ F 3 "" H 2550 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0129
+L power:GND #PWR010
 U 1 1 60B3C465
 P 2550 7500
-F 0 "#PWR0129" H 2550 7250 50  0001 C CNN
+F 0 "#PWR010" H 2550 7250 50  0001 C CNN
 F 1 "GND" H 2555 7327 50  0000 C CNN
 F 2 "" H 2550 7500 50  0001 C CNN
 F 3 "" H 2550 7500 50  0001 C CNN
@@ -189,10 +189,10 @@ F 3 "" H 2550 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0124
+L power:GND #PWR03
 U 1 1 60B3C806
 P 700 7000
-F 0 "#PWR0124" H 700 6750 50  0001 C CNN
+F 0 "#PWR03" H 700 6750 50  0001 C CNN
 F 1 "GND" H 705 6827 50  0000 C CNN
 F 2 "" H 700 7000 50  0001 C CNN
 F 3 "" H 700 7000 50  0001 C CNN
@@ -200,10 +200,10 @@ F 3 "" H 700 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0123
+L power:GND #PWR012
 U 1 1 60B3DA51
 P 3500 6500
-F 0 "#PWR0123" H 3500 6250 50  0001 C CNN
+F 0 "#PWR012" H 3500 6250 50  0001 C CNN
 F 1 "GND" H 3505 6327 50  0000 C CNN
 F 2 "" H 3500 6500 50  0001 C CNN
 F 3 "" H 3500 6500 50  0001 C CNN
@@ -211,10 +211,10 @@ F 3 "" H 3500 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0122
+L power:GND #PWR08
 U 1 1 60B3DDD4
 P 2550 6500
-F 0 "#PWR0122" H 2550 6250 50  0001 C CNN
+F 0 "#PWR08" H 2550 6250 50  0001 C CNN
 F 1 "GND" H 2555 6327 50  0000 C CNN
 F 2 "" H 2550 6500 50  0001 C CNN
 F 3 "" H 2550 6500 50  0001 C CNN
@@ -222,10 +222,10 @@ F 3 "" H 2550 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0121
+L power:GND #PWR04
 U 1 1 60B3DFA1
 P 1600 6500
-F 0 "#PWR0121" H 1600 6250 50  0001 C CNN
+F 0 "#PWR04" H 1600 6250 50  0001 C CNN
 F 1 "GND" H 1605 6327 50  0000 C CNN
 F 2 "" H 1600 6500 50  0001 C CNN
 F 3 "" H 1600 6500 50  0001 C CNN
@@ -233,10 +233,10 @@ F 3 "" H 1600 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H109
+L Mechanical:MountingHole_Pad H9
 U 1 1 60B4931F
 P 3500 7400
-F 0 "H109" H 3600 7449 50  0000 L CNN
+F 0 "H9" H 3600 7449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 7358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 7400 50  0001 C CNN
 F 3 "~" H 3500 7400 50  0001 C CNN
@@ -248,10 +248,10 @@ F 7 "~" H 3500 7400 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H107
+L Mechanical:MountingHole_Pad H8
 U 1 1 60B49329
 P 3500 6900
-F 0 "H107" H 3600 6949 50  0000 L CNN
+F 0 "H8" H 3600 6949 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3500 6900 50  0001 C CNN
 F 3 "~" H 3500 6900 50  0001 C CNN
@@ -263,10 +263,10 @@ F 7 "~" H 3500 6900 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0130
+L power:GND #PWR014
 U 1 1 60B49333
 P 3500 7500
-F 0 "#PWR0130" H 3500 7250 50  0001 C CNN
+F 0 "#PWR014" H 3500 7250 50  0001 C CNN
 F 1 "GND" H 3505 7327 50  0000 C CNN
 F 2 "" H 3500 7500 50  0001 C CNN
 F 3 "" H 3500 7500 50  0001 C CNN
@@ -274,10 +274,10 @@ F 3 "" H 3500 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0127
+L power:GND #PWR013
 U 1 1 60B4933D
 P 3500 7000
-F 0 "#PWR0127" H 3500 6750 50  0001 C CNN
+F 0 "#PWR013" H 3500 6750 50  0001 C CNN
 F 1 "GND" H 3505 6827 50  0000 C CNN
 F 2 "" H 3500 7000 50  0001 C CNN
 F 3 "" H 3500 7000 50  0001 C CNN
@@ -295,10 +295,10 @@ Wire Notes Line
 Text Notes 4450 5950 0    100  Italic 20
 Misc symbols
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO103
+L Graphic:Logo_Open_Hardware_Small LOGO3
 U 1 1 5FE3E77B
 P 6100 6650
-F 0 "LOGO103" H 6100 6925 50  0001 C CNN
+F 0 "LOGO3" H 6100 6925 50  0001 C CNN
 F 1 "OSHW Logo" H 6100 6950 50  0000 C CNN
 F 2 "Symbol:OSHW-Logo_11.4x12mm_SilkScreen" H 6100 6944 50  0001 C CNN
 F 3 "~" H 6100 6650 50  0001 C CNN
@@ -311,10 +311,10 @@ F 8 "" H 6100 6650 50  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO102
+L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 5FE412EB
 P 5600 6650
-F 0 "LOGO102" H 5600 6925 50  0001 C CNN
+F 0 "LOGO2" H 5600 6925 50  0001 C CNN
 F 1 "Kicad Logo" H 5600 6950 50  0000 C CNN
 F 2 "Symbol:KiCad-Logo2_12mm_SilkScreen" H 5600 6944 50  0001 C CNN
 F 3 "~" H 5600 6650 50  0001 C CNN
@@ -327,10 +327,10 @@ F 8 "" H 5600 6650 50  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO101
+L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5FE4193F
 P 5050 6650
-F 0 "LOGO101" H 5050 6925 50  0001 C CNN
+F 0 "LOGO1" H 5050 6925 50  0001 C CNN
 F 1 "Neotron Logo" H 5050 6950 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:logo" H 5050 6944 50  0001 C CNN
 F 3 "~" H 5050 6650 50  0001 C CNN
@@ -342,8 +342,8 @@ F 8 "" H 5050 6650 50  0001 C CNN "Mouser"
 	1    5050 6650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7000 2900
-NoConn ~ 7000 3000
+NoConn ~ 8250 2900
+NoConn ~ 8250 3000
 $Sheet
 S 4500 1500 1000 1000
 U 5FEF6B08
@@ -359,10 +359,10 @@ F8 "~CARD_DETECT" O L 4500 2200 50
 F9 "~WRITE_PROTECT" O L 4500 2300 50 
 $EndSheet
 $Comp
-L power:PWR_FLAG #FLG0101
+L power:PWR_FLAG #FLG01
 U 1 1 60A5B22E
 P 5600 7350
-F 0 "#FLG0101" H 5600 7425 50  0001 C CNN
+F 0 "#FLG01" H 5600 7425 50  0001 C CNN
 F 1 "PWR_FLAG" H 5600 7523 50  0000 C CNN
 F 2 "" H 5600 7350 50  0001 C CNN
 F 3 "~" H 5600 7350 50  0001 C CNN
@@ -370,10 +370,10 @@ F 3 "~" H 5600 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0128
+L power:GND #PWR021
 U 1 1 60A5AA95
 P 5600 7350
-F 0 "#PWR0128" H 5600 7100 50  0001 C CNN
+F 0 "#PWR021" H 5600 7100 50  0001 C CNN
 F 1 "GND" H 5605 7177 50  0000 C CNN
 F 2 "" H 5600 7350 50  0001 C CNN
 F 3 "" H 5600 7350 50  0001 C CNN
@@ -383,10 +383,10 @@ $EndComp
 Text Notes 9450 6000 0    50   ~ 0
 All capacitors are 16V unless specified.\nAll resistors are 1% 1/4W unless specified.
 $Comp
-L Neotron-Common-Hardware:Neotron-CPU U101
+L Neotron-Common-Hardware:Neotron-CPU U1
 U 1 1 6016C618
 P 1300 1475
-F 0 "U101" H 1300 1940 50  0000 C CNN
+F 0 "U1" H 1300 1940 50  0000 C CNN
 F 1 "Neotron-CPU" H 1300 1849 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron_CPU_Socket" H 1400 2025 50  0001 C CNN
 F 3 "https://github.com/neotron-compute" H 2200 1575 50  0001 C CNN
@@ -399,10 +399,10 @@ F 8 "" H 1300 1475 50  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Neotron-Common-Hardware:Neotron-CPU U101
+L Neotron-Common-Hardware:Neotron-CPU U1
 U 2 1 6016E37E
 P 1350 2775
-F 0 "U101" H 1400 3240 50  0000 C CNN
+F 0 "U1" H 1400 3240 50  0000 C CNN
 F 1 "Neotron-CPU" H 1400 3149 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron_CPU_Socket" H 1450 3325 50  0001 C CNN
 F 3 "https://github.com/neotron-compute" H 2250 2875 50  0001 C CNN
@@ -415,10 +415,10 @@ F 8 "" H 1350 2775 50  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Neotron-Common-Hardware:Neotron-CPU U101
+L Neotron-Common-Hardware:Neotron-CPU U1
 U 3 1 60170829
 P 2925 2525
-F 0 "U101" H 2925 2990 50  0000 C CNN
+F 0 "U1" H 2925 2990 50  0000 C CNN
 F 1 "Neotron-CPU" H 2925 2899 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron_CPU_Socket" H 3025 3075 50  0001 C CNN
 F 3 "https://github.com/neotron-compute" H 3825 2625 50  0001 C CNN
@@ -431,10 +431,10 @@ F 8 "" H 2925 2525 50  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Neotron-Common-Hardware:Neotron-CPU U101
+L Neotron-Common-Hardware:Neotron-CPU U1
 U 4 1 60172986
 P 2875 1500
-F 0 "U101" H 3375 1850 50  0000 R CNN
+F 0 "U1" H 3375 1850 50  0000 R CNN
 F 1 "Neotron-CPU" H 2375 1850 50  0000 L CNN
 F 2 "Neotron-Common-Hardware:Neotron_CPU_Socket" H 2975 2050 50  0001 C CNN
 F 3 "https://github.com/neotron-compute" H 3775 1600 50  0001 C CNN
@@ -447,10 +447,10 @@ F 8 "" H 2875 1500 50  0001 C CNN "Mouser"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Neotron-Common-Hardware:Neotron-CPU U101
+L Neotron-Common-Hardware:Neotron-CPU U1
 U 5 1 60173DE6
 P 1375 4825
-F 0 "U101" H 1875 5175 50  0000 R CNN
+F 0 "U1" H 1875 5175 50  0000 R CNN
 F 1 "Neotron-CPU" H 875 5175 50  0000 L CNN
 F 2 "Neotron-Common-Hardware:Neotron_CPU_Socket" H 1475 5375 50  0001 C CNN
 F 3 "https://github.com/neotron-compute" H 2275 4925 50  0001 C CNN
@@ -491,30 +491,30 @@ F4 "I2C_SCL" I L 5750 1800 50
 F5 "~IRQ" O L 5750 1900 50 
 $EndSheet
 $Sheet
-S 7000 2750 1000 1000
+S 8250 2750 1000 1000
 U 5FDE7004
 F0 "USB" 50
 F1 "usb.sch" 50
-F2 "USBD+" I L 7000 2900 50 
-F3 "USBD-" I L 7000 3000 50 
-F4 "~ENABLE" I L 7000 3100 50 
+F2 "USBD+" I L 8250 2900 50 
+F3 "USBD-" I L 8250 3000 50 
+F4 "~ENABLE" I L 8250 3100 50 
 $EndSheet
 $Sheet
-S 5750 2750 1000 1000
+S 7000 2750 1000 1000
 U 5FDE698D
 F0 "Ethernet" 50
 F1 "ethernet.sch" 50
-F2 "SPI_COPI" I L 5750 2900 50 
-F3 "~SPI_CS" I L 5750 3100 50 
-F4 "SPI_CLK" I L 5750 3200 50 
-F5 "~IRQ" O L 5750 3300 50 
-F6 "SPI_CIPO" T L 5750 3000 50 
+F2 "SPI_COPI" I L 7000 2900 50 
+F3 "~SPI_CS" I L 7000 3100 50 
+F4 "SPI_CLK" I L 7000 3200 50 
+F5 "~IRQ" O L 7000 3300 50 
+F6 "SPI_CIPO" T L 7000 3000 50 
 $EndSheet
 $Comp
-L power:+5V #PWR0101
+L power:+5V #PWR01
 U 1 1 5FED0156
 P 650 1200
-F 0 "#PWR0101" H 650 1050 50  0001 C CNN
+F 0 "#PWR01" H 650 1050 50  0001 C CNN
 F 1 "+5V" H 665 1373 50  0000 C CNN
 F 2 "" H 650 1200 50  0001 C CNN
 F 3 "" H 650 1200 50  0001 C CNN
@@ -536,10 +536,10 @@ Connection ~ 650  1275
 Wire Wire Line
 	650  1275 650  1200
 $Comp
-L power:+3.3V #PWR0102
+L power:+3.3V #PWR06
 U 1 1 5FED21B6
 P 2000 1200
-F 0 "#PWR0102" H 2000 1050 50  0001 C CNN
+F 0 "#PWR06" H 2000 1050 50  0001 C CNN
 F 1 "+3.3V" H 2015 1373 50  0000 C CNN
 F 2 "" H 2000 1200 50  0001 C CNN
 F 3 "" H 2000 1200 50  0001 C CNN
@@ -561,10 +561,10 @@ Wire Wire Line
 	2000 1475 2000 1375
 Connection ~ 2000 1375
 $Comp
-L power:GND #PWR0104
+L power:GND #PWR02
 U 1 1 5FED40CA
 P 650 2050
-F 0 "#PWR0104" H 650 1800 50  0001 C CNN
+F 0 "#PWR02" H 650 1800 50  0001 C CNN
 F 1 "GND" H 655 1877 50  0000 C CNN
 F 2 "" H 650 2050 50  0001 C CNN
 F 3 "" H 650 2050 50  0001 C CNN
@@ -587,10 +587,10 @@ Wire Wire Line
 Connection ~ 650  1775
 NoConn ~ 1900 2075
 $Comp
-L power:GND #PWR0103
+L power:GND #PWR07
 U 1 1 5FED6251
 P 2050 2025
-F 0 "#PWR0103" H 2050 1775 50  0001 C CNN
+F 0 "#PWR07" H 2050 1775 50  0001 C CNN
 F 1 "GND" H 2055 1852 50  0000 C CNN
 F 2 "" H 2050 2025 50  0001 C CNN
 F 3 "" H 2050 2025 50  0001 C CNN
@@ -679,10 +679,10 @@ NoConn ~ 2150 3675
 NoConn ~ 2325 3875
 NoConn ~ 3525 3875
 $Comp
-L Neotron-Common-Hardware:Neotron-Expansion-Slot J101
+L Neotron-Common-Hardware:Neotron-Expansion-Slot J1
 U 1 1 5FECC710
 P 3975 4825
-F 0 "J101" H 3950 5540 50  0000 C CNN
+F 0 "J1" H 3950 5540 50  0000 C CNN
 F 1 "Neotron-Expansion-Slot" H 3950 5449 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 4425 5225 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English" H 4425 5225 50  0001 C CNN
@@ -694,10 +694,10 @@ F 7 "TE" H 3975 4825 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L power:GND #PWR011
 U 1 1 5FED032B
 P 3225 5500
-F 0 "#PWR0113" H 3225 5250 50  0001 C CNN
+F 0 "#PWR011" H 3225 5250 50  0001 C CNN
 F 1 "GND" H 3230 5327 50  0000 C CNN
 F 2 "" H 3225 5500 50  0001 C CNN
 F 3 "" H 3225 5500 50  0001 C CNN
@@ -724,10 +724,10 @@ Connection ~ 3225 5375
 Wire Wire Line
 	3225 5375 3225 5475
 $Comp
-L power:GND #PWR0114
+L power:GND #PWR016
 U 1 1 5FED378B
 P 4675 5500
-F 0 "#PWR0114" H 4675 5250 50  0001 C CNN
+F 0 "#PWR016" H 4675 5250 50  0001 C CNN
 F 1 "GND" H 4680 5327 50  0000 C CNN
 F 2 "" H 4675 5500 50  0001 C CNN
 F 3 "" H 4675 5500 50  0001 C CNN
@@ -749,10 +749,10 @@ Connection ~ 4675 5275
 Wire Wire Line
 	4675 5275 4675 5375
 $Comp
-L power:+5V #PWR0105
+L power:+5V #PWR017
 U 1 1 5FED6284
 P 4775 4600
-F 0 "#PWR0105" H 4775 4450 50  0001 C CNN
+F 0 "#PWR017" H 4775 4450 50  0001 C CNN
 F 1 "+5V" H 4790 4773 50  0000 C CNN
 F 2 "" H 4775 4600 50  0001 C CNN
 F 3 "" H 4775 4600 50  0001 C CNN
@@ -769,10 +769,10 @@ Wire Wire Line
 	4775 4775 4775 4675
 Connection ~ 4775 4675
 $Comp
-L power:+3V3 #PWR0109
+L power:+3V3 #PWR018
 U 1 1 5FED8E4E
 P 4925 4775
-F 0 "#PWR0109" H 4925 4625 50  0001 C CNN
+F 0 "#PWR018" H 4925 4625 50  0001 C CNN
 F 1 "+3V3" H 4940 4948 50  0000 C CNN
 F 2 "" H 4925 4775 50  0001 C CNN
 F 3 "" H 4925 4775 50  0001 C CNN
@@ -796,10 +796,10 @@ NoConn ~ 3375 4575
 NoConn ~ 3375 4475
 NoConn ~ 3375 4375
 $Comp
-L Neotron-Common-Hardware:Neotron-Expansion-Slot J102
+L Neotron-Common-Hardware:Neotron-Expansion-Slot J2
 U 1 1 5FEDE85C
 P 5900 4825
-F 0 "J102" H 5875 5540 50  0000 C CNN
+F 0 "J2" H 5875 5540 50  0000 C CNN
 F 1 "Neotron-Expansion-Slot" H 5875 5449 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 6350 5225 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English" H 6350 5225 50  0001 C CNN
@@ -811,10 +811,10 @@ F 7 "TE" H 5900 4825 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L power:GND #PWR020
 U 1 1 5FEDE866
 P 5150 5500
-F 0 "#PWR0115" H 5150 5250 50  0001 C CNN
+F 0 "#PWR020" H 5150 5250 50  0001 C CNN
 F 1 "GND" H 5155 5327 50  0000 C CNN
 F 2 "" H 5150 5500 50  0001 C CNN
 F 3 "" H 5150 5500 50  0001 C CNN
@@ -841,10 +841,10 @@ Connection ~ 5150 5375
 Wire Wire Line
 	5150 5375 5150 5475
 $Comp
-L power:GND #PWR0116
+L power:GND #PWR022
 U 1 1 5FEDE881
 P 6600 5500
-F 0 "#PWR0116" H 6600 5250 50  0001 C CNN
+F 0 "#PWR022" H 6600 5250 50  0001 C CNN
 F 1 "GND" H 6605 5327 50  0000 C CNN
 F 2 "" H 6600 5500 50  0001 C CNN
 F 3 "" H 6600 5500 50  0001 C CNN
@@ -861,10 +861,10 @@ Connection ~ 6600 5375
 Wire Wire Line
 	6600 5275 6600 5375
 $Comp
-L power:+5V #PWR0106
+L power:+5V #PWR023
 U 1 1 5FEDE893
 P 6700 4600
-F 0 "#PWR0106" H 6700 4450 50  0001 C CNN
+F 0 "#PWR023" H 6700 4450 50  0001 C CNN
 F 1 "+5V" H 6715 4773 50  0000 C CNN
 F 2 "" H 6700 4600 50  0001 C CNN
 F 3 "" H 6700 4600 50  0001 C CNN
@@ -881,10 +881,10 @@ Wire Wire Line
 	6700 4775 6700 4675
 Connection ~ 6700 4675
 $Comp
-L power:+3V3 #PWR0110
+L power:+3V3 #PWR024
 U 1 1 5FEDE8A2
 P 6850 4775
-F 0 "#PWR0110" H 6850 4625 50  0001 C CNN
+F 0 "#PWR024" H 6850 4625 50  0001 C CNN
 F 1 "+3V3" H 6865 4948 50  0000 C CNN
 F 2 "" H 6850 4775 50  0001 C CNN
 F 3 "" H 6850 4775 50  0001 C CNN
@@ -913,10 +913,10 @@ Wire Wire Line
 	6850 5175 6850 4975
 Connection ~ 6850 4975
 $Comp
-L Neotron-Common-Hardware:Neotron-Expansion-Slot J103
+L Neotron-Common-Hardware:Neotron-Expansion-Slot J3
 U 1 1 5FEED110
 P 7725 4825
-F 0 "J103" H 7700 5540 50  0000 C CNN
+F 0 "J3" H 7700 5540 50  0000 C CNN
 F 1 "Neotron-Expansion-Slot" H 7700 5449 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 8175 5225 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English" H 8175 5225 50  0001 C CNN
@@ -928,10 +928,10 @@ F 7 "TE" H 7725 4825 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0117
+L power:GND #PWR025
 U 1 1 5FEED11A
 P 6975 5500
-F 0 "#PWR0117" H 6975 5250 50  0001 C CNN
+F 0 "#PWR025" H 6975 5250 50  0001 C CNN
 F 1 "GND" H 6980 5327 50  0000 C CNN
 F 2 "" H 6975 5500 50  0001 C CNN
 F 3 "" H 6975 5500 50  0001 C CNN
@@ -958,10 +958,10 @@ Connection ~ 6975 5375
 Wire Wire Line
 	6975 5375 6975 5475
 $Comp
-L power:+5V #PWR0107
+L power:+5V #PWR027
 U 1 1 5FEED144
 P 8525 4600
-F 0 "#PWR0107" H 8525 4450 50  0001 C CNN
+F 0 "#PWR027" H 8525 4450 50  0001 C CNN
 F 1 "+5V" H 8540 4773 50  0000 C CNN
 F 2 "" H 8525 4600 50  0001 C CNN
 F 3 "" H 8525 4600 50  0001 C CNN
@@ -978,10 +978,10 @@ Wire Wire Line
 	8525 4775 8525 4675
 Connection ~ 8525 4675
 $Comp
-L power:+3V3 #PWR0111
+L power:+3V3 #PWR028
 U 1 1 5FEED153
 P 8675 4775
-F 0 "#PWR0111" H 8675 4625 50  0001 C CNN
+F 0 "#PWR028" H 8675 4625 50  0001 C CNN
 F 1 "+3V3" H 8690 4948 50  0000 C CNN
 F 2 "" H 8675 4775 50  0001 C CNN
 F 3 "" H 8675 4775 50  0001 C CNN
@@ -1012,10 +1012,10 @@ Slot 1
 Text Notes 7550 5575 0    50   ~ 0
 Slot 2
 $Comp
-L power:GND #PWR0118
+L power:GND #PWR026
 U 1 1 5FF20385
 P 8425 5500
-F 0 "#PWR0118" H 8425 5250 50  0001 C CNN
+F 0 "#PWR026" H 8425 5250 50  0001 C CNN
 F 1 "GND" H 8430 5327 50  0000 C CNN
 F 2 "" H 8425 5500 50  0001 C CNN
 F 3 "" H 8425 5500 50  0001 C CNN
@@ -1036,10 +1036,10 @@ Wire Wire Line
 Wire Wire Line
 	8275 5275 8675 5275
 $Comp
-L Neotron-Common-Hardware:Neotron-Expansion-Slot J104
+L Neotron-Common-Hardware:Neotron-Expansion-Slot J4
 U 1 1 5FF3FC03
 P 9575 4825
-F 0 "J104" H 9550 5540 50  0000 C CNN
+F 0 "J4" H 9550 5540 50  0000 C CNN
 F 1 "Neotron-Expansion-Slot" H 9550 5449 50  0000 C CNN
 F 2 "Neotron-Common-Hardware:Neotron-Expansion-Slot" H 10025 5225 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English" H 10025 5225 50  0001 C CNN
@@ -1051,10 +1051,10 @@ F 7 "TE" H 9575 4825 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
+L power:GND #PWR029
 U 1 1 5FF3FC0D
 P 8825 5500
-F 0 "#PWR0119" H 8825 5250 50  0001 C CNN
+F 0 "#PWR029" H 8825 5250 50  0001 C CNN
 F 1 "GND" H 8830 5327 50  0000 C CNN
 F 2 "" H 8825 5500 50  0001 C CNN
 F 3 "" H 8825 5500 50  0001 C CNN
@@ -1081,10 +1081,10 @@ Connection ~ 8825 5375
 Wire Wire Line
 	8825 5375 8825 5475
 $Comp
-L power:+5V #PWR0108
+L power:+5V #PWR031
 U 1 1 5FF3FC28
 P 10375 4600
-F 0 "#PWR0108" H 10375 4450 50  0001 C CNN
+F 0 "#PWR031" H 10375 4450 50  0001 C CNN
 F 1 "+5V" H 10390 4773 50  0000 C CNN
 F 2 "" H 10375 4600 50  0001 C CNN
 F 3 "" H 10375 4600 50  0001 C CNN
@@ -1101,10 +1101,10 @@ Wire Wire Line
 	10375 4775 10375 4675
 Connection ~ 10375 4675
 $Comp
-L power:+3V3 #PWR0112
+L power:+3V3 #PWR032
 U 1 1 5FF3FC37
 P 10525 4775
-F 0 "#PWR0112" H 10525 4625 50  0001 C CNN
+F 0 "#PWR032" H 10525 4625 50  0001 C CNN
 F 1 "+3V3" H 10540 4948 50  0000 C CNN
 F 2 "" H 10525 4775 50  0001 C CNN
 F 3 "" H 10525 4775 50  0001 C CNN
@@ -1131,10 +1131,10 @@ Connection ~ 10525 4975
 Text Notes 9400 5575 0    50   ~ 0
 Slot 3
 $Comp
-L power:GND #PWR0120
+L power:GND #PWR030
 U 1 1 5FF3FC4F
 P 10275 5500
-F 0 "#PWR0120" H 10275 5250 50  0001 C CNN
+F 0 "#PWR030" H 10275 5250 50  0001 C CNN
 F 1 "GND" H 10280 5327 50  0000 C CNN
 F 2 "" H 10275 5500 50  0001 C CNN
 F 3 "" H 10275 5500 50  0001 C CNN
@@ -1180,46 +1180,88 @@ NoConn ~ 5300 4875
 NoConn ~ 3375 4875
 NoConn ~ 6200 6100
 $Sheet
-S 8250 2750 1000 1000
+S 9500 2750 1000 1000
 U 5FEF404D
 F0 "Real TIme Clock" 50
 F1 "rtc.sch" 50
-F2 "I2C_SDA" B L 8250 2900 50 
-F3 "I2C_SCL" I L 8250 3000 50 
+F2 "I2C_SDA" B L 9500 2900 50 
+F3 "I2C_SCL" I L 9500 3000 50 
 $EndSheet
-NoConn ~ 8250 2900
-NoConn ~ 8250 3000
-Text Label 3850 2725 0    50   ~ 0
-DUMMY[0..5]
+NoConn ~ 9500 2900
+NoConn ~ 9500 3000
+$Sheet
+S 5750 2750 1000 1000
+U 60677AF0
+F0 "12-bit Video" 50
+F1 "video12.sch" 50
+F2 "DDC_SDA" B L 5750 3450 50 
+F3 "DDC_SCL" I L 5750 3550 50 
+F4 "VSYNC" I L 5750 3250 50 
+F5 "HSYNC" I L 5750 3350 50 
+F6 "RED[0..3]" I L 5750 2850 50 
+F7 "GREEN[0..3]" I L 5750 2950 50 
+F8 "BLUE[0..3]" I L 5750 3050 50 
+$EndSheet
+NoConn ~ 5750 3550
+NoConn ~ 5750 3450
+NoConn ~ 5750 3250
+NoConn ~ 5750 3350
 Wire Bus Line
-	4425 2950 4425 2850
+	5750 2850 5600 2850
 Wire Bus Line
-	4425 2950 4500 2950
-Connection ~ 4425 2950
+	5600 2850 5600 2950
 Wire Bus Line
-	4425 3050 4500 3050
-Wire Bus Line
-	4425 2850 4500 2850
-Wire Bus Line
-	4425 2725 4425 2850
-Connection ~ 4425 2850
-Wire Bus Line
-	4425 2925 4425 2950
-Wire Bus Line
-	4425 2950 4425 3050
+	5600 3950 6200 3950
 $Comp
-L power:GND #PWR0131
-U 1 1 600C02B8
-P 3825 2800
-F 0 "#PWR0131" H 3825 2550 50  0001 C CNN
-F 1 "GND" H 3830 2627 50  0000 C CNN
-F 2 "" H 3825 2800 50  0001 C CNN
-F 3 "" H 3825 2800 50  0001 C CNN
-	1    3825 2800
-	1    0    0    -1  
+L power:GND #PWR019
+U 1 1 606B5F3A
+P 6200 3950
+F 0 "#PWR019" H 6200 3700 50  0001 C CNN
+F 1 "GND" H 6205 3777 50  0000 C CNN
+F 2 "" H 6200 3950 50  0001 C CNN
+F 3 "" H 6200 3950 50  0001 C CNN
+	1    6200 3950
+	0    -1   -1   0   
 $EndComp
 Wire Bus Line
-	3825 2725 3825 2800
+	5750 2950 5600 2950
+Connection ~ 5600 2950
 Wire Bus Line
-	3825 2725 4425 2725
+	5600 2950 5600 3050
+Wire Bus Line
+	5750 3050 5600 3050
+Connection ~ 5600 3050
+Wire Bus Line
+	5600 3050 5600 3950
+Text Label 5650 3950 0    50   ~ 0
+DUMMY[0..3]
+$Comp
+L power:GND #PWR015
+U 1 1 606CBEF3
+P 4900 3950
+F 0 "#PWR015" H 4900 3700 50  0001 C CNN
+F 1 "GND" H 4905 3777 50  0000 C CNN
+F 2 "" H 4900 3950 50  0001 C CNN
+F 3 "" H 4900 3950 50  0001 C CNN
+	1    4900 3950
+	0    -1   -1   0   
+$EndComp
+Wire Bus Line
+	4500 2850 4350 2850
+Wire Bus Line
+	4350 2850 4350 2950
+Wire Bus Line
+	4350 3950 4900 3950
+Text Label 4400 3950 0    50   ~ 0
+DUMMY[0..5]
+Wire Bus Line
+	4500 2950 4350 2950
+Connection ~ 4350 2950
+Wire Bus Line
+	4350 2950 4350 3050
+Wire Bus Line
+	4500 3050 4350 3050
+Connection ~ 4350 3050
+Wire Bus Line
+	4350 3050 4350 3950
 $EndSCHEMATC
