@@ -4,6 +4,12 @@
 
 * None
 
+## v0.9.0
+
+* Changed STM32 pinout to add 4-wire UART and move to SPI bus
+* Added some Mouser part numbers
+* Marked resistors as 1% where not specified
+
 ## v0.8.0
 
 * Updated some 5V0 caps from 10V to 16V
