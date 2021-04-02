@@ -25,6 +25,7 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 
 * 15-pin D-Sub VGA interface
 * 18-bit (6-6-6) and 12-bit (4-4-4) RGB R2R DACs
+  * Requires you to connect up a CPU that can generate digital parallel RGB video
 * 3peak TPF133A or Texas Instruments THS7316 RGB video buffer
    * 36 MHz bandwidth - 1024x768@60Hz maximum
    * 6dB gain
@@ -57,6 +58,9 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 * Link and Activity LEDs
 
 ### Board Management Controller
+
+Power-on Reset sequencing, soft shutdown, voltage monitoring and PS/2 interfacing is handled by a separate STM32F0 SoC.
+
 * ST Micro STM32F0 (STM32F031K6T6) microcontroller
   * 32-bit Arm Cortex-M0+ Core
   * 3.3V I/O (5V tolerant)
@@ -68,30 +72,50 @@ Contains KiCad footprints and symbols shared across multiple Neotron projects. I
 * Controls system reset, soft-on and soft-off for main CPU
 * Can the main 5V regulator on and off
 * Runs from 3.3V stand-by regulator
-* I²C interface (with dedicated IRQ line) with main CPU
+* SPI interface (with dedicated IRQ line) with main CPU
+* Secondary I²C bus which can be controlled over SPI
 
-| Pin | Name  | Peripheral | Function           |
-|:----|:------|:-----------|:-------------------|
-| 16  | VDD   | N/A        | 3.3V Digital Power |
-| 5   | VDDA  | N/A        | 3.3V Analog Power  |
-| 15  | VSS   | N/A        | Ground             |
-| 1   | BOOT0 | BOOT0      | Boot Mode Select   |
-| 4   | NRST  | Reset      | Reset BMC          |
-| 6   | PA0   | ADC0       | Monitor 3.3V rail  |
-| 7   | PA1   | ADC0       | Monitor 5V rail    |
-| 8   | PA2   | USART1_TX  | Debug Log          |
-| 9   | PA3   | Output     | Status LED         |
-| 10  | PA4   | Output     | DC-DC Enable       |
-| 11  | PA5   | Output     | System Reset       |
-| 12  | PA6   | Input      | Reset Switch In    |
-| 13  | PA7   | Input      | Power Switch In    |
-| 17  | PA9   | I2C0_SCL   | Host comms         |
-| 18  | PA10  | I2C0_SDA   | Host comms         |
-| 19  | PA13  | IO         | PS/2 Data 1        |
-| 20  | PA14  | IO         | PS/2 Clock 1       |
-| 14  | PB1   | Output     | Host IRQ           |
-| 2   | PF0   | IO         | PS/2 Data 0        |
-| 3   | PF1   | IO         | PS/2 Clock 0       |
+| Pin  | Name | Signal     | Function                                     |
+| :--- | :--- | :--------- | :------------------------------------------- |
+| 02   | PF0  | BUTTON_PWR | Power Button Input (active low)              |
+| 03   | PF1  | HOST_RST   | Reset Output to reset the rest of the system |
+| 06   | PA0  | MON_3V3    | 3.3V rail monitor Input (1.65V nominal)      |
+| 07   | PA1  | MON_5V     | 5.0V rail monitor Input (1.65V nominal)      |
+| 08   | PA2  | LED0       | PWM output for first Status LED              |
+| 09   | PA3  | LED1       | PWM output for second Status LED             |
+| 10   | PA4  | SPI1_NSS   | SPI Chip Select Input (active low)           |
+| 11   | PA5  | SPI1_SCK   | SPI Clock Input                              |
+| 12   | PA6  | SPI1_CIPO  | SPI Data Output                              |
+| 13   | PA7  | SPI1_COPI  | SPI Data Input                               |
+| 14   | PB0  | BUTTON_RST | Reset Button Input (active low)              |
+| 15   | PB1  | DC_ON      | PSU Enable Output                            |
+| 18   | PA8  | HOST_NIRQ  | Interrupt Output to the Host (active low)    |
+| 19   | PA9  | I2C1_SCL   | I²C Clock                                    |
+| 20   | PA10 | I2C1_SDA   | I²C Data                                     |
+| 21   | PA11 | USART1_CTS | UART Clear-to-Send Output                    |
+| 22   | PA12 | USART1_RTS | UART Ready-to-Receive Input                  |
+| 23   | PA13 | SWDIO      | SWD Progamming Data Input                    |
+| 24   | PA14 | SWCLK      | SWD Programming Clock Input                  |
+| 25   | PA15 | PS2_CLK0   | Keyboard Clock Input                         |
+| 26   | PB3  | PS2_CLK1   | Mouse Clock Input                            |
+| 27   | PB4  | PS2_DAT0   | Keyboard Data Input                          |
+| 28   | PB5  | PS2_DAT1   | Mouse Data Input                             |
+| 29   | PB6  | USART1_TX  | UART Transmit Output                         |
+| 30   | PB7  | USART1_RX  | UART Receive Input                           |
+
+Note that in the above table, the UART signals labelled from the point of view of the BMC chip (i.e. UART_RX as an input to the BMC).
+
+This design should also be pin-compatible with the following SoCs (although the software may need recompiling):
+
+* STM32F042K4Tx
+* STM32F042K6Tx
+* STM32L071KBTx
+* STM32L071KZTx
+* STM32L072KZTx
+* STM32L081KZTx
+* STM32L082KZTx
+
+Note that not all STM32 pins are 5V-tolerant, and the PS/2 protocol is a 5V open-collector system, so ensure that whichever part you pick has 5V-tolerant pins (marked `FT` or `FTt` in the datasheet) for the PS/2 signals. All of the parts above _should_ be OK, but they haven't been tested. Let us know if you try one!
 
 ### PS/2 Keyboard and Mouse
 
