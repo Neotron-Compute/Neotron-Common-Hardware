@@ -150,15 +150,15 @@ Wire Wire Line
 NoConn ~ 9500 4250
 NoConn ~ 9500 4350
 Text HLabel 1850 3300 0    50   Input ~ 0
-AUDIO_DAT_TO_CODEC
-Text HLabel 1850 3400 0    50   Input ~ 0
-AUDIO_LR_TO_CODEC
-Text HLabel 1850 3500 0    50   Input ~ 0
-AUDIO_BIT_CLK_TO_CODEC
+AUDIO_DAC_DAT
+Text HLabel 1850 3400 0    50   BiDi ~ 0
+AUDIO_DAC_LR
+Text HLabel 1850 3500 0    50   BiDi ~ 0
+AUDIO_BIT_CLK
 Text HLabel 1850 3700 0    50   Output ~ 0
-AUDIO_DAT_FROM_CODEC
-Text HLabel 1850 3800 0    50   Output ~ 0
-AUDIO_LR_FROM_CODEC
+AUDIO_ADC_DATA
+Text HLabel 1850 3800 0    50   BiDi ~ 0
+AUDIO_ADC_LR
 $Comp
 L power:GND #PWR0608
 U 1 1 5FE4BACC
