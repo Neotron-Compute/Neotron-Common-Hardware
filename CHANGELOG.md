@@ -4,6 +4,11 @@
 
 * None
 
+## v0.9.2
+
+* Change Audio LR and BCLK pins to be bi-directional
+* Also renamed all Audio pins for clarity
+
 ## v0.9.1
 
 * Swapped BUTTON_PWR and SYS_RESET to avoid DRC issue
