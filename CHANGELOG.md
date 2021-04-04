@@ -4,6 +4,12 @@
 
 * None
 
+## v0.9.1
+
+* Swapped BUTTON_PWR and SYS_RESET to avoid DRC issue
+* Split PSU and BMC into two separate sheets
+* Swapped some pins on the STM32 to make it compatible with more alternatives
+
 ## v0.9.0
 
 * Changed STM32 pinout to add 4-wire UART and move to SPI bus
