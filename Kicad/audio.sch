@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 16
+Sheet 6 17
 Title "Neotron Common Hardware - Audio CODEC"
 Date "2021-04-02"
 Rev "[Uncontrolled]"
@@ -656,10 +656,10 @@ F 7 "Stackpole" H 4850 1650 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R609
+L Device:R_Small R611
 U 1 1 5FEF713B
 P 5250 1650
-F 0 "R609" H 5200 1600 50  0000 R CNN
+F 0 "R611" H 5200 1600 50  0000 R CNN
 F 1 "47k 1%" H 5200 1700 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5250 1650 50  0001 C CNN
 F 3 "~" H 5250 1650 50  0001 C CNN
@@ -750,10 +750,10 @@ F 7 "Stackpole" H 4850 2850 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R610
+L Device:R_Small R612
 U 1 1 6000BE6E
 P 5250 2850
-F 0 "R610" H 5191 2804 50  0000 R CNN
+F 0 "R612" H 5191 2804 50  0000 R CNN
 F 1 "47k 1%" H 5191 2895 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5250 2850 50  0001 C CNN
 F 3 "~" H 5250 2850 50  0001 C CNN
@@ -1345,10 +1345,10 @@ F 3 "" H 2850 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R612
+L Device:R_Small R610
 U 1 1 605E8027
 P 5200 4850
-F 0 "R612" V 5400 4850 50  0000 C CNN
+F 0 "R610" V 5400 4850 50  0000 C CNN
 F 1 "4k7 1%" V 5300 4850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5200 4850 50  0001 C CNN
 F 3 "~" H 5200 4850 50  0001 C CNN
@@ -1390,10 +1390,10 @@ F 7 "Samsung" H 6250 5100 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R611
+L Device:R_Small R609
 U 1 1 60601172
 P 5200 4700
-F 0 "R611" V 5400 4700 50  0000 C CNN
+F 0 "R609" V 5400 4700 50  0000 C CNN
 F 1 "2k2 1%" V 5300 4700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5200 4700 50  0001 C CNN
 F 3 "~" H 5200 4700 50  0001 C CNN
@@ -1438,10 +1438,10 @@ Wire Wire Line
 Wire Wire Line
 	5750 4700 5750 4850
 $Comp
-L Device:Ferrite_Bead_Small FB607
+L Device:Ferrite_Bead_Small FB608
 U 1 1 606D01FF
 P 6500 4850
-F 0 "FB607" V 6263 4850 50  0000 C CNN
+F 0 "FB608" V 6263 4850 50  0000 C CNN
 F 1 "600R@100MHz" V 6350 4850 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 4850 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/EMI_Filtering_and_RF_Inductors.pdf" H 6500 4850 50  0001 C CNN
@@ -2311,10 +2311,10 @@ Wire Wire Line
 Wire Wire Line
 	6100 3750 7100 3750
 $Comp
-L Device:Ferrite_Bead_Small FB608
+L Device:Ferrite_Bead_Small FB607
 U 1 1 605225C2
 P 6500 3600
-F 0 "FB608" V 6263 3600 50  0000 C CNN
+F 0 "FB607" V 6263 3600 50  0000 C CNN
 F 1 "3k3" V 6350 3600 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 3600 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 6500 3600 50  0001 C CNN
@@ -2381,4 +2381,6 @@ Wire Wire Line
 Connection ~ 7100 3750
 Wire Wire Line
 	7100 3750 7450 3750
+Text Notes 5100 5975 0    50   ~ 0
+The TLV320AIC23 must be set to:\n1) USB Mode (12 MHz clock)\n2) So-called 'Slave' mode (LRCOUT, LRCIN and BCLK are inputs)
 $EndSCHEMATC
