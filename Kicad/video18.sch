@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 16
+Sheet 2 17
 Title "Neotron Common Hardware - Video Output"
 Date "2021-04-02"
 Rev "[Uncontrolled]"
@@ -278,8 +278,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 4000 3150 3650
 Connection ~ 3150 3650
-Wire Wire Line
-	3150 3650 4000 3650
 $Comp
 L Neotron-Common-Hardware:TPD7S019 U202
 U 1 1 60682014
@@ -838,4 +836,6 @@ Wire Wire Line
 	9600 5250 7650 5250
 Wire Wire Line
 	9600 5250 11050 5250
+Wire Wire Line
+	3150 3650 4050 3650
 $EndSCHEMATC

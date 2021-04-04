@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 16
+Sheet 7 17
 Title "Neotron Common Hardware - SD Card Slot"
 Date "2021-04-02"
 Rev "[Uncontrolled]"
