@@ -4,6 +4,10 @@
 
 * None
 
+## v0.9.3
+
+* Remove audio split ground by joining GND and GNDA
+
 ## v0.9.2
 
 * Change Audio LR and BCLK pins to be bi-directional
