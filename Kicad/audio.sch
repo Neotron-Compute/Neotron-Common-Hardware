@@ -902,30 +902,10 @@ F 3 "" H 3500 7200 50  0001 C CNN
 	1    3500 7200
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB604
-U 1 1 601EBC02
-P 3800 7100
-F 0 "FB604" V 3563 7100 50  0000 C CNN
-F 1 "3k3" V 3654 7100 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3730 7100 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 3800 7100 50  0001 C CNN
-F 4 "BLM21PG221SN1D " H 3800 7100 50  0001 C CNN "MPN"
-F 5 "0" H 3800 7100 50  0001 C CNN "DNP"
-F 6 "490-1054-1-ND" H 3800 7100 50  0001 C CNN "Digikey"
-F 7 "Murata" H 3800 7100 50  0001 C CNN "Manufacturer"
-F 8 "81-BLM21P221SG" H 3800 7100 50  0001 C CNN "Mouser"
-	1    3800 7100
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	4100 7200 4100 7100
 Wire Wire Line
-	4100 7100 3900 7100
-Wire Wire Line
 	3500 7100 3500 7200
-Wire Wire Line
-	3700 7100 3500 7100
 $Comp
 L power:+3V3 #PWR0601
 U 1 1 60202F4E
@@ -2383,4 +2363,6 @@ Wire Wire Line
 	7100 3750 7450 3750
 Text Notes 5100 5975 0    50   ~ 0
 The TLV320AIC23 must be set to:\n1) USB Mode (12 MHz clock)\n2) So-called 'Slave' mode (LRCOUT, LRCIN and BCLK are inputs)
+Wire Wire Line
+	3500 7100 4100 7100
 $EndSCHEMATC
