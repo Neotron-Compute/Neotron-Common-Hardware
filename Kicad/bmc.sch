@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 16 17
-Title ""
+Title "Neotron Common Hardware - Board M'gmt Controller"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "[Uncontrolled]"
+Comp "https://neotron-compute.github.io/"
+Comment1 "Licenced as CC BY-SA"
+Comment2 "Copyright (c) The Neotron Developers, 2021"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -28,8 +28,6 @@ F 3 "" H 2925 3850 50  0001 C CNN
 $EndComp
 Text Notes 3975 4075 2    50   Italic 0
 Manual reset switch:\nTap to reboot host
-Text Notes 7600 1200 0    50   ~ 0
-The BMC controls power/reset, as well\nas PS/2 devices and performing voltage\nrail monitoring.\n\nLines to host are hi-Z until host is\npowered (i.e. 3.3V looks good) to\navoid back-powering.
 $Comp
 L Device:C C1603
 U 1 1 606E29E5
@@ -349,16 +347,16 @@ PS2_DAT1
 $Comp
 L Device:Jumper_NO_Small JP1601
 U 1 1 6072F924
-P 2600 1875
-F 0 "JP1601" H 2600 2060 50  0000 C CNN
-F 1 "Jumper" H 2600 1969 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2600 1875 50  0001 C CNN
-F 3 "~" H 2600 1875 50  0001 C CNN
-F 4 "1" H 2600 1875 50  0001 C CNN "DNP"
-F 5 "~" H 2600 1875 50  0001 C CNN "Digikey"
-F 6 "~" H 2600 1875 50  0001 C CNN "MPN"
-F 7 "~" H 2600 1875 50  0001 C CNN "Manufacturer"
-	1    2600 1875
+P 3800 1875
+F 0 "JP1601" H 3800 2060 50  0000 C CNN
+F 1 "Jumper" H 3800 1969 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3800 1875 50  0001 C CNN
+F 3 "~" H 3800 1875 50  0001 C CNN
+F 4 "1" H 3800 1875 50  0001 C CNN "DNP"
+F 5 "~" H 3800 1875 50  0001 C CNN "Digikey"
+F 6 "~" H 3800 1875 50  0001 C CNN "MPN"
+F 7 "~" H 3800 1875 50  0001 C CNN "Manufacturer"
+	1    3800 1875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -366,12 +364,12 @@ Wire Wire Line
 $Comp
 L power:+3.3VP #PWR01607
 U 1 1 606E2A06
-P 2250 1825
-F 0 "#PWR01607" H 2400 1775 50  0001 C CNN
-F 1 "+3.3VP" H 2250 1975 50  0000 C CNN
-F 2 "" H 2250 1825 50  0001 C CNN
-F 3 "" H 2250 1825 50  0001 C CNN
-	1    2250 1825
+P 3425 1825
+F 0 "#PWR01607" H 3575 1775 50  0001 C CNN
+F 1 "+3.3VP" H 3425 1975 50  0000 C CNN
+F 2 "" H 3425 1825 50  0001 C CNN
+F 3 "" H 3425 1825 50  0001 C CNN
+	1    3425 1825
 	1    0    0    -1  
 $EndComp
 Text Label 4425 1250 0    50   ~ 0
@@ -481,7 +479,7 @@ Wire Wire Line
 Wire Wire Line
 	6325 1425 6325 1475
 Wire Wire Line
-	2250 1825 2250 1875
+	3425 1825 3425 1875
 Wire Wire Line
 	5625 2575 5275 2575
 Wire Wire Line
@@ -505,7 +503,7 @@ Wire Wire Line
 Text Notes 3425 1400 0    50   Italic 0
 Serial Wire Debug
 Wire Wire Line
-	2700 1875 2850 1875
+	3900 1875 4100 1875
 Wire Wire Line
 	6725 2975 7225 2975
 Wire Wire Line
@@ -670,7 +668,7 @@ MON_5V
 Text Label 8375 1975 2    50   ~ 0
 MON_3V3
 Wire Wire Line
-	2250 1875 2500 1875
+	3425 1875 3700 1875
 Wire Wire Line
 	9925 5375 10675 5375
 Connection ~ 9925 5375
@@ -751,7 +749,7 @@ Wire Wire Line
 	6725 2575 7075 2575
 Wire Wire Line
 	6725 2675 7075 2675
-Text Notes 2025 1500 0    50   Italic 0
+Text Notes 2650 2100 0    50   Italic 0
 Fit jumper to enable UART\nbootloader on PA9/PA10
 Wire Wire Line
 	8025 1975 8475 1975
@@ -789,16 +787,16 @@ $EndComp
 $Comp
 L Device:R R1605
 U 1 1 606E29F2
-P 2850 2125
-F 0 "R1605" H 2800 2175 50  0000 R CNN
-F 1 "10k 1%" H 2800 2075 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2780 2125 50  0001 C CNN
-F 3 "~" H 2850 2125 50  0001 C CNN
-F 4 "0" H 2850 2125 50  0001 C CNN "DNP"
-F 5 "RMCF0805FT10K0-ND" H 2850 2125 50  0001 C CNN "Digikey"
-F 6 "RMCF0805FT10K0" H 2850 2125 50  0001 C CNN "MPN"
-F 7 "Stackpole" H 2850 2125 50  0001 C CNN "Manufacturer"
-	1    2850 2125
+P 4100 2125
+F 0 "R1605" H 4050 2175 50  0000 R CNN
+F 1 "10k 1%" H 4050 2075 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4030 2125 50  0001 C CNN
+F 3 "~" H 4100 2125 50  0001 C CNN
+F 4 "0" H 4100 2125 50  0001 C CNN "DNP"
+F 5 "RMCF0805FT10K0-ND" H 4100 2125 50  0001 C CNN "Digikey"
+F 6 "RMCF0805FT10K0" H 4100 2125 50  0001 C CNN "MPN"
+F 7 "Stackpole" H 4100 2125 50  0001 C CNN "Manufacturer"
+	1    4100 2125
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1084,8 +1082,6 @@ Wire Wire Line
 Wire Wire Line
 	4825 2375 4825 3725
 Wire Wire Line
-	6725 1875 7075 1875
-Wire Wire Line
 	6725 1975 7075 1975
 Text Notes 900  1425 0    50   ~ 0
 SPI Bus
@@ -1096,23 +1092,23 @@ For case LED
 Wire Wire Line
 	7225 1000 7225 2975
 Wire Wire Line
-	2850 1875 5625 1875
-Connection ~ 2850 1875
+	4100 1875 5625 1875
+Connection ~ 4100 1875
 Wire Wire Line
-	2850 1875 2850 1975
+	4100 1875 4100 1975
 $Comp
 L power:GND #PWR0133
 U 1 1 6086D93C
-P 2850 2350
-F 0 "#PWR0133" H 2850 2100 50  0001 C CNN
-F 1 "GND" H 2855 2177 50  0000 C CNN
-F 2 "" H 2850 2350 50  0001 C CNN
-F 3 "" H 2850 2350 50  0001 C CNN
-	1    2850 2350
+P 4100 2325
+F 0 "#PWR0133" H 4100 2075 50  0001 C CNN
+F 1 "GND" H 4105 2152 50  0000 C CNN
+F 2 "" H 4100 2325 50  0001 C CNN
+F 3 "" H 4100 2325 50  0001 C CNN
+	1    4100 2325
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 2350 2850 2275
+	4100 2325 4100 2275
 Text Notes 900  2375 0    50   ~ 0
 TTL UART
 Text HLabel 1025 2125 2    50   Output ~ 0
@@ -1145,8 +1141,6 @@ Text Label 975  2625 2    50   ~ 0
 DC_ON
 Wire Wire Line
 	1025 2625 675  2625
-Text HLabel 1025 2625 2    50   Output ~ 0
-DC_ON
 Text Label 975  2525 2    50   ~ 0
 ~SYS_RESET
 Wire Wire Line
@@ -1161,4 +1155,52 @@ Text HLabel 1025 2525 2    50   Output ~ 0
 ~RESET
 Wire Wire Line
 	1025 2225 600  2225
+$Comp
+L Device:R R1611
+U 1 1 6071F9F2
+P 8000 3950
+F 0 "R1611" H 8070 3996 50  0000 L CNN
+F 1 "10k 1%" H 8070 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7930 3950 50  0001 C CNN
+F 3 "~" H 8000 3950 50  0001 C CNN
+F 4 "0" H 8000 3950 50  0001 C CNN "DNP"
+F 5 "RMCF0805FT10K0-ND" H 8000 3950 50  0001 C CNN "Digikey"
+F 6 "RMCF0805FT10K0" H 8000 3950 50  0001 C CNN "MPN"
+F 7 "Stackpole" H 8000 3950 50  0001 C CNN "Manufacturer"
+	1    8000 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3725 8000 3800
+Wire Wire Line
+	8000 4100 8000 4150
+$Comp
+L power:GND #PWR01610
+U 1 1 607270B5
+P 8000 4150
+F 0 "#PWR01610" H 8000 3900 50  0001 C CNN
+F 1 "GND" H 8005 3977 50  0000 C CNN
+F 2 "" H 8000 4150 50  0001 C CNN
+F 3 "" H 8000 4150 50  0001 C CNN
+	1    8000 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6725 1875 7075 1875
+Text Label 7950 3725 2    50   ~ 0
+~SYS_RESET
+Wire Wire Line
+	7750 3725 8000 3725
+Text Notes 8100 4025 0    50   Italic 0
+System is in reset by default,\nunless STM32 drives SYS_RESET high.
+Text Notes 1375 2550 0    50   Italic 0
+Everything held in reset when low
+Text Notes 1375 2650 0    50   Italic 0
+Turns on main 5V rail when high
+Text HLabel 1025 2625 2    50   Output ~ 0
+DC_ON
+Text Notes 1375 2750 0    50   Italic 0
+Need service when level is high
+Text Notes 550  7700 0    79   Italic 0
+This STM32 runs on the permanent 3.3VP power rail.\nIt boots up as soon as the board has power connected.\nIt handles the power button and reset buttons, and\ncontrols the main DC-DC PSU and the system reset lines.\nIt has an I²C bus, two LED outputs, a four-wire UART, and\ntwo PS/2 ports. It can monitor both 3.3V and 5.0V power\nrails. It talks to the host over SPI.\n\nLines to host are hi-Z until host is powered\n(i.e. 5V and 3.3V look good) to avoid back-powering.
 $EndSCHEMATC

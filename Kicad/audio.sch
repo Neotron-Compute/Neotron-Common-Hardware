@@ -650,7 +650,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4850 1650 50  0
 F 3 "~" H 4850 1650 50  0001 C CNN
 F 4 "0" H 4850 1650 50  0001 C CNN "DNP"
 F 5 "RMCF0805FT47K5-ND" H 4850 1650 50  0001 C CNN "Digikey"
-F 6 "RMCF0805FT47K5 " H 4850 1650 50  0001 C CNN "MPN"
+F 6 "RMCF0805FT47K5" H 4850 1650 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 4850 1650 50  0001 C CNN "Manufacturer"
 	1    4850 1650
 	-1   0    0    -1  
@@ -665,7 +665,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5250 1650 50  0
 F 3 "~" H 5250 1650 50  0001 C CNN
 F 4 "0" H 5250 1650 50  0001 C CNN "DNP"
 F 5 "RMCF0805FT47K5-ND" H 5250 1650 50  0001 C CNN "Digikey"
-F 6 "RMCF0805FT47K5 " H 5250 1650 50  0001 C CNN "MPN"
+F 6 "RMCF0805FT47K5" H 5250 1650 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 5250 1650 50  0001 C CNN "Manufacturer"
 	1    5250 1650
 	-1   0    0    1   
@@ -726,7 +726,7 @@ F 0 "FB609" V 6650 1250 50  0000 C CNN
 F 1 "3k3" V 6650 1550 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 1400 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 6750 1400 50  0001 C CNN
-F 4 "BLM21PG221SN1D " H 6750 1400 50  0001 C CNN "MPN"
+F 4 "BLM21PG221SN1D" H 6750 1400 50  0001 C CNN "MPN"
 F 5 "0" H 6750 1400 50  0001 C CNN "DNP"
 F 6 "490-1054-1-ND" H 6750 1400 50  0001 C CNN "Digikey"
 F 7 "Murata" H 6750 1400 50  0001 C CNN "Manufacturer"
@@ -744,7 +744,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4850 2850 50  0
 F 3 "~" H 4850 2850 50  0001 C CNN
 F 4 "0" H 4850 2850 50  0001 C CNN "DNP"
 F 5 "RMCF0805FT47K5-ND" H 4850 2850 50  0001 C CNN "Digikey"
-F 6 "RMCF0805FT47K5 " H 4850 2850 50  0001 C CNN "MPN"
+F 6 "RMCF0805FT47K5" H 4850 2850 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 4850 2850 50  0001 C CNN "Manufacturer"
 	1    4850 2850
 	-1   0    0    -1  
@@ -759,7 +759,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5250 2850 50  0
 F 3 "~" H 5250 2850 50  0001 C CNN
 F 4 "0" H 5250 2850 50  0001 C CNN "DNP"
 F 5 "RMCF0805FT47K5-ND" H 5250 2850 50  0001 C CNN "Digikey"
-F 6 "RMCF0805FT47K5 " H 5250 2850 50  0001 C CNN "MPN"
+F 6 "RMCF0805FT47K5" H 5250 2850 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 5250 2850 50  0001 C CNN "Manufacturer"
 	1    5250 2850
 	-1   0    0    1   
@@ -925,7 +925,7 @@ F 0 "FB601" V 863 6100 50  0000 C CNN
 F 1 "3k3" V 954 6100 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 6100 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 1100 6100 50  0001 C CNN
-F 4 "BLM21PG221SN1D " H 1100 6100 50  0001 C CNN "MPN"
+F 4 "BLM21PG221SN1D" H 1100 6100 50  0001 C CNN "MPN"
 F 5 "0" H 1100 6100 50  0001 C CNN "DNP"
 F 6 "490-1054-1-ND" H 1100 6100 50  0001 C CNN "Digikey"
 F 7 "Murata" H 1100 6100 50  0001 C CNN "Manufacturer"
@@ -941,7 +941,7 @@ F 0 "FB602" V 863 7000 50  0000 C CNN
 F 1 "3k3" V 954 7000 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 7000 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 1100 7000 50  0001 C CNN
-F 4 "BLM21PG221SN1D " H 1100 7000 50  0001 C CNN "MPN"
+F 4 "BLM21PG221SN1D" H 1100 7000 50  0001 C CNN "MPN"
 F 5 "0" H 1100 7000 50  0001 C CNN "DNP"
 F 6 "490-1054-1-ND" H 1100 7000 50  0001 C CNN "Digikey"
 F 7 "Murata" H 1100 7000 50  0001 C CNN "Manufacturer"
@@ -1218,7 +1218,7 @@ F 0 "FB603" V 2963 6100 50  0000 C CNN
 F 1 "3k3" V 3054 6100 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3130 6100 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 3200 6100 50  0001 C CNN
-F 4 "BLM21PG221SN1D " H 3200 6100 50  0001 C CNN "MPN"
+F 4 "BLM21PG221SN1D" H 3200 6100 50  0001 C CNN "MPN"
 F 5 "0" H 3200 6100 50  0001 C CNN "DNP"
 F 6 "490-1054-1-ND" H 3200 6100 50  0001 C CNN "Digikey"
 F 7 "Murata" H 3200 6100 50  0001 C CNN "Manufacturer"
@@ -1559,18 +1559,6 @@ Wire Wire Line
 Text Label 9900 1950 2    50   ~ 0
 5V0_ANALOG
 $Comp
-L power:PWR_FLAG #FLG0603
-U 1 1 60A6FC05
-P 4100 7100
-F 0 "#FLG0603" H 4100 7175 50  0001 C CNN
-F 1 "PWR_FLAG" V 4100 7227 50  0000 L CNN
-F 2 "" H 4100 7100 50  0001 C CNN
-F 3 "~" H 4100 7100 50  0001 C CNN
-	1    4100 7100
-	0    1    -1   0   
-$EndComp
-Connection ~ 4100 7100
-$Comp
 L power:GNDA #PWR0621
 U 1 1 5FE2BF79
 P 4000 4700
@@ -1859,7 +1847,7 @@ F 0 "FB605" V 5750 1100 50  0000 C CNN
 F 1 "3k3" V 5750 1400 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5780 1250 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 5850 1250 50  0001 C CNN
-F 4 "BLM21PG221SN1D " H 5850 1250 50  0001 C CNN "MPN"
+F 4 "BLM21PG221SN1D" H 5850 1250 50  0001 C CNN "MPN"
 F 5 "0" H 5850 1250 50  0001 C CNN "DNP"
 F 6 "490-1054-1-ND" H 5850 1250 50  0001 C CNN "Digikey"
 F 7 "Murata" H 5850 1250 50  0001 C CNN "Manufacturer"
@@ -1875,7 +1863,7 @@ F 0 "FB610" V 7250 2600 50  0000 C CNN
 F 1 "3k3" V 7150 2600 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 2600 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 7000 2600 50  0001 C CNN
-F 4 "BLM21PG221SN1D " H 7000 2600 50  0001 C CNN "MPN"
+F 4 "BLM21PG221SN1D" H 7000 2600 50  0001 C CNN "MPN"
 F 5 "0" H 7000 2600 50  0001 C CNN "DNP"
 F 6 "490-1054-1-ND" H 7000 2600 50  0001 C CNN "Digikey"
 F 7 "Murata" H 7000 2600 50  0001 C CNN "Manufacturer"
@@ -2015,7 +2003,7 @@ F 0 "FB606" V 5663 2450 50  0000 C CNN
 F 1 "3k3" V 5750 2450 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 2450 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 5900 2450 50  0001 C CNN
-F 4 "BLM21PG221SN1D " H 5900 2450 50  0001 C CNN "MPN"
+F 4 "BLM21PG221SN1D" H 5900 2450 50  0001 C CNN "MPN"
 F 5 "0" H 5900 2450 50  0001 C CNN "DNP"
 F 6 "490-1054-1-ND" H 5900 2450 50  0001 C CNN "Digikey"
 F 7 "Murata" H 5900 2450 50  0001 C CNN "Manufacturer"
@@ -2298,7 +2286,7 @@ F 0 "FB607" V 6263 3600 50  0000 C CNN
 F 1 "3k3" V 6350 3600 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 3600 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 6500 3600 50  0001 C CNN
-F 4 "BLM21PG221SN1D " H 6500 3600 50  0001 C CNN "MPN"
+F 4 "BLM21PG221SN1D" H 6500 3600 50  0001 C CNN "MPN"
 F 5 "0" H 6500 3600 50  0001 C CNN "DNP"
 F 6 "490-1054-1-ND" H 6500 3600 50  0001 C CNN "Digikey"
 F 7 "Murata" H 6500 3600 50  0001 C CNN "Manufacturer"
@@ -2344,7 +2332,7 @@ F 0 "FB611" V 7800 3750 50  0000 C CNN
 F 1 "3k3" V 7700 3750 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7480 3750 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 7550 3750 50  0001 C CNN
-F 4 "BLM21PG221SN1D " H 7550 3750 50  0001 C CNN "MPN"
+F 4 "BLM21PG221SN1D" H 7550 3750 50  0001 C CNN "MPN"
 F 5 "0" H 7550 3750 50  0001 C CNN "DNP"
 F 6 "490-1054-1-ND" H 7550 3750 50  0001 C CNN "Digikey"
 F 7 "Murata" H 7550 3750 50  0001 C CNN "Manufacturer"
@@ -2361,8 +2349,12 @@ Wire Wire Line
 Connection ~ 7100 3750
 Wire Wire Line
 	7100 3750 7450 3750
-Text Notes 5100 5975 0    50   ~ 0
+Text Notes 5250 6250 0    50   ~ 0
 The TLV320AIC23 must be set to:\n1) USB Mode (12 MHz clock)\n2) So-called 'Slave' mode (LRCOUT, LRCIN and BCLK are inputs)
 Wire Wire Line
 	3500 7100 4100 7100
+Text Notes 4850 7700 0    50   ~ 0
+Some texts will tell you to 'split' GND and GNDA, in\norder to reduce noise, and that you should join them\nonly at a single point using a Ferrite Bead or a\nResistor. Others will tell you that attempting to carve\nyour ground plane like this will cause terrible EMI as\nyou will inevitably have traces crossing the split in\nthe ground plane, making the return current take the\nlong way back.\n\nBecause the TLV320AIC23 does not present 'analog'\npins on one side and 'digital' pins on the other\n(thus not lending itself towards straddling a split\nground plane), I've elected to follow the latter idiom.
+Wire Notes Line
+	4800 6550 6950 6550
 $EndSCHEMATC

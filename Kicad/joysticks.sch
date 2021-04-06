@@ -20,7 +20,7 @@ P 3100 2900
 F 0 "J901" V 3417 2856 50  0000 C CNN
 F 1 "DB9_Female_MountingHoles" V 3326 2856 50  0000 C CNN
 F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 3100 2900 50  0001 C CNN
-F 3 " ~" H 3100 2900 50  0001 C CNN
+F 3 "~" H 3100 2900 50  0001 C CNN
 F 4 "0" H 3100 2900 50  0001 C CNN "DNP"
 	1    3100 2900
 	0    -1   -1   0   
