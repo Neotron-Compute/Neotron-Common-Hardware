@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 17
 Title "Neotron Common Hardware"
-Date "2021-04-02"
+Date "2021-04-06"
 Rev "[Uncontrolled]"
 Comp "https://neotron-compute.github.io/"
 Comment1 "Licenced as CC BY-SA"
@@ -1286,7 +1286,6 @@ NoConn ~ 9250 2775
 NoConn ~ 9250 2875
 NoConn ~ 9250 2975
 NoConn ~ 9250 3075
-NoConn ~ 10225 2475
 NoConn ~ 10225 2575
 NoConn ~ 10225 2675
 NoConn ~ 10225 2875
@@ -1301,4 +1300,5 @@ Text Notes 10275 3100 0    50   ~ 0
 Data Input
 Text Notes 10275 3200 0    50   ~ 0
 Am I Clear to Send?
+NoConn ~ 6100 925 
 $EndSCHEMATC
