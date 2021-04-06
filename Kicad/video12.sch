@@ -6,10 +6,10 @@ encoding utf-8
 Sheet 12 17
 Title ""
 Date "2021-04-02"
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "[Uncontrolled]"
+Comp "https://neotron-compute.github.io/"
+Comment1 "Licenced as CC BY-SA"
+Comment2 "Copyright (c) The Neotron Developers, 2021"
 Comment3 ""
 Comment4 ""
 $EndDescr

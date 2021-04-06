@@ -2,7 +2,10 @@
 
 ## Unreleased Changes
 
-* None
+* SYS_RESET is pulled down.
+* 5V PSU's `Ctrl` input is now controlled with PNP/NPN transistor pair.
+* Added extra explanatory text to BMC page
+* Added not on audio sheet about split grounds.
 
 ## v0.9.3
 

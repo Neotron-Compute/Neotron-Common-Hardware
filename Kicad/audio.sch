@@ -1559,18 +1559,6 @@ Wire Wire Line
 Text Label 9900 1950 2    50   ~ 0
 5V0_ANALOG
 $Comp
-L power:PWR_FLAG #FLG0603
-U 1 1 60A6FC05
-P 4100 7100
-F 0 "#FLG0603" H 4100 7175 50  0001 C CNN
-F 1 "PWR_FLAG" V 4100 7227 50  0000 L CNN
-F 2 "" H 4100 7100 50  0001 C CNN
-F 3 "~" H 4100 7100 50  0001 C CNN
-	1    4100 7100
-	0    1    -1   0   
-$EndComp
-Connection ~ 4100 7100
-$Comp
 L power:GNDA #PWR0621
 U 1 1 5FE2BF79
 P 4000 4700
@@ -2361,8 +2349,12 @@ Wire Wire Line
 Connection ~ 7100 3750
 Wire Wire Line
 	7100 3750 7450 3750
-Text Notes 5100 5975 0    50   ~ 0
+Text Notes 5250 6250 0    50   ~ 0
 The TLV320AIC23 must be set to:\n1) USB Mode (12 MHz clock)\n2) So-called 'Slave' mode (LRCOUT, LRCIN and BCLK are inputs)
 Wire Wire Line
 	3500 7100 4100 7100
+Text Notes 4850 7700 0    50   ~ 0
+Some texts will tell you to 'split' GND and GNDA, in\norder to reduce noise, and that you should join them\nonly at a single point using a Ferrite Bead or a\nResistor. Others will tell you that attempting to carve\nyour ground plane like this will cause terrible EMI as\nyou will inevitably have traces crossing the split in\nthe ground plane, making the return current take the\nlong way back.\n\nBecause the TLV320AIC23 does not present 'analog'\npins on one side and 'digital' pins on the other\n(thus not lending itself towards straddling a split\nground plane), I've elected to follow the latter idiom.
+Wire Notes Line
+	4800 6550 6950 6550
 $EndSCHEMATC
