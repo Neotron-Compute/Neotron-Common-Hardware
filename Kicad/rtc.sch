@@ -139,7 +139,7 @@ F 2 "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Horizontal" H 5025 3000 50  0001 C CNN
 F 3 "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf" H 5025 3000 50  0001 C CNN
 F 4 "Citizen" H 5025 3000 50  0001 C CNN "Manufacturer"
 F 5 "0" H 5025 3000 50  0001 C CNN "DNP"
-F 6 "CFS-20632768DZBB " H 5025 3000 50  0001 C CNN "MPN"
+F 6 "CFS-20632768DZBB" H 5025 3000 50  0001 C CNN "MPN"
 F 7 "300-8301-ND" H 5025 3000 50  0001 C CNN "Digikey"
 F 8 "CFS-20632768DZBB" H 5025 3000 50  0001 C CNN "Mouser"
 	1    5025 3000
