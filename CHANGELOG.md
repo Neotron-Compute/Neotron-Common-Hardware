@@ -2,6 +2,10 @@
 
 ## Unreleased Changes
 
+* None
+
+## v0.10.0
+
 * SYS_RESET is pulled down.
 * 5V PSU's `Ctrl` input is now controlled with PNP/NPN transistor pair.
 * Added extra explanatory text to BMC page
