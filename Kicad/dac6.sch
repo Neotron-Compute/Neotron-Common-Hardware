@@ -40,6 +40,7 @@ F 5 "RNCF0805DTE24K0CT-ND" H 3500 2700 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE24K0" H 3500 2700 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 3500 2700 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" H 3575 2600 50  0000 L CNN "Tolerance"
+F 9 "~" H 3500 2700 50  0001 C CNN "Voltage"
 	1    3500 2700
 	1    0    0    -1  
 $EndComp
@@ -66,6 +67,7 @@ F 5 "RNCF0805DTE12K0CT-ND" H 4000 3000 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE12K0" H 4000 3000 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 4000 3000 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" V 4300 3000 50  0000 C CNN "Tolerance"
+F 9 "~" H 4000 3000 50  0001 C CNN "Voltage"
 	1    4000 3000
 	0    1    1    0   
 $EndComp
@@ -156,6 +158,7 @@ F 5 "RNCF0805DTE4K99CT-ND" H 9000 3300 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE4K99" H 9000 3300 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 9000 3300 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" H 9075 3200 50  0000 L CNN "Tolerance"
+F 9 "~" H 9000 3300 50  0001 C CNN "Voltage"
 	1    9000 3300
 	1    0    0    -1  
 $EndComp
@@ -253,6 +256,7 @@ F 5 "RNCF0805DTE24K0CT-ND" H 4500 2700 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE24K0" H 4500 2700 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 4500 2700 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" H 4575 2600 50  0000 L CNN "Tolerance"
+F 9 "~" H 4500 2700 50  0001 C CNN "Voltage"
 	1    4500 2700
 	1    0    0    -1  
 $EndComp
@@ -279,6 +283,7 @@ F 5 "RNCF0805DTE24K0CT-ND" H 5500 2700 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE24K0" H 5500 2700 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 5500 2700 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" H 5575 2600 50  0000 L CNN "Tolerance"
+F 9 "~" H 5500 2700 50  0001 C CNN "Voltage"
 	1    5500 2700
 	1    0    0    -1  
 $EndComp
@@ -305,6 +310,7 @@ F 5 "RNCF0805DTE24K0CT-ND" H 6500 2700 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE24K0" H 6500 2700 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 6500 2700 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" H 6575 2600 50  0000 L CNN "Tolerance"
+F 9 "~" H 6500 2700 50  0001 C CNN "Voltage"
 	1    6500 2700
 	1    0    0    -1  
 $EndComp
@@ -331,6 +337,7 @@ F 5 "RNCF0805DTE24K0CT-ND" H 7500 2700 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE24K0" H 7500 2700 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 7500 2700 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" H 7575 2600 50  0000 L CNN "Tolerance"
+F 9 "~" H 7500 2700 50  0001 C CNN "Voltage"
 	1    7500 2700
 	1    0    0    -1  
 $EndComp
@@ -357,6 +364,7 @@ F 5 "RNCF0805DTE24K0CT-ND" H 8500 2700 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE24K0" H 8500 2700 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 8500 2700 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" H 8575 2600 50  0000 L CNN "Tolerance"
+F 9 "~" H 8500 2700 50  0001 C CNN "Voltage"
 	1    8500 2700
 	1    0    0    -1  
 $EndComp
@@ -383,6 +391,7 @@ F 5 "RNCF0805DTE24K0CT-ND" H 3500 3300 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE24K0" H 3500 3300 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 3500 3300 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" H 3575 3200 50  0000 L CNN "Tolerance"
+F 9 "~" H 3500 3300 50  0001 C CNN "Voltage"
 	1    3500 3300
 	1    0    0    -1  
 $EndComp
@@ -409,6 +418,7 @@ F 5 "RNCF0805DTE12K0CT-ND" H 5000 3000 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE12K0" H 5000 3000 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 5000 3000 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" V 5300 3000 50  0000 C CNN "Tolerance"
+F 9 "~" H 5000 3000 50  0001 C CNN "Voltage"
 	1    5000 3000
 	0    1    1    0   
 $EndComp
@@ -435,6 +445,7 @@ F 5 "RNCF0805DTE12K0CT-ND" H 6000 3000 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE12K0" H 6000 3000 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 6000 3000 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" V 6300 3000 50  0000 C CNN "Tolerance"
+F 9 "~" H 6000 3000 50  0001 C CNN "Voltage"
 	1    6000 3000
 	0    1    1    0   
 $EndComp
@@ -461,6 +472,7 @@ F 5 "RNCF0805DTE12K0CT-ND" H 7000 3000 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE12K0" H 7000 3000 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 7000 3000 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" V 7300 3000 50  0000 C CNN "Tolerance"
+F 9 "~" H 7000 3000 50  0001 C CNN "Voltage"
 	1    7000 3000
 	0    1    1    0   
 $EndComp
@@ -487,6 +499,7 @@ F 5 "RNCF0805DTE12K0CT-ND" H 8000 3000 50  0001 C CNN "Digikey"
 F 6 "RNCF0805DTE12K0" H 8000 3000 50  0001 C CNN "MPN"
 F 7 "Stackpole" H 8000 3000 50  0001 C CNN "Manufacturer"
 F 8 "0.5%" V 8300 3000 50  0000 C CNN "Tolerance"
+F 9 "~" H 8000 3000 50  0001 C CNN "Voltage"
 	1    8000 3000
 	0    1    1    0   
 $EndComp
