@@ -46,6 +46,12 @@ D Mornsun 10-36V to 6.5V 3A DC/DC Convertor
 F https://www.mornsun-power.com/html/pdf/K7805-3AR3.html
 $ENDCMP
 #
+$CMP MCP23S17_SO
+D 16-bit I/O expander, SPI, interrupts, w pull-ups, SOIC-28
+K SPI parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
 $CMP MIC2005A-2YM5
 D Microchip 500mA Fixed Current Limit Single High Side Switch
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579487

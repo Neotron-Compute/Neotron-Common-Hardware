@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 17
-Title "Neotron Common Hardware - Serial Port"
-Date "2021-04-02"
+Sheet 8 18
+Title "Neotron Common Hardware"
+Date "2021-06-18"
 Rev "[Uncontrolled]"
 Comp "https://neotron-compute.github.io/"
 Comment1 "Licenced as CC BY-SA"

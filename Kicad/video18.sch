@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 17
-Title "Neotron Common Hardware - Video Output"
-Date "2021-04-02"
+Sheet 2 18
+Title "Neotron Common Hardware"
+Date "2021-06-18"
 Rev "[Uncontrolled]"
 Comp "https://neotron-compute.github.io/"
 Comment1 "Licenced as CC BY-SA"
@@ -19,7 +19,7 @@ U 1 1 5FDEDC06
 P 9350 4000
 F 0 "J201" H 9250 4850 50  0000 L CNN
 F 1 "DE15HD" H 9350 4800 50  0000 C TNN
-F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm" H 8400 4400 50  0001 C CNN
+F 2 "Neotron-Common-Hardware:Amphenol_ICD15S13E4GV00LF" H 8400 4400 50  0001 C CNN
 F 3 "~" H 8400 4400 50  0001 C CNN
 F 4 "0" H 9350 4000 50  0001 C CNN "DNP"
 F 5 "609-5180-ND‎" H 9350 4000 50  0001 C CNN "Digikey"
