@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L neotron-pico:MCP23S17_SO U1801
+L Neotron-Common-Hardware:MCP23S17_SO U1801
 U 1 1 60EED5B0
 P 4425 3050
 F 0 "U1801" H 3975 4025 50  0000 C CNN
