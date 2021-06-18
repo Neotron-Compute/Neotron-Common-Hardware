@@ -31,9 +31,9 @@ variants:
 
 preflight:
   run_erc: true
-  run_drc: true
-  check_zone_fills: true
-  ignore_unconnected: false
+  run_drc: false
+  check_zone_fills: false
+  ignore_unconnected: true
   update_xml: true
 
 outputs:
