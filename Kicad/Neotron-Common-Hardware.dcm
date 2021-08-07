@@ -98,6 +98,12 @@ K Video Filter
 F https://www.ti.com/lit/ds/symlink/ths7316.pdf
 $ENDCMP
 #
+$CMP THS7316_copy
+D 3-Channel HDTV Video Amplifier with 5th Order Filters and 6dB Gain
+K Video Filter
+F https://www.ti.com/lit/ds/symlink/ths7316.pdf
+$ENDCMP
+#
 $CMP TPD7S019
 D 7-Channel ESD Solution for VGA Port
 K ESD VGA
@@ -105,6 +111,12 @@ F https://www.ti.com/lit/ds/symlink/tpd7s019.pdf
 $ENDCMP
 #
 $CMP TPF133A
+D Low Power, 3-channel Video Filter for HD Video
+K Video Filter
+F https://datasheet.lcsc.com/szlcsc/1810181731_3PEAK-TPF133A-SR_C155446.pdf
+$ENDCMP
+#
+$CMP TPF133A-swap
 D Low Power, 3-channel Video Filter for HD Video
 K Video Filter
 F https://datasheet.lcsc.com/szlcsc/1810181731_3PEAK-TPF133A-SR_C155446.pdf
