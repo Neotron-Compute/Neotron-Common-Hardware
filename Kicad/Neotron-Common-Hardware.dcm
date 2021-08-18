@@ -72,8 +72,12 @@ D Processor Card Slot for Neotron Motherboards
 F https://github.com/neotron-compute
 $ENDCMP
 #
+$CMP Neotron-Expansion-Edge
+D Expansion edge connector for Neotron Expansion Cards
+$ENDCMP
+#
 $CMP Neotron-Expansion-Slot
-D Expansion slot for Neotron Motherboards
+D Expansion slot for Neotron Mainboards
 $ENDCMP
 #
 $CMP STM811
