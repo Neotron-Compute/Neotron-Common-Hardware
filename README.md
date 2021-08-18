@@ -270,6 +270,8 @@ The pin functions are:
           GND   19  20   GND
 ```
 
+There are symbols and footprints for the mainboard side (card-edge socket, supplies power), and the expansion card side (golden-finger edge connector, receives power).
+
 ## Expansion Ideas
 
 Why not design and build your own expansion card? You could try designing:
