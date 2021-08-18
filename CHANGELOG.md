@@ -4,6 +4,10 @@
 
 * None
 
+## v0.11.0
+
+* Added Expansion Edge connector for making expansion cards.
+
 ## v0.10.0
 
 * SYS_RESET is pulled down.
