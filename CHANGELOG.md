@@ -4,6 +4,10 @@
 
 * None
 
+## v0.12.0
+
+* Add a second TPF133A but with RGB pins swapped (the channels are identical).
+
 ## v0.11.0
 
 * Added Expansion Edge connector for making expansion cards.
