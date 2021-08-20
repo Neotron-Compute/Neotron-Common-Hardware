@@ -98,6 +98,12 @@ K Video Filter
 F https://www.ti.com/lit/ds/symlink/ths7316.pdf
 $ENDCMP
 #
+$CMP THS7316-swap
+D 3-Channel HDTV Video Amplifier with 5th Order Filters and 6dB Gain (pin-swap)
+K Video Filter
+F https://www.ti.com/lit/ds/symlink/ths7316.pdf
+$ENDCMP
+#
 $CMP THS7316_copy
 D 3-Channel HDTV Video Amplifier with 5th Order Filters and 6dB Gain
 K Video Filter
@@ -117,7 +123,7 @@ F https://datasheet.lcsc.com/szlcsc/1810181731_3PEAK-TPF133A-SR_C155446.pdf
 $ENDCMP
 #
 $CMP TPF133A-swap
-D Low Power, 3-channel Video Filter for HD Video
+D Low Power, 3-channel Video Filter for HD Video (pin-swap)
 K Video Filter
 F https://datasheet.lcsc.com/szlcsc/1810181731_3PEAK-TPF133A-SR_C155446.pdf
 $ENDCMP
