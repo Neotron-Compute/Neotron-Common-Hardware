@@ -19,8 +19,8 @@ on:
     - "**/*kibot.yml"
 
 env:
-  schema: "Kicad/neotron-common-hardware.kicad_sch"
-  board: "Kicad/neotron-common-hardware.kicad_pcb"
+  schema: "Kicad/Neotron-Common-Hardware.kicad_sch"
+  board: "Kicad/Neotron-Common-Hardware.kicad_pcb"
   dir: "Kicad/docs"
 
 jobs:
@@ -80,4 +80,4 @@ jobs:
         id: create_release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: ${{env.dir}}/neotron-common-hardware-*
+          artifacts: ${{env.dir}}/Neotron-Common-Hardware-*

@@ -321,7 +321,7 @@ You can build locally using the KiBot docker container:
 ```console
 ~/Neotron-Common-Hardware $ docker run --rm -ti -v $(pwd):/work setsoft/kicad_auto:dev_k6
 root@12345678:/# cd /work/Kicad
-root@12345678:/work/Kicad# kibot -c docs.kibot.yml -e neotron-common-hardware.kicad_sch -b neotron-common-hardware.kicad_pcb -d docs
+root@12345678:/work/Kicad# kibot -c docs.kibot.yml -e Neotron-Common-Hardware.kicad_sch -b Neotron-Common-Hardware.kicad_pcb -d docs
 ```
 
 This will build everything and put it in the `./Kicad/docs` directory. Note there is a bug in KiCAD 6.0.8 and 6.0.9 which fails ERC looking at our hierarchical sheets. This is fixed in 6.0.10, or you can use the `setsoft/kicad_auto:ki6.0.7_Debian` container.
