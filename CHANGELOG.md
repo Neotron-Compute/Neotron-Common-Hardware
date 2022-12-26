@@ -2,7 +2,28 @@
 
 ## Unreleased Changes
 
-* None
+## v1.0.0
+
+* Updated to KiCAD 6
+* Backported changes from Neotron Pico
+  * Split microphone audio / bias
+  * DNF components now not shown on iBOM
+  * External LED drive is 5V 20mA
+  * Two PSU control BJTs are now surface mount
+  * Use 200mA Holtek HT7533-1 stand-by regulator
+  * Added internal 12V input header
+  * K7805-3AR3 control pin is protected with a zener (allows higher input voltages)
+  * HDD LED is driven from I/O mux, not BMC
+  * Replaced 12 MHz Crystal with JLCPCB basic part
+  * Replaced SD Card with Amphenol part
+  * Replaced decoupling with single 10uF
+  * Added PC speaker output
+  * Changed K7805-3AR3 to have ceramic output cap
+  * Increased VGA DAC current
+  * Replace 74HC245 with 74HC138, plus five LEDS for the now spare pins
+  * Adds 6mm switches for power and reset
+  * Added internal 5V/3.3V output header
+  * Reverse polarity protection on the input
 
 ## v0.12.0
 
