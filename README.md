@@ -277,7 +277,7 @@ There are symbols and footprints for the mainboard side (card-edge socket, suppl
 Why not design and build your own expansion card? You could try designing:
 
 * A dual Atari/SEGA 9-pin Joypad Interface
-* A Mikro Eletronika Click adaptor, allow many of the range of [Click board](https://www.mikroe.com/click) to be fitted
+* A Mikro Eletronika Click adaptor, allow many of the range of [Click boards](https://www.mikroe.com/click) to be fitted
 * A Wi-Fi/Bluetooth card, using an Espressif ESP32
 * A second processor card - perhaps with a RISC-V microcontroller, or classic Zilog Z80
 * An OPL2 or OPL3 based FM synthesiser card
@@ -302,6 +302,29 @@ $ git config --global filter.kicad_sch.smudge cat
 ```
 
 See https://jnavila.github.io/plotkicadsch/ for details.
+
+## Automated Builds
+
+This project treats a PCB like embedded firmware:
+
+* The *source files* are the KiCAD 6 files (in `./Kicad`)
+* The *compiler* is KiCAD 6, plus various automation plug-ins (like KiBom)
+* The *build system* is [KiBot](https://github.com/INTI-CMNB/KiBot)
+* The *build outputs* are PDF versions of the schematic and the PCB, plus various zipped Gerber and Drill files.
+
+We do not check *build outputs* into this repository - *ever*. Instead, we run a Github Action which uses KiBot to generate our outputs. On a regular Pull Request, the *build outputs* are stored as *artefacts* against the particular Github Action run. When a new version is tagged, the *build outputs* are stored as files against a [Github Release](https://github.com/Neotron-Compute/Neotron-Common-Hardware/releases).
+
+Of course, the PCB in this project isn't useful by itself - it's a starting point for your project. You should probably include this repo as a Git Submodule, and add the symbol library and footprint library to your own KiCAD project.
+
+You can build locally using the KiBot docker container:
+
+```console
+~/Neotron-Common-Hardware $ docker run --rm -ti -v $(pwd):/work setsoft/kicad_auto:dev_k6
+root@12345678:/# cd /work/Kicad
+root@12345678:/work/Kicad# kibot -c docs.kibot.yml -e Neotron-Common-Hardware.kicad_sch -b Neotron-Common-Hardware.kicad_pcb -d docs
+```
+
+This will build everything and put it in the `./Kicad/docs` directory. Note there is a bug in KiCAD 6.0.8 and 6.0.9 which fails ERC looking at our hierarchical sheets. This is fixed in 6.0.10, or you can use the `setsoft/kicad_auto:ki6.0.7_Debian` container.
 
 ## Licence
 
