@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 4.3,
+          "height": 8.6,
+          "width": 8.6
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -312,14 +312,14 @@
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
-      "label_dangling": "error",
+      "label_dangling": "warning",
       "lib_symbol_issues": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
-      "pin_not_driven": "error",
+      "pin_not_connected": "warning",
+      "pin_not_driven": "warning",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
@@ -417,48 +417,24 @@
       ""
     ],
     [
-      "00000000-0000-0000-0000-000060cce28a",
-      "IO Expander"
+      "ffce4c45-c4a5-44cc-a8d2-8abd414379b2",
+      "Audio"
     ],
     [
-      "00000000-0000-0000-0000-00005fde658d",
-      "18-bit Video"
+      "6e82db80-12ab-4d82-83f6-bc1a3f75118a",
+      "Expansion Slots"
     ],
     [
-      "00000000-0000-0000-0000-000060682025",
-      "Red DAC"
+      "f10f33c8-a704-40ad-9be6-fd8717807209",
+      "Power Supply"
     ],
     [
-      "00000000-0000-0000-0000-00006009cbac",
-      "Green DAC"
+      "717d89ad-b606-412d-9bfa-19cf4f882fc9",
+      "IO Expansion"
     ],
     [
-      "00000000-0000-0000-0000-00006068202f",
-      "Blue DAC"
-    ],
-    [
-      "00000000-0000-0000-0000-00005fef6b08",
-      "SD Card"
-    ],
-    [
-      "00000000-0000-0000-0000-000060677af0",
-      "12-bit Video"
-    ],
-    [
-      "00000000-0000-0000-0000-00005fefb226",
-      "Red DAC"
-    ],
-    [
-      "00000000-0000-0000-0000-00006068202e",
-      "Green DAC"
-    ],
-    [
-      "00000000-0000-0000-0000-0000600a04b7",
-      "Blue DAC"
-    ],
-    [
-      "00000000-0000-0000-0000-00005fde7599",
-      "Power Supply and BMC"
+      "e96e6587-6023-48e7-b993-1d5d026d612a",
+      "Video"
     ],
     [
       "00000000-0000-0000-0000-00005fdf53db",
@@ -473,20 +449,28 @@
       "USB"
     ],
     [
-      "00000000-0000-0000-0000-00005fde6c5a",
-      "Audio"
+      "00000000-0000-0000-0000-00005fefb226",
+      "Red DAC"
     ],
     [
-      "00000000-0000-0000-0000-0000606e253f",
-      "Board Management Controller"
+      "00000000-0000-0000-0000-00006068202e",
+      "Green DAC"
     ],
     [
-      "00000000-0000-0000-0000-00005fef404d",
-      "Real Time Clock"
+      "00000000-0000-0000-0000-0000600a04b7",
+      "Blue DAC"
+    ],
+    [
+      "fa93e2c3-e1a7-4f88-921c-28d290d83e98",
+      "BMC"
+    ],
+    [
+      "f6d97a2f-a1cf-44b8-9182-20a8151a2e1a",
+      "SD Card"
     ]
   ],
   "text_variables": {
-    "date": "2022-12-24",
-    "version": "f15d923"
+    "date": "2022-12-26",
+    "version": "70d8aa4"
   }
 }
