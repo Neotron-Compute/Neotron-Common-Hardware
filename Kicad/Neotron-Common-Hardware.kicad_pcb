@@ -5,6 +5,15 @@
   )
 
   (paper "A3")
+  (title_block
+    (title "Neotron Common Hardware")
+    (date "${date}")
+    (rev "${version}")
+    (company "https://neotron-compute.github.io/")
+    (comment 1 "Licenced as CC BY-SA")
+    (comment 2 "Copyright (c) The Neotron Developers, 2023")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" power)
