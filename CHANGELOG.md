@@ -2,6 +2,10 @@
 
 ## Unreleased Changes
 
+* None
+
+## v2.0.0
+
 * Updated to KiCAD 7
 * Reduced size of holes for PSU pins from 1.2mm to 1.02mm
 
